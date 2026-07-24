@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:#5A6B5D;-webkit-font-smoothing:antialiased}
+  a{color:#8C3A3B}
+  a:hover{color:#B86B4B}
+  @page{ size:A4; margin:0; }
+  @media print{
+    body{background:#F8F5F0}
+    #doc{background:#F8F5F0 !important;padding:0 !important}
+    #doc > section{box-shadow:none !important;margin:0 !important;break-after:page;}
+    #doc > section:last-child{break-after:auto;}
+  }
+</style>
+</helmet>
+<div id="doc" style="background:#5A6B5D;padding:18mm 0;">
+
+<!-- PÁGINA 1 — DIREÇÃO + PALETA -->
+<section data-screen-label="Especificações · 1" style="width:210mm;min-height:297mm;box-sizing:border-box;padding:18mm 22mm;margin:0 auto 12mm;background:#F8F5F0;color:#5A6B5D;font-family:'Montserrat',sans-serif;font-size:9.4pt;line-height:1.55;position:relative;box-shadow:0 6px 30px rgba(60,50,35,.16);break-after:page;">
+  <header style="text-align:center;margin-bottom:20px;">
+    <p style="margin:0;text-transform:uppercase;letter-spacing:.42em;font-size:7.5pt;color:#D4A24E;padding-left:.42em;">Cacau Pitanga · Projeto editorial</p>
+    <h1 style="margin:10px 0 0;font-family:'Playfair Display',serif;font-weight:600;font-size:25pt;letter-spacing:.02em;color:#8C3A3B;line-height:1.1;">Especificações técnicas de diagramação</h1>
+    <p style="margin:8px 0 0;font-family:'Playfair Display',serif;font-style:italic;font-size:11pt;color:#6A7F7B;">E-book B.A.BA do Bolo Rosa — v2 · A4 vertical · leitura em computador e tablet</p>
+    <div style="display:flex;align-items:center;justify-content:center;gap:13px;color:#8C3A3B;margin:14px 0 0;">
+      <span style="display:block;width:50px;height:1px;background:rgba(106,127,123,.5)"></span>
+      <span style="display:block;width:5px;height:5px;background:#8C3A3B;transform:rotate(45deg)"></span>
+      <span style="display:block;width:50px;height:1px;background:rgba(106,127,123,.5)"></span>
+    </div>
+  </header>
+
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">1 · Direção visual</h2>
+  <p style="margin:0 0 16px;max-width:160mm;">Limpo, profissional, feminino e acolhedor. Toda decisão estética deriva do Manual de Marca V3: papel creme, serifada elegante para títulos, sans-serif leve para o corpo, filetes finos, losangos dourados como divisores e imagens emolduradas com respiro. Nenhuma cor, fonte ou estilo fora da identidade aprovada.</p>
+
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">2 · Paleta de cores e uso</h2>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:10px;">
+    <div style="border:1px solid rgba(106,127,123,.3);"><div style="height:14mm;background:#8C3A3B;"></div><div style="padding:8px 10px;font-size:8.3pt;line-height:1.5;"><strong style="color:#8C3A3B;">Vinho Cacau</strong> · <code>#8C3A3B</code><br>Títulos, numerais, caixas "Importante", divisórias</div></div>
+    <div style="border:1px solid rgba(106,127,123,.3);"><div style="height:14mm;background:#D4A24E;"></div><div style="padding:8px 10px;font-size:8.3pt;line-height:1.5;"><strong style="color:#8C3A3B;">Ocre Dourado</strong> · <code>#D4A24E</code><br>Nº de página, marcadores, losangos, caixas "Dica", checkboxes</div></div>
+    <div style="border:1px solid rgba(106,127,123,.3);"><div style="height:14mm;background:#6A7F7B;"></div><div style="padding:8px 10px;font-size:8.3pt;line-height:1.5;"><strong style="color:#8C3A3B;">Verde Sálvia</strong> · <code>#6A7F7B</code><br>Legendas, microtexto, filetes, caixas informativas</div></div>
+    <div style="border:1px solid rgba(106,127,123,.3);"><div style="height:14mm;background:#B86B4B;"></div><div style="padding:8px 10px;font-size:8.3pt;line-height:1.5;"><strong style="color:#8C3A3B;">Terracota</strong> · <code>#B86B4B</code><br>Avisos "O erro", contrapontos em comparativos</div></div>
+    <div style="border:1px solid rgba(106,127,123,.3);"><div style="height:14mm;background:#5A6B5D;"></div><div style="padding:8px 10px;font-size:8.3pt;line-height:1.5;"><strong style="color:#8C3A3B;">Verde Cacau</strong> · <code>#5A6B5D</code><br>Corpo de texto sobre creme, bordas de tabela</div></div>
+    <div style="border:1px solid rgba(106,127,123,.3);"><div style="height:14mm;background:#F8F5F0;border-bottom:1px solid rgba(106,127,123,.3);"></div><div style="padding:8px 10px;font-size:8.3pt;line-height:1.5;"><strong style="color:#8C3A3B;">Creme Papel</strong> · <code>#F8F5F0</code><br>Fundo de todas as páginas; texto claro sobre vinho</div></div>
+  </div>
+  <p style="margin:0 0 16px;font-size:8.2pt;font-style:italic;color:#6A7F7B;">Contraste acessível: corpo #5A6B5D sobre creme ≈ 4,9:1 (AA) · títulos #8C3A3B sobre creme ≈ 6,7:1 · texto creme sobre vinho ≈ 6,7:1.</p>
+
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">3 · Tipografia e hierarquia</h2>
+  <table style="width:100%;border-collapse:collapse;font-size:8.6pt;">
+    <thead><tr style="background:rgba(140,58,59,.05);">
+      <th style="text-align:left;text-transform:uppercase;letter-spacing:.14em;font-size:6.6pt;font-weight:600;color:#6A7F7B;padding:0 10px 7px 0;border-bottom:1.5px solid #5A6B5D;">Nível</th>
+      <th style="text-align:left;text-transform:uppercase;letter-spacing:.14em;font-size:6.6pt;font-weight:600;color:#6A7F7B;padding:0 10px 7px;border-bottom:1.5px solid #5A6B5D;">Fonte / peso</th>
+      <th style="text-align:left;text-transform:uppercase;letter-spacing:.14em;font-size:6.6pt;font-weight:600;color:#6A7F7B;padding:0 10px 7px;border-bottom:1.5px solid #5A6B5D;">Tamanho</th>
+      <th style="text-align:left;text-transform:uppercase;letter-spacing:.14em;font-size:6.6pt;font-weight:600;color:#6A7F7B;padding:0 0 7px 10px;border-bottom:1.5px solid #5A6B5D;">Cor / detalhes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);">Título de capítulo (H2)</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Playfair Display 600</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">20–31 pt</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">#8C3A3B · letter-spacing .02–.04em</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);">Subtítulo de seção (H3)</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Playfair Display 600</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">13,5–16 pt</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">#8C3A3B · filete inferior 1,5px #5A6B5D quando abre bloco</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);">Kicker / sobretítulo</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Montserrat 400</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">6,8–7,7 pt</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">#6A7F7B · caixa-alta · tracking .36–.44em</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);">Corpo de texto</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Montserrat 400</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">9,4–10,6 pt</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">#5A6B5D · line-height 1,48–1,72</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);">Legendas de imagem</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Playfair Display itálico</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">8,9–9,4 pt</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">#6A7F7B · centralizadas sob a imagem</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);">Citações / destaques</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Playfair Display itálico 500</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">10,6–13,5 pt</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">#5A6B5D ou #8C3A3B · dentro de caixas coloridas</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;">Numerais de passo</td><td style="padding:6px 10px;">Playfair Display 400</td><td style="padding:6px 10px;">13,5–15,3 pt</td><td style="padding:6px 0 6px 10px;">#8C3A3B (passos) ou #D4A24E (mini-listas)</td></tr>
+    </tbody>
+  </table>
+
+  <div style="position:absolute;left:0;right:0;bottom:10mm;display:flex;align-items:center;justify-content:center;gap:12px;">
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+    <span style="font-family:'Playfair Display',serif;font-size:10.2pt;color:#D4A24E;">1</span>
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+  </div>
+</section>
+
+<!-- PÁGINA 2 — GRID + CABEÇALHOS/RODAPÉS + ELEMENTOS -->
+<section data-screen-label="Especificações · 2" style="width:210mm;min-height:297mm;box-sizing:border-box;padding:18mm 22mm;margin:0 auto 12mm;background:#F8F5F0;color:#5A6B5D;font-family:'Montserrat',sans-serif;font-size:9.4pt;line-height:1.55;position:relative;box-shadow:0 6px 30px rgba(60,50,35,.16);break-after:page;">
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">4 · Página e grid</h2>
+  <ul style="margin:0 0 16px;padding:0;list-style:none;">
+    <li style="position:relative;padding:0 0 5px 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Formato:</strong> A4 vertical (210 × 297 mm), uma página por tela.</li>
+    <li style="position:relative;padding:0 0 5px 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Margens:</strong> 18 mm (topo) · 22 mm (laterais) · 11 mm de área reservada ao rodapé. Páginas de receita densas: 13 × 20 mm.</li>
+    <li style="position:relative;padding:0 0 5px 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Largura de texto corrido:</strong> máx. 152 mm centralizados (± 75–85 caracteres/linha); em duas colunas, gap de 26–34 px.</li>
+    <li style="position:relative;padding:0 0 5px 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Espaçamento entre seções:</strong> 16–22 px após blocos; 8–12 px entre parágrafos.</li>
+    <li style="position:relative;padding:0 0 5px 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Proporção texto × imagem:</strong> alvo de 60/40 em páginas de técnica; capa, divisórias e aberturas podem ser 100% imagem.</li>
+    <li style="position:relative;padding:0 0 0 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Comportamento:</strong> desktop mostra a página inteira com "mesa" colorida ao redor; tablet preenche a largura; impressão remove sombras e mesa (@media print) e quebra por página.</li>
+  </ul>
+
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">5 · Cabeçalho e rodapé</h2>
+  <div style="border:1px solid rgba(106,127,123,.35);padding:10px 14px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:baseline;">
+    <span style="text-transform:uppercase;letter-spacing:.24em;font-size:6.2pt;color:#6A7F7B;">Capítulo 7 · Recheios e componentes</span>
+    <span style="font-family:'Playfair Display',serif;font-style:italic;font-size:8pt;color:#D4A24E;">Cacau Pitanga</span>
+  </div>
+  <p style="margin:0 0 8px;font-size:8.6pt;"><strong>Cabeçalho corrente</strong> (exemplo acima): capítulo à esquerda (Montserrat caixa-alta 6,2 pt, tracking .24em, #6A7F7B) e marca à direita (Playfair itálico 8 pt, #D4A24E). Posição: 7,5 mm do topo, dentro das margens laterais. Omitido em capa, índice, divisórias e fechamento.</p>
+  <div style="border:1px solid rgba(106,127,123,.35);padding:10px 14px;margin-bottom:8px;display:flex;align-items:center;justify-content:center;gap:12px;">
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+    <span style="font-family:'Playfair Display',serif;font-size:10.2pt;color:#D4A24E;">14</span>
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+  </div>
+  <p style="margin:0 0 16px;font-size:8.6pt;"><strong>Rodapé</strong> (exemplo acima): número da página em Playfair 10,2 pt #D4A24E entre dois filetes de 20 px, centralizado a 11 mm da base. Presente em todas as páginas, inclusive divisórias (em creme sobre vinho).</p>
+
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">6 · Caixas de destaque</h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:8px;">
+    <div style="background:rgba(212,162,78,.10);border:1px solid rgba(212,162,78,.5);border-left:3px solid #D4A24E;padding:11px 14px 12px;">
+      <b style="display:flex;align-items:center;gap:7px;text-transform:uppercase;letter-spacing:.24em;font-size:6.8pt;color:#8C3A3B;margin-bottom:5px;font-weight:600;"><svg width="12" height="12" style="flex:none;" viewBox="0 0 24 24" fill="none" stroke="#D4A24E" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v4.5M12 16.5V21M3 12h4.5M16.5 12H21M6.3 6.3l3.2 3.2M14.5 14.5l3.2 3.2M17.7 6.3l-3.2 3.2M9.5 14.5l-3.2 3.2"></path></svg><span>Dica</span></b>
+      <p style="margin:0;font-family:'Playfair Display',serif;font-style:italic;font-size:9.6pt;line-height:1.4;color:#5A6B5D;">Fundo ocre 10% · borda ocre · truques e atalhos da Tati.</p>
+    </div>
+    <div style="background:rgba(140,58,59,.06);border:1px solid rgba(140,58,59,.35);border-left:3px solid #8C3A3B;padding:11px 14px 12px;">
+      <b style="display:flex;align-items:center;gap:7px;text-transform:uppercase;letter-spacing:.24em;font-size:6.8pt;color:#8C3A3B;margin-bottom:5px;font-weight:600;"><svg width="12" height="12" style="flex:none;" viewBox="0 0 24 24" fill="none"><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)" stroke="#8C3A3B" stroke-width="1.6"></rect><path d="M12 8v5" stroke="#8C3A3B" stroke-width="1.8" stroke-linecap="round"></path><circle cx="12" cy="16" r="1.1" fill="#8C3A3B"></circle></svg><span>Importante</span></b>
+      <p style="margin:0;font-family:'Playfair Display',serif;font-style:italic;font-size:9.6pt;line-height:1.4;color:#5A6B5D;">Fundo vinho 6% · borda vinho · regras de ouro e segurança.</p>
+    </div>
+    <div style="background:rgba(106,127,123,.10);border:1px solid rgba(106,127,123,.42);border-left:3px solid #6A7F7B;padding:11px 14px 12px;">
+      <b style="display:flex;align-items:center;gap:7px;text-transform:uppercase;letter-spacing:.24em;font-size:6.8pt;color:#8C3A3B;margin-bottom:5px;font-weight:600;"><svg width="12" height="12" style="flex:none;" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="#6A7F7B" stroke-width="1.6"></circle><path d="M12 11.2v5" stroke="#6A7F7B" stroke-width="1.8" stroke-linecap="round"></path><circle cx="12" cy="7.8" r="1.1" fill="#6A7F7B"></circle></svg><span>Informação</span></b>
+      <p style="margin:0;font-family:'Playfair Display',serif;font-style:italic;font-size:9.6pt;line-height:1.4;color:#5A6B5D;">Fundo sálvia 10% · borda sálvia · contexto e função ("para que serve").</p>
+    </div>
+  </div>
+  <p style="margin:0;font-size:8.6pt;">Padding interno 11–12 px vertical × 14–16 px horizontal · rótulo em Montserrat caixa-alta 6,8 pt com ícone de 12 px em traço 1,6–1,8 · corpo em Playfair itálico. Nunca duas caixas do mesmo tipo em sequência na mesma página.</p>
+
+  <div style="position:absolute;left:0;right:0;bottom:10mm;display:flex;align-items:center;justify-content:center;gap:12px;">
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+    <span style="font-family:'Playfair Display',serif;font-size:10.2pt;color:#D4A24E;">2</span>
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+  </div>
+</section>
+
+<!-- PÁGINA 3 — TEMPLATES + MAPA DE ELEMENTOS -->
+<section data-screen-label="Especificações · 3" style="width:210mm;min-height:297mm;box-sizing:border-box;padding:18mm 22mm;margin:0 auto 0;background:#F8F5F0;color:#5A6B5D;font-family:'Montserrat',sans-serif;font-size:9.4pt;line-height:1.55;position:relative;box-shadow:0 6px 30px rgba(60,50,35,.16);">
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">7 · Modelos de página (templates)</h2>
+  <table style="width:100%;border-collapse:collapse;font-size:8.6pt;margin-bottom:16px;">
+    <thead><tr style="background:rgba(140,58,59,.05);">
+      <th style="text-align:left;text-transform:uppercase;letter-spacing:.14em;font-size:6.6pt;font-weight:600;color:#6A7F7B;padding:0 10px 7px 0;border-bottom:1.5px solid #5A6B5D;">Template</th>
+      <th style="text-align:left;text-transform:uppercase;letter-spacing:.14em;font-size:6.6pt;font-weight:600;color:#6A7F7B;padding:0 10px 7px;border-bottom:1.5px solid #5A6B5D;">Estrutura</th>
+      <th style="text-align:left;text-transform:uppercase;letter-spacing:.14em;font-size:6.6pt;font-weight:600;color:#6A7F7B;padding:0 0 7px 10px;border-bottom:1.5px solid #5A6B5D;">Onde é usado</th>
+    </tr></thead>
+    <tbody>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);font-weight:600;color:#8C3A3B;">Abertura de capítulo</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Numeral dourado + kicker + H2 centralizado + divisor losango</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Todos os capítulos 2–15</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);font-weight:600;color:#8C3A3B;">Conteúdo comum</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Coluna única ≤152 mm ou duas colunas + caixas de destaque</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Caps. 3, 8, 9, 13</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);font-weight:600;color:#8C3A3B;">Página com imagem</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Foto com borda sálvia 1px + legenda Playfair itálico centrada; capa e história em full-bleed com degradê creme</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Capa, cap. 1, 2, 11</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);font-weight:600;color:#8C3A3B;">Página com tabela</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Cabeçalho tintado vinho 5% + filete 1,5px + linhas .5px sálvia</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Caps. 2, 3, 4, 5, 7, 14</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);font-weight:600;color:#8C3A3B;">Página com checklist</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Itens com checkbox ocre 6,5px + linha pontilhada</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Cap. 4 (materiais + lista de compras)</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);font-weight:600;color:#8C3A3B;">Passo a passo</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Numerais Playfair + foto-guia; receitas em grid ingredientes/preparo</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Caps. 6, 7, 10, 11</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;border-bottom:.5px solid rgba(106,127,123,.28);font-weight:600;color:#8C3A3B;">Fluxograma / infográfico</td><td style="padding:6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Ícones SVG em traço 1,4–1,8 nas cores da marca, cards com filete</td><td style="padding:6px 0 6px 10px;border-bottom:.5px solid rgba(106,127,123,.28);">Caps. 5 (comparativo), 7 (potes), 9 (flores), 15 (corte)</td></tr>
+      <tr><td style="padding:6px 10px 6px 0;font-weight:600;color:#8C3A3B;">Divisória</td><td style="padding:6px 10px;">Página vinho integral, moldura interna 12 mm, texto creme</td><td style="padding:6px 0 6px 10px;">"Vamos começar?" e fechamento</td></tr>
+    </tbody>
+  </table>
+
+  <h2 style="margin:0 0 8px;font-family:'Playfair Display',serif;font-weight:600;font-size:14pt;color:#8C3A3B;">8 · Iconografia e marca</h2>
+  <ul style="margin:0 0 16px;padding:0;list-style:none;">
+    <li style="position:relative;padding:0 0 5px 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Estilo dos ícones:</strong> traço (outline) 1,4–1,8 px, cantos arredondados, preenchimentos translúcidos 15–25%; sempre nas cores da paleta. Temas: fôrmas, fouet, potes, flores, facas.</li>
+    <li style="position:relative;padding:0 0 5px 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Divisor de seção:</strong> filete 1px sálvia 50% + losango de 5–6px (vinho nas páginas creme, ocre nas vinho).</li>
+    <li style="position:relative;padding:0 0 0 20px;"><span style="position:absolute;left:0;top:.62em;width:5px;height:5px;background:#D4A24E;border-radius:50%;"></span><strong>Marca:</strong> logotipo completo apenas na capa e fechamento; nas demais páginas, somente o wordmark itálico dourado do cabeçalho corrente.</li>
+  </ul>
+
+  <div style="background:rgba(140,58,59,.06);border:1px solid rgba(140,58,59,.35);border-left:3px solid #8C3A3B;padding:11px 16px 12px;">
+    <b style="display:flex;align-items:center;gap:7px;text-transform:uppercase;letter-spacing:.24em;font-size:6.8pt;color:#8C3A3B;margin-bottom:5px;font-weight:600;"><svg width="12" height="12" style="flex:none;" viewBox="0 0 24 24" fill="none"><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)" stroke="#8C3A3B" stroke-width="1.6"></rect><path d="M12 8v5" stroke="#8C3A3B" stroke-width="1.8" stroke-linecap="round"></path><circle cx="12" cy="16" r="1.1" fill="#8C3A3B"></circle></svg><span>Regra central</span></b>
+    <p style="margin:0;font-family:'Playfair Display',serif;font-style:italic;font-size:10.6pt;line-height:1.42;color:#5A6B5D;">O conteúdo textual é intocável. Estas especificações regem apenas a apresentação visual — qualquer novo elemento deve usar exclusivamente as cores, fontes e traços definidos aqui.</p>
+  </div>
+
+  <div style="position:absolute;left:0;right:0;bottom:10mm;display:flex;align-items:center;justify-content:center;gap:12px;">
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+    <span style="font-family:'Playfair Display',serif;font-size:10.2pt;color:#D4A24E;">3</span>
+    <span style="display:block;width:20px;height:1px;background:rgba(106,127,123,.4);"></span>
+  </div>
+</section>
+
+</div>
+</x-dc>
+</body>
+</html>

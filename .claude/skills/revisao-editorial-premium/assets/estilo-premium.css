@@ -1,155 +1,100 @@
 /* =========================================================================
-   Estilo Premium — E-book B.A.BA do Bolo Rosa (Cacau Pitanga)
-   Paleta OFICIAL da marca + rosé e azul novos. Mobile-first, fontes grandes.
+   Estilo Premium — Cartilha B.A.BA do Bolo Rosa (Cacau Pitanga)
+   Paleta do selo/capa: verde-menta + vinho + dourado + creme.
+   Mobile-first, fontes grandes. Cada módulo/capítulo tem sua cor (--accent).
    Regra da marca: o CONTEÚDO é intocável; isto veste, não altera.
    ========================================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
 
-:root {
-  /* ---- Paleta oficial ---- */
-  --vinho:     #8C3A3B;   /* títulos, "Importante", divisórias */
-  --ocre:      #D4A24E;   /* nº de página, losangos, "Dica" */
-  --salvia:    #6A7F7B;   /* legendas, filetes, "Informação" */
-  --terracota: #B86B4B;   /* avisos "O erro" */
-  --cacau:     #5A6B5D;   /* corpo de texto sobre creme */
-  --creme:     #F8F5F0;   /* fundo de todas as páginas */
-  /* ---- Cores novas pedidas ---- */
-  --rose:      #C86B85;   /* acento feminino "Bolo Rosa" */
-  --azul:      #4F6D8C;   /* caixas "Passo/Nota", links, apoio */
-
-  --fonte-titulo: 'Playfair Display', Georgia, serif;
-  --fonte-corpo:  'Montserrat', -apple-system, "Segoe UI", Roboto, sans-serif;
+:root{
+  --verde:#5E7D68; --menta:#A9C4B3; --vinho:#8B2F4C; --dourado:#C6A05A;
+  --creme:#F6F1E7; --tinta:#37413b; --mesa:#4E6A59;
+  --accent:var(--vinho);          /* cor do capítulo — troque por seção */
+  --titulo:'Playfair Display',Georgia,serif;
+  --corpo:'Montserrat',-apple-system,'Segoe UI',Roboto,sans-serif;
 }
+/* Defina a cor de cada capítulo assim, na <section>:
+   <section class="pag" style="--accent:var(--vinho)"> ... </section>
+   Alterne --vinho e --verde entre capítulos para dar ritmo. */
 
-/* Página estreita no formato de celular (o ideal é ler o HTML responsivo) */
-@page { size: 9cm 16cm; margin: 1.2cm 1cm; }
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--mesa);font-family:var(--corpo);color:var(--tinta);-webkit-font-smoothing:antialiased;padding:14px 0}
+.tela{max-width:440px;margin:0 auto;background:var(--creme);border-radius:18px;overflow:hidden;box-shadow:0 12px 44px rgba(10,15,30,.4)}
 
-* { box-sizing: border-box; }
+.pag{padding:30px 22px;font-size:16pt;line-height:1.62;border-top:6px solid var(--accent)}
+.pag:first-child{border-top:0}
+.kicker{text-transform:uppercase;letter-spacing:.28em;font-size:10pt;color:var(--accent);text-align:center;margin-bottom:.5em}
 
-body {
-  margin: 0 auto; max-width: 720px; padding: 1.2rem 1rem;
-  background: var(--creme); color: var(--cacau);
-  font-family: var(--fonte-corpo);
-  font-size: 16pt; line-height: 1.6;       /* corpo grande p/ celular */
-  -webkit-text-size-adjust: 100%;
-}
+h1,h2,h3,h4{font-family:var(--titulo);line-height:1.2;text-wrap:balance}
+h1{font-size:29pt;color:var(--accent);text-align:center}
+h2{font-size:23pt;color:var(--accent);margin:.2em 0 .5em;text-align:center}
+h3{font-size:18pt;color:var(--accent);margin:1.3em 0 .4em;border-bottom:1.5px solid var(--accent);padding-bottom:.2em}
+h4{font-size:15pt;color:var(--vinho);margin:1em 0 .3em}
+p{margin:0 0 .8em}
+strong{color:var(--accent)}
+em{color:var(--vinho)}
 
-/* ---- Títulos: hierarquia clara ---- */
-h1, h2, h3 { font-family: var(--fonte-titulo); line-height: 1.22; margin: 1.7em 0 .5em; }
-h1 { font-size: 30pt; color: var(--vinho); margin-top: 0; text-align: center; }
-h2 { font-size: 26pt; color: var(--vinho); }
-h3 {
-  font-size: 19pt; color: var(--vinho);
-  border-bottom: 1.5px solid var(--cacau); padding-bottom: .2em;
-}
+.losango{text-align:center;margin:1em 0}
+.losango span{display:inline-block;width:8px;height:8px;background:var(--dourado);transform:rotate(45deg)}
+.losango::before,.losango::after{content:"";display:inline-block;width:44px;height:1px;background:rgba(198,160,90,.6);vertical-align:middle;margin:0 12px}
+.abertura{text-align:center;padding:6px 0 4px}
+.num-cap{font-family:var(--titulo);font-size:14pt;color:var(--dourado);letter-spacing:.08em;display:block;margin-bottom:.3em}
 
-/* Sobretítulo / kicker */
-.kicker {
-  text-transform: uppercase; letter-spacing: .4em; font-size: 11pt;
-  color: var(--salvia); text-align: center; margin: 0 0 .4em;
-}
+ul{list-style:none;margin:.2em 0 1em}
+ul li{position:relative;padding-left:1.5em;margin:.4em 0}
+ul li::before{content:"";position:absolute;left:0;top:.55em;width:7px;height:7px;background:var(--dourado);border-radius:50%}
+.passos{list-style:none;counter-reset:p;margin:.4em 0 1em}
+.passos li{position:relative;padding:.1em 0 1em 3em;margin:0}
+.passos li::before{counter-increment:p;content:counter(p);position:absolute;left:0;top:-2px;width:2em;height:2em;line-height:2em;text-align:center;background:var(--accent);color:#fff;font-family:var(--titulo);font-weight:600;font-size:14pt;border-radius:50%}
 
-/* ---- Corpo ---- */
-p { margin: 0 0 .9em; }
-strong { color: var(--vinho); }
-a { color: var(--azul); }
+.caixa{padding:15px 17px;border-radius:12px;border-left:5px solid;margin:1.1em 0;font-size:15pt}
+.caixa .rot{display:flex;align-items:center;gap:8px;text-transform:uppercase;letter-spacing:.16em;font-weight:600;font-size:10pt;margin-bottom:.4em}
+.caixa p{font-family:var(--titulo);font-style:italic;margin:0;line-height:1.4}
+.caixa p:not(:last-child){margin-bottom:.5em}
+.dica{background:rgba(198,160,90,.16);border-color:var(--dourado)}.dica .rot{color:#9a7526}
+.importante{background:rgba(142,51,82,.10);border-color:var(--vinho)}.importante .rot{color:var(--vinho)}
+.nota{background:rgba(94,125,104,.14);border-color:var(--verde)}.nota .rot{color:var(--verde)}
 
-/* ---- Listas ---- */
-ul, ol { margin: 0 0 1em; padding-left: 1.3em; }
-li { margin: .35em 0; }
-ul { list-style: none; padding-left: 1.4em; }
-ul li { position: relative; }
-ul li::before {
-  content: ""; position: absolute; left: -1.1em; top: .55em;
-  width: 7px; height: 7px; background: var(--ocre); border-radius: 50%;
-}
+.cartoes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:1em 0}
+.cartao{background:#fff;border:2px solid var(--menta);border-radius:14px;padding:12px 8px;text-align:center}
+.cartao .n{font-family:var(--titulo);font-weight:600;font-size:22pt;color:var(--vinho);line-height:1;display:block}
+.cartao .l{text-transform:uppercase;letter-spacing:.08em;font-size:8.5pt;color:var(--verde);margin-top:.35em}
+.mini{background:rgba(166,196,178,.22);border-radius:12px;padding:11px 15px;margin:.9em 0;text-align:center}
+.mini b{font-family:var(--titulo);color:var(--vinho);font-size:15pt}
 
-/* ---- Imagens: nunca cortadas, nunca esticadas ---- */
-figure { margin: 1.5em 0; text-align: center; }
-img {
-  max-width: 100%; height: auto;
-  border: 1px solid var(--salvia); border-radius: 6px;
-}
-figcaption {
-  font-family: var(--fonte-titulo); font-style: italic;
-  font-size: 12pt; color: var(--salvia); margin-top: .5em;
-}
+table{width:100%;border-collapse:collapse;margin:1em 0;font-size:13pt;background:#fff;border-radius:10px;overflow:hidden}
+th{background:var(--verde);color:#fff;font-family:var(--corpo);font-size:10.5pt;text-transform:uppercase;letter-spacing:.06em;padding:9px 8px;text-align:left}
+td{padding:8px;border-bottom:1px solid rgba(166,196,178,.4);vertical-align:top}
+tr:last-child td{border-bottom:0}
 
-/* ---- Divisor de seção: filete + losango dourado ---- */
-.divisoria { border: 0; text-align: center; margin: 1.8em 0; }
-.divisoria::before {
-  content: ""; display: inline-block; width: 7px; height: 7px;
-  background: var(--vinho); transform: rotate(45deg);
-}
+.modulo{background:var(--verde);color:var(--creme);text-align:center;padding:44px 22px}
+.modulo .kicker{color:var(--dourado)}.modulo h1,.modulo h2{color:var(--dourado)}
+.modulo p{font-family:var(--titulo);font-style:italic;font-size:16pt;margin:.4em 0 0;color:var(--creme)}
 
-/* =========================================================================
-   CAIXAS DE DESTAQUE (use bastante; nunca duas iguais em sequência)
-   ========================================================================= */
-.caixa {
-  padding: 1em 1.1em; margin: 1.5em 0; border-radius: 8px;
-  border-left: 4px solid; font-size: 15pt;
-}
-.caixa .rotulo {
-  display: block; text-transform: uppercase; letter-spacing: .2em;
-  font-family: var(--fonte-corpo); font-weight: 600; font-size: 11pt;
-  margin-bottom: .4em;
-}
-.caixa p { font-family: var(--fonte-titulo); font-style: italic; margin: 0; }
+.capa{background:var(--mesa);padding:0}
+.capa img{display:block;width:100%;height:auto}
+figure{margin:1.1em 0;text-align:center}
+figure img{display:block;width:100%;height:auto;border:2px solid var(--menta);border-radius:10px}
+figcaption{font-family:var(--titulo);font-style:italic;font-size:12pt;color:var(--verde);margin-top:.5em}
 
-.dica        { background: rgba(212,162,78,.12); border-color: var(--ocre); }
-.dica .rotulo{ color: var(--vinho); }
-.importante  { background: rgba(140,58,59,.07); border-color: var(--vinho); }
-.importante .rotulo { color: var(--vinho); }
-.informacao  { background: rgba(106,127,123,.12); border-color: var(--salvia); }
-.informacao .rotulo { color: var(--salvia); }
-.erro        { background: rgba(184,107,75,.10); border-color: var(--terracota); }
-.erro .rotulo{ color: var(--terracota); }
-.nota        { background: rgba(79,109,140,.10); border-color: var(--azul); }
-.nota .rotulo{ color: var(--azul); }
+.rodape{text-align:center;margin-top:1.3em;color:var(--dourado);font-family:var(--titulo);font-size:13pt}
+.rodape::before,.rodape::after{content:"—";margin:0 10px;color:rgba(94,125,104,.5)}
+.selo{display:inline-block;background:var(--accent);color:#fff;font-weight:600;font-size:10pt;letter-spacing:.05em;text-transform:uppercase;padding:5px 14px;border-radius:999px}
 
-/* ---- Passos numerados (círculo vinho com o número) ---- */
-.passos { list-style: none; padding: 0; counter-reset: passo; }
-.passos li { position: relative; padding: .2em 0 1em 3.2em; }
-.passos li::before {
-  counter-increment: passo; content: counter(passo);
-  position: absolute; left: 0; top: 0;
-  width: 2.2em; height: 2.2em; line-height: 2.2em; text-align: center;
-  background: var(--vinho); color: var(--creme);
-  font-family: var(--fonte-titulo); font-weight: 600; font-size: 15pt;
-  border-radius: 50%;
-}
-
-/* ---- Número/estatística em destaque (ex.: "20+ anos") ---- */
-.numerao {
-  font-family: var(--fonte-titulo); color: var(--rose);
-  font-size: 34pt; font-weight: 600; line-height: 1; display: block;
-}
-
-/* ---- Abertura de capítulo ---- */
-.abertura {
-  text-align: center; padding: 2em 1em; margin-bottom: 1.5em;
-  background: rgba(200,107,133,.08); border-radius: 12px;
-}
-.abertura .numerao { color: var(--ocre); }
-
-/* ---- Divisória de módulo (página vinho, texto creme) ---- */
-.divisor-modulo {
-  background: var(--vinho); color: var(--creme);
-  text-align: center; padding: 2.5em 1.2em; border-radius: 12px;
-  margin: 1.8em 0; border: 3px solid var(--creme);
-  outline: 1px solid var(--ocre); outline-offset: -8px;
-}
-.divisor-modulo h2 { color: var(--creme); }
-
-/* ---- Quebra de capítulo em página nova (no PDF) ---- */
-h2 { break-before: page; }
-h2:first-of-type { break-before: avoid; }
-
-/* ---- Telas pequenas de verdade: fontes ainda maiores ---- */
-@media (max-width: 480px) {
-  body { font-size: 18pt; padding: 1rem .9rem; }
-  h1 { font-size: 28pt; }
-  h2 { font-size: 24pt; }
-  h3 { font-size: 20pt; }
+/* ---------- VERSÃO PDF (para venda) ----------
+   Adicione este bloco no fim para gerar o PDF vertical com o Chromium
+   (prefer-css-page-size). Conteúdo flui e preenche a página; capa e
+   divisórias de módulo ocupam página própria. */
+@media print{
+  @page{ size:148mm 210mm; margin:0; }
+  html,body{background:var(--creme);padding:0}
+  .tela{max-width:none;margin:0;border-radius:0;box-shadow:none}
+  .pag{border-radius:0;border-top:0;border-left:5px solid var(--accent);padding:12mm}
+  .capa{break-after:page}.capa img{border-radius:0}
+  .modulo{min-height:210mm;display:flex;flex-direction:column;justify-content:center;break-before:page;break-after:page}
+  .pag .abertura{break-before:page}
+  figure,.caixa,.cartoes,.mini,table,.passos li,.cartao,.abertura{break-inside:avoid}
+  h1,h2,h3,h4{break-after:avoid}
+  .rodape{display:none}
 }

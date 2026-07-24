@@ -13,26 +13,30 @@ Limpo, profissional, feminino e acolhedor. Papel creme, serifada elegante para
 títulos, sans leve para o corpo, filetes finos, **losangos dourados** como
 divisores e imagens emolduradas com respiro.
 
-## Paleta oficial + as duas cores novas
+## Paleta APROVADA (retirada da capa e do selo do e-book)
 
-| Nome           | Hex       | Uso                                                        |
-|----------------|-----------|------------------------------------------------------------|
-| Vinho Cacau    | `#8C3A3B` | Títulos, numerais, caixas "Importante", divisórias         |
-| Ocre Dourado   | `#D4A24E` | Nº de página, marcadores, losangos, caixas "Dica"          |
-| Verde Sálvia   | `#6A7F7B` | Legendas, microtexto, filetes, caixas informativas         |
-| Terracota      | `#B86B4B` | Avisos "O erro", contrapontos em comparativos              |
-| Verde Cacau    | `#5A6B5D` | Corpo de texto sobre creme, bordas de tabela               |
-| Creme Papel    | `#F8F5F0` | Fundo de todas as páginas                                  |
-| **Rosé Bolo**  | `#C86B85` | **NOVA** — acentos femininos, títulos de destaque, selos   |
-| **Azul Sereno**| `#4F6D8C` | **NOVA** — caixas "Passo/Info", links, detalhes de apoio   |
+| Nome         | Hex       | Uso                                                          |
+|--------------|-----------|--------------------------------------------------------------|
+| Vinho        | `#8B2F4C` | Cor de capítulo, títulos, destaques, caixas "Importante"     |
+| Verde        | `#5E7D68` | Cor de capítulo, divisórias de módulo, legendas, caixa "Nota"|
+| Verde-menta  | `#A9C4B3` | Molduras de foto, bordas de cartão, fundos suaves (do selo)  |
+| Dourado      | `#C6A05A` | Nº de página, marcadores, losangos, caixas "Dica"            |
+| Creme Papel  | `#F6F1E7` | Fundo de todas as páginas                                    |
+| Mesa (verde) | `#4E6A59` | Fundo ao redor da "tela" (moldura escura)                    |
+| Tinta        | `#37413b` | Corpo de texto sobre creme                                   |
 
-As duas cores novas (rosa e azul) foram escolhidas para conversar com a paleta:
-o rosé puxa o "Bolo Rosa" a partir do vinho; o azul sereno equilibra o conjunto
-sem competir com o dourado. Use-as como **acento**, não como cor dominante — a
-maioria da página continua texto escuro sobre creme.
+Regra: **verde e vinho são as duas cores principais** (do selo/flor da capa);
+dourado, creme e menta são apoio. A maioria da página é texto escuro sobre creme
+— cor é tempero, não prato principal.
 
-Contraste (AA): corpo #5A6B5D sobre creme ≈ 4,9:1 · títulos #8C3A3B ≈ 6,7:1.
-Ao usar rosé/azul em texto, garanta o mesmo nível de contraste sobre o creme.
+### Cor por capítulo (pedido da cliente)
+Cada capítulo/módulo tem sua **cor de destaque** própria, alternando entre
+**vinho** e **verde**, para dar ritmo ao e-book. No HTML isso é feito por seção:
+`<section class="pag" style="--accent:var(--vinho)">` (ou `var(--verde)`).
+As divisórias de módulo usam fundo **verde** com título em **dourado**.
+
+Contraste (AA): corpo `#37413b` sobre creme é alto; vinho `#8B2F4C` e verde
+`#5E7D68` como títulos sobre creme têm contraste confortável.
 
 ## Tipografia
 

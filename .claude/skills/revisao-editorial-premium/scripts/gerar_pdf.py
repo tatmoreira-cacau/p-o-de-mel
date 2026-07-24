@@ -22,14 +22,15 @@ def com_weasyprint(html_path, pdf_path):
 
 
 def com_chromium(html_path, pdf_path):
+    # Chromium pagina melhor (grid/flex, break-inside) e carrega as fontes.
+    # Playwright acha o binário sozinho via PLAYWRIGHT_BROWSERS_PATH.
     from playwright.sync_api import sync_playwright
     url = "file://" + os.path.abspath(html_path)
-    exe = "/opt/pw-browsers/chromium"
     with sync_playwright() as p:
-        launch = {"executable_path": exe} if os.path.exists(exe) else {}
-        browser = p.chromium.launch(**launch)
+        browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(url, wait_until="networkidle")
+        page.wait_for_timeout(1200)  # garante fontes carregadas
         page.pdf(path=pdf_path, print_background=True, prefer_css_page_size=True)
         browser.close()
     return True
@@ -41,7 +42,8 @@ def main():
         sys.exit(1)
     html_path, pdf_path = sys.argv[1], sys.argv[2]
 
-    for nome, fn in (("WeasyPrint", com_weasyprint), ("Chromium", com_chromium)):
+    # Chromium primeiro (melhor paginação); WeasyPrint como reserva.
+    for nome, fn in (("Chromium", com_chromium), ("WeasyPrint", com_weasyprint)):
         try:
             fn(html_path, pdf_path)
             print(f"PDF gerado com {nome}: {pdf_path}")

@@ -80,6 +80,42 @@ Entregue o passo a passo de CapCut de forma que quem nunca editou consiga fazer:
 
 **Relógio:** texto pequeno no alto e centralizado, no mesmo lugar em todas as cenas, mudando só o horário. É ele que dá a sensação de dia passando.
 
+## Variante: quando a pessoa não vai gravar nada
+
+Muita gente não vai filmar — não tem tempo, não tem coragem de aparecer, ou o dia de produção já passou.
+Nesse caso o vídeo vira **slideshow narrado**: fotos que ela já tem, mais a voz dela por cima. Funciona
+tão bem quanto, e às vezes melhor, porque a narração carrega mais história por segundo do que texto de
+tela consegue.
+
+O que muda no seu trabalho:
+
+**Diga o número exato de imagens logo de cara.** É a primeira coisa que a pessoa pergunta, e ela não
+consegue começar a garimpar o arquivo dela sem esse número. Calcule por volta de 7 segundos por imagem —
+com narração por cima, a foto aguenta mais tempo do que aguentaria em silêncio.
+
+**Descreva cada imagem pelo que ela precisa mostrar, não pelo que seria bonito.** A pessoa vai procurar
+no rolo de câmera dela, não vai fazer foto nova. "Foto antiga da loja, mesmo com qualidade ruim" é uma
+instrução melhor que "foto profissional da fachada" — e foto antiga granulada dá verdade ao vídeo.
+Marque cada uma como **essencial** ou **se tiver**, para ela não travar caçando o que não existe.
+
+**Repita imagens de propósito.** Uma foto forte pode voltar num momento diferente da narração. Isso dá
+ritmo sem exigir material novo, e reduz o número de fotos que a pessoa precisa achar.
+
+**Escreva a narração como texto corrido para ela ler**, com as pausas marcadas por quebra de linha, e o
+número aproximado de palavras. Português narrado pausado roda perto de 150 palavras por minuto — use isso
+para dimensionar. Peça para gravar de uma vez só, num lugar silencioso, e avise que **não precisa ficar
+perfeito**: voz embargada no momento duro é o que faz a pessoa parar de rolar.
+
+**O texto de tela vira apoio, não narrativa.** Como o áudio já conta a história, o texto na tela fica
+curto — três a seis palavras reforçando a frase, e algumas cenas sem texto nenhum. Repetir por escrito
+tudo o que a voz diz cansa.
+
+**Movimento é obrigatório.** Foto parada por sete segundos mata o vídeo. Todas entram com zoom lento
+(Ken Burns). E a trilha fica em torno de 15% de volume — a voz é a protagonista.
+
+A tabela de montagem passa a ter uma coluna a mais: **qual imagem** e **qual trecho do áudio** casam em
+cada cena, para a montagem no CapCut ser mecânica.
+
 ## Formato de saída
 
 Use este template. Ele existe para a pessoa gravar sem voltar a te perguntar nada.

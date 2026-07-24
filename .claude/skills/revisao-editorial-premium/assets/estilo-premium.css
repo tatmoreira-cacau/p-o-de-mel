@@ -1,0 +1,155 @@
+/* =========================================================================
+   Estilo Premium — E-book B.A.BA do Bolo Rosa (Cacau Pitanga)
+   Paleta OFICIAL da marca + rosé e azul novos. Mobile-first, fontes grandes.
+   Regra da marca: o CONTEÚDO é intocável; isto veste, não altera.
+   ========================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+:root {
+  /* ---- Paleta oficial ---- */
+  --vinho:     #8C3A3B;   /* títulos, "Importante", divisórias */
+  --ocre:      #D4A24E;   /* nº de página, losangos, "Dica" */
+  --salvia:    #6A7F7B;   /* legendas, filetes, "Informação" */
+  --terracota: #B86B4B;   /* avisos "O erro" */
+  --cacau:     #5A6B5D;   /* corpo de texto sobre creme */
+  --creme:     #F8F5F0;   /* fundo de todas as páginas */
+  /* ---- Cores novas pedidas ---- */
+  --rose:      #C86B85;   /* acento feminino "Bolo Rosa" */
+  --azul:      #4F6D8C;   /* caixas "Passo/Nota", links, apoio */
+
+  --fonte-titulo: 'Playfair Display', Georgia, serif;
+  --fonte-corpo:  'Montserrat', -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Página estreita no formato de celular (o ideal é ler o HTML responsivo) */
+@page { size: 9cm 16cm; margin: 1.2cm 1cm; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto; max-width: 720px; padding: 1.2rem 1rem;
+  background: var(--creme); color: var(--cacau);
+  font-family: var(--fonte-corpo);
+  font-size: 16pt; line-height: 1.6;       /* corpo grande p/ celular */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ---- Títulos: hierarquia clara ---- */
+h1, h2, h3 { font-family: var(--fonte-titulo); line-height: 1.22; margin: 1.7em 0 .5em; }
+h1 { font-size: 30pt; color: var(--vinho); margin-top: 0; text-align: center; }
+h2 { font-size: 26pt; color: var(--vinho); }
+h3 {
+  font-size: 19pt; color: var(--vinho);
+  border-bottom: 1.5px solid var(--cacau); padding-bottom: .2em;
+}
+
+/* Sobretítulo / kicker */
+.kicker {
+  text-transform: uppercase; letter-spacing: .4em; font-size: 11pt;
+  color: var(--salvia); text-align: center; margin: 0 0 .4em;
+}
+
+/* ---- Corpo ---- */
+p { margin: 0 0 .9em; }
+strong { color: var(--vinho); }
+a { color: var(--azul); }
+
+/* ---- Listas ---- */
+ul, ol { margin: 0 0 1em; padding-left: 1.3em; }
+li { margin: .35em 0; }
+ul { list-style: none; padding-left: 1.4em; }
+ul li { position: relative; }
+ul li::before {
+  content: ""; position: absolute; left: -1.1em; top: .55em;
+  width: 7px; height: 7px; background: var(--ocre); border-radius: 50%;
+}
+
+/* ---- Imagens: nunca cortadas, nunca esticadas ---- */
+figure { margin: 1.5em 0; text-align: center; }
+img {
+  max-width: 100%; height: auto;
+  border: 1px solid var(--salvia); border-radius: 6px;
+}
+figcaption {
+  font-family: var(--fonte-titulo); font-style: italic;
+  font-size: 12pt; color: var(--salvia); margin-top: .5em;
+}
+
+/* ---- Divisor de seção: filete + losango dourado ---- */
+.divisoria { border: 0; text-align: center; margin: 1.8em 0; }
+.divisoria::before {
+  content: ""; display: inline-block; width: 7px; height: 7px;
+  background: var(--vinho); transform: rotate(45deg);
+}
+
+/* =========================================================================
+   CAIXAS DE DESTAQUE (use bastante; nunca duas iguais em sequência)
+   ========================================================================= */
+.caixa {
+  padding: 1em 1.1em; margin: 1.5em 0; border-radius: 8px;
+  border-left: 4px solid; font-size: 15pt;
+}
+.caixa .rotulo {
+  display: block; text-transform: uppercase; letter-spacing: .2em;
+  font-family: var(--fonte-corpo); font-weight: 600; font-size: 11pt;
+  margin-bottom: .4em;
+}
+.caixa p { font-family: var(--fonte-titulo); font-style: italic; margin: 0; }
+
+.dica        { background: rgba(212,162,78,.12); border-color: var(--ocre); }
+.dica .rotulo{ color: var(--vinho); }
+.importante  { background: rgba(140,58,59,.07); border-color: var(--vinho); }
+.importante .rotulo { color: var(--vinho); }
+.informacao  { background: rgba(106,127,123,.12); border-color: var(--salvia); }
+.informacao .rotulo { color: var(--salvia); }
+.erro        { background: rgba(184,107,75,.10); border-color: var(--terracota); }
+.erro .rotulo{ color: var(--terracota); }
+.nota        { background: rgba(79,109,140,.10); border-color: var(--azul); }
+.nota .rotulo{ color: var(--azul); }
+
+/* ---- Passos numerados (círculo vinho com o número) ---- */
+.passos { list-style: none; padding: 0; counter-reset: passo; }
+.passos li { position: relative; padding: .2em 0 1em 3.2em; }
+.passos li::before {
+  counter-increment: passo; content: counter(passo);
+  position: absolute; left: 0; top: 0;
+  width: 2.2em; height: 2.2em; line-height: 2.2em; text-align: center;
+  background: var(--vinho); color: var(--creme);
+  font-family: var(--fonte-titulo); font-weight: 600; font-size: 15pt;
+  border-radius: 50%;
+}
+
+/* ---- Número/estatística em destaque (ex.: "20+ anos") ---- */
+.numerao {
+  font-family: var(--fonte-titulo); color: var(--rose);
+  font-size: 34pt; font-weight: 600; line-height: 1; display: block;
+}
+
+/* ---- Abertura de capítulo ---- */
+.abertura {
+  text-align: center; padding: 2em 1em; margin-bottom: 1.5em;
+  background: rgba(200,107,133,.08); border-radius: 12px;
+}
+.abertura .numerao { color: var(--ocre); }
+
+/* ---- Divisória de módulo (página vinho, texto creme) ---- */
+.divisor-modulo {
+  background: var(--vinho); color: var(--creme);
+  text-align: center; padding: 2.5em 1.2em; border-radius: 12px;
+  margin: 1.8em 0; border: 3px solid var(--creme);
+  outline: 1px solid var(--ocre); outline-offset: -8px;
+}
+.divisor-modulo h2 { color: var(--creme); }
+
+/* ---- Quebra de capítulo em página nova (no PDF) ---- */
+h2 { break-before: page; }
+h2:first-of-type { break-before: avoid; }
+
+/* ---- Telas pequenas de verdade: fontes ainda maiores ---- */
+@media (max-width: 480px) {
+  body { font-size: 18pt; padding: 1rem .9rem; }
+  h1 { font-size: 28pt; }
+  h2 { font-size: 24pt; }
+  h3 { font-size: 20pt; }
+}

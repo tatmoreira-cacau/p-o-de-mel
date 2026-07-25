@@ -32,8 +32,8 @@ consegue fazer exatamente aquilo, exatamente daquele jeito, e reza para dar cert
 
 A Cartilha inverte isso.
 
-Cada bolo aqui é um **estudo de caso**. Você não aprende só a fazer o Bolo Rosa —
-você aprende a técnica que fez o Bolo Rosa existir. Depois disso, a técnica é sua, e
+Cada bolo aqui é um **estudo de caso**. Você não aprende só a fazer o Queridinho —
+você aprende a técnica que fez o Queridinho existir. Depois disso, a técnica é sua, e
 você faz o que quiser com ela.
 
 > **É a diferença entre copiar um bolo e saber inventar bolos.**
@@ -51,37 +51,36 @@ O que muda é o que entra dentro.
 É exatamente por isso que é método. Se fosse receita, cada bolo seria um jeito
 diferente de fazer.
 
-### MÓDULO 1 · Bolo Rosa
-**Estudo de caso: a base e o método de montagem**
+### MÓDULO 1 · Bolo Queridinho
+**Estudo de caso: o método**
 
-O bolo que nasceu primeiro. Aqui você aprende a estrutura que sustenta todos os
-outros: a massa, a lógica das camadas, a ordem da montagem, e o porquê de cada
-escolha.
-
-Inclui as lascas de chocolate e o guia de flores.
+O bolo mais pedido da Cacau Pitanga — e o ponto de partida. Aqui você aprende a
+estrutura que sustenta todos os outros: a massa, a lógica das camadas, a ordem da
+montagem e o porquê de cada escolha.
 
 *Domine este módulo e os outros dois viram consequência.*
 
 **R$ 67** → `[LINK MÓDULO 1]`
 
-### MÓDULO 2 · Bolo Queridinho
-**Estudo de caso: o mundo das ganaches e as combinações perfeitas**
+### MÓDULO 2 · Bolo Rosa
+**Estudo de caso: decoração e o mundo das ganaches**
 
-O bolo mais pedido da Cacau Pitanga. Mesma montagem do módulo 1, agora com o
-componente que mais derruba confeiteira: a ganache.
+Mesma montagem do módulo 1, agora com o componente que mais derruba confeiteira: a
+ganache. Por que ela racha, por que ela quebra, por que ela açucara — e como fazer
+ela ficar cremosa de verdade.
 
-Por que ela racha. Por que ela quebra. Por que ela açucara. E como fazer ela ficar
-cremosa de verdade.
-
-Mais: como combinar sabores que se sustentam — o que casa com o quê, e por quê.
+E a parte que faz o bolo virar produto: as lascas de chocolate, o guia de flores, e a
+lógica de decoração que transforma um bolo bom num bolo que a pessoa fotografa antes
+de comer.
 
 **R$ 67** → `[LINK MÓDULO 2]`
 
 ### MÓDULO 3 · Bolo Caramelo
-**Estudo de caso: o mundo dos caramelos e dos pralinês**
+**Estudo de caso: biscoito, caramelo e chocolate**
 
-Mesma montagem, agora com caramelo e praliné. O ponto certo, a textura, o equilíbrio
-do doce — e como usar dentro de um bolo sem empedrar, sem escorrer e sem enjoar.
+Mesma montagem, agora com as camadas que dão crocância e contraste. O ponto do
+caramelo, a textura do praliné, o biscoito que não amolece dentro do bolo — e como
+equilibrar tudo isso sem enjoar.
 
 **R$ 67** → `[LINK MÓDULO 3]`
 
@@ -212,8 +211,9 @@ Não. Cada módulo é completo e independente, e todos trazem a base e o método
 existe só para quem quer os três — sai mais barato.
 
 **Por qual eu começo?**
-Pelo Módulo 1, se você quer a base bem firme. Por qualquer um, se já tem experiência
-e quer resolver uma técnica específica.
+Pelo Módulo 1 — o Queridinho. É o mais pedido da Cacau Pitanga e é onde o método
+está inteiro. Se você já tem experiência e quer resolver uma técnica específica, pode
+começar por qualquer um.
 
 **Preciso ter experiência?**
 Não. A Cartilha começa pela base. E eu escrevi lembrando de quando eu mesma fugia de

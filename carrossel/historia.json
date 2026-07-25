@@ -1,0 +1,50 @@
+[
+  {
+    "estilo": "chocolate",
+    "texto": "Eu tinha 20 anos de chocolate nas mãos. E mesmo assim, eu tinha medo de fazer bolo.",
+    "apoio": "arrasta para o lado"
+  },
+  {
+    "estilo": "creme",
+    "etiqueta": "há mais de 20 anos",
+    "texto": "O meu primeiro negócio foi uma loja no Galleria, em Campinas. Chamava Quituteria."
+  },
+  {
+    "estilo": "creme",
+    "texto": "Foi ali que eu me tornei chocolatier de verdade. Quem me abriu esse mundo foi a Simone Izumi."
+  },
+  {
+    "estilo": "chocolate",
+    "texto": "A Quituteria não deu certo. Ela fechou.",
+    "tamanho": 96
+  },
+  {
+    "estilo": "creme",
+    "texto": "Anos depois, na pandemia, dentro de casa, nasceu a Cacau Pitanga. Só doce de chocolate."
+  },
+  {
+    "estilo": "creme",
+    "texto": "Mas todo mundo me pedia bolo. E eu não fazia.",
+    "apoio": "eu só ponho na mão do cliente quando está perfeito"
+  },
+  {
+    "estilo": "rosa",
+    "texto": "Então eu comecei a testar. Um bolo por mês. Só um.",
+    "tamanho": 88
+  },
+  {
+    "estilo": "creme",
+    "texto": "E descobri uma coisa: quase ninguém recheia bolo com ganache.",
+    "apoio": "ela racha, ela quebra, ela é cara"
+  },
+  {
+    "estilo": "rosa",
+    "texto": "Eu criei um método de montagem que resolve isso. E foi dele que nasceu o bolo rosa."
+  },
+  {
+    "estilo": "chocolate",
+    "texto": "Escrevi esse método inteiro num livro.",
+    "apoio": "Comenta ROSA que eu te mando o link",
+    "tamanho": 88
+  }
+]

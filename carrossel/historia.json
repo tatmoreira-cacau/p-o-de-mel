@@ -1,50 +1,50 @@
 [
   {
     "estilo": "chocolate",
-    "texto": "Eu tinha 20 anos de chocolate nas mãos. E mesmo assim, eu tinha medo de fazer bolo.",
+    "texto": "Eu não me considerava confeiteira. Bolo, pra mim, era quase território proibido.",
     "apoio": "arrasta para o lado"
   },
   {
     "estilo": "creme",
-    "etiqueta": "há mais de 20 anos",
-    "texto": "O meu primeiro negócio foi uma loja no Galleria, em Campinas. Chamava Quituteria."
+    "etiqueta": "há quase 16 anos",
+    "texto": "Meu primeiro negócio foi a Quituteria, em Campinas. Fomos pioneiros em brigadeiro gourmet e cupcake."
   },
   {
     "estilo": "creme",
-    "texto": "Foi ali que eu me tornei chocolatier de verdade. Quem me abriu esse mundo foi a Simone Izumi."
+    "texto": "Saímos em capa de revista, demos entrevista pra Globo, tivemos loja no Cambuí e depois em shopping."
   },
   {
     "estilo": "chocolate",
-    "texto": "A Quituteria não deu certo. Ela fechou.",
-    "tamanho": 96
+    "texto": "Erramos muito na gestão. E a empresa fechou.",
+    "tamanho": 92
   },
   {
     "estilo": "creme",
-    "texto": "Anos depois, na pandemia, dentro de casa, nasceu a Cacau Pitanga. Só doce de chocolate."
+    "texto": "Anos depois nasceu a Cacau Pitanga. No meio da pandemia, e do fim de um casamento de doze anos."
   },
   {
     "estilo": "creme",
-    "texto": "Mas todo mundo me pedia bolo. E eu não fazia.",
-    "apoio": "eu só ponho na mão do cliente quando está perfeito"
+    "texto": "Eu dominava chocolate. Bolo não. Mas os clientes antigos começaram a pedir.",
+    "apoio": "e eu não podia me dar ao luxo de escolher o que vender"
   },
   {
     "estilo": "rosa",
-    "texto": "Então eu comecei a testar. Um bolo por mês. Só um.",
-    "tamanho": 88
+    "texto": "Então peguei tudo o que eu sabia de bombom, ganache e textura. E levei pra dentro do bolo."
   },
   {
     "estilo": "creme",
-    "texto": "E descobri uma coisa: quase ninguém recheia bolo com ganache.",
-    "apoio": "ela racha, ela quebra, ela é cara"
+    "texto": "Anos depois caiu a ficha: ninguém montava bolo do jeito que eu montava.",
+    "apoio": "sem perceber, eu tinha criado um método"
   },
   {
     "estilo": "rosa",
-    "texto": "Eu criei um método de montagem que resolve isso. E foi dele que nasceu o bolo rosa."
+    "texto": "Foi esse método que pagou as minhas contas e me transformou em confeiteira.",
+    "tamanho": 84
   },
   {
     "estilo": "chocolate",
-    "texto": "Escrevi esse método inteiro num livro.",
-    "apoio": "Comenta ROSA que eu te mando o link",
-    "tamanho": 88
+    "texto": "Coloquei ele inteiro na Cartilha dos Bolos Infalíveis.",
+    "apoio": "Bolo Rosa, Queridinho e Caramelo — comenta ROSA que eu te mando o link",
+    "tamanho": 84
   }
 ]

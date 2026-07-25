@@ -135,6 +135,46 @@ def clipe(imagem: Path, dur: float, destino: Path, indice: int) -> None:
         sys.exit(f"falha ao renderizar {imagem.name}:\n{r.stderr[-2000:]}")
 
 
+def eh_video(caminho: Path) -> float:
+    """Devolve a duração se o arquivo tiver movimento, 0 se for imagem parada.
+
+    Não dá para confiar na extensão: material de celular chega como .mov, .mp4
+    e às vezes sem extensão nenhuma, e um .png pode ser um print. Perguntar ao
+    ffmpeg é o único jeito honesto de saber o que é cada arquivo.
+    """
+    saida = run([FF, "-i", str(caminho)]).stderr
+    if "Video:" not in saida:
+        return 0.0
+    if re.search(r"Video: (mjpeg|png|bmp|webp|tiff)", saida):
+        return 0.0
+    m = re.search(r"Duration: (\d+):(\d+):([\d.]+)", saida)
+    if not m:
+        return 0.0
+    h, mi, s = m.groups()
+    total = int(h) * 3600 + int(mi) * 60 + float(s)
+    return total if total >= 0.4 else 0.0
+
+
+def clipe_video(origem: Path, dur: float, destino: Path, inicio: float = 0.0) -> None:
+    """Recorta um trecho de vídeo e enquadra em 9:16.
+
+    Clipes curtos são repetidos em laço até preencherem o tempo da cena — melhor
+    do que congelar no último quadro, que dá impressão de vídeo travado.
+    """
+    vf = (
+        f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+        f"fps={FPS},setsar=1"
+    )
+    r = run([
+        FF, "-y", "-stream_loop", "-1", "-ss", f"{inicio:.2f}", "-i", str(origem),
+        "-t", f"{dur:.3f}", "-vf", vf,
+        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "18",
+        "-pix_fmt", "yuv420p", "-an", str(destino),
+    ])
+    if r.returncode != 0:
+        sys.exit(f"falha ao recortar {origem.name}:\n{r.stderr[-2000:]}")
+
+
 def png_texto(texto: str, destino: Path) -> None:
     """Desenha o texto de tela num PNG transparente, para sobrepor ao vídeo."""
     from PIL import Image, ImageDraw, ImageFont
@@ -180,13 +220,14 @@ def main() -> None:
     p.add_argument("--volume-trilha", type=float, default=0.15)
     args = p.parse_args()
 
-    exts = {".jpg", ".jpeg", ".png", ".webp", ".heic"}
-    imagens = sorted(f for f in args.fotos.iterdir() if f.suffix.lower() in exts)
+    imagens = sorted(f for f in args.fotos.iterdir() if f.is_file())
     if not imagens:
-        sys.exit(f"nenhuma imagem encontrada em {args.fotos}")
+        sys.exit(f"nenhum arquivo encontrado em {args.fotos}")
 
     tmp = Path(tempfile.mkdtemp(prefix="montagem-"))
-    print(f"{len(imagens)} fotos · trabalhando em {tmp}")
+    duracoes_origem = {f: eh_video(f) for f in imagens}
+    n_video = sum(1 for d in duracoes_origem.values() if d)
+    print(f"{len(imagens)} arquivos ({n_video} com movimento) · trabalhando em {tmp}")
 
     audio = tmp / "narracao.m4a"
     total = preparar_audio(args.audio, audio, args.apertar_pausas, args.max_duracao)
@@ -200,13 +241,19 @@ def main() -> None:
           ", ".join(f"{t:.0f}s" for t in pontos[:12]) + ("..." if len(pontos) > 12 else ""))
 
     clipes = []
-    for i, (img, dur) in enumerate(zip(imagens, duracoes)):
+    for i, (arquivo, dur) in enumerate(zip(imagens, duracoes)):
         # cada clipe carrega o crossfade seguinte, por isso ganha FADE a mais
         extra = FADE if i < len(imagens) - 1 else 0.0
         destino = tmp / f"clipe_{i:03d}.mp4"
-        clipe(img, dur + extra, destino, i)
+        origem_dur = duracoes_origem[arquivo]
+        if origem_dur:
+            clipe_video(arquivo, dur + extra, destino)
+            marca = f"vídeo {origem_dur:.0f}s"
+        else:
+            clipe(arquivo, dur + extra, destino, i)
+            marca = "foto"
         clipes.append((destino, dur))
-        print(f"  [{i+1:2d}/{len(imagens)}] {img.name} → {dur:.1f}s")
+        print(f"  [{i+1:2d}/{len(imagens)}] {arquivo.name[:44]:<44} {marca:<11} → {dur:.1f}s")
 
     # encadeia os clipes com crossfade
     entradas, filtro, atual, deslocamento = [], [], "0:v", 0.0

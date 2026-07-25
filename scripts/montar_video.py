@@ -260,7 +260,10 @@ def main() -> None:
     for i, (caminho, _) in enumerate(clipes):
         entradas += ["-i", str(caminho)]
     for i in range(1, len(clipes)):
-        deslocamento += clipes[i - 1][1] - (FADE if i > 1 else 0)
+        # O deslocamento é a soma simples das durações anteriores. Descontar o
+        # crossfade aqui encurta a linha do tempo a cada emenda e o fim da
+        # narração acaba cortado — que é justamente onde está a chamada final.
+        deslocamento += clipes[i - 1][1]
         rotulo = f"x{i}"
         filtro.append(
             f"[{atual}][{i}:v]xfade=transition=fade:duration={FADE}"

@@ -1,7 +1,7 @@
 # Página de vendas — Cartilha dos Bolos Infalíveis
 
-> **Preço usado:** R$ 97 (suposição — trocar se for outro)
-> **Link de checkout:** `[LINK]`
+> **Preços usados:** módulo avulso R$ 67 · combo R$ 147 (sugestão — trocar se for outro)
+> **Links:** `[LINK MÓDULO 1]` `[LINK MÓDULO 2]` `[LINK MÓDULO 3]` `[LINK COMBO]`
 > Tudo entre colchetes precisa ser preenchido antes de publicar.
 
 ---
@@ -10,41 +10,103 @@
 
 # CARTILHA DOS BOLOS INFALÍVEIS
 
-### A metodologia por trás dos meus bolos de sucesso
+### Não é um livro de receitas. É um método.
 
-Aprenda o passo a passo dos bolos mais pedidos da Cacau Pitanga, entenda os porquês
-de cada escolha, e crie os seus próprios bolos incríveis.
+Três bolos, três estudos de caso, três técnicas.
+Domine as técnicas e você não vai repetir os meus bolos — vai criar os seus.
 
-**[ QUERO A CARTILHA ]** → `[LINK]`
+**[ QUERO COMEÇAR ]** → `[LINK]`
 
-*Acesso imediato · Leia no celular, no computador ou impresso*
-
----
-
-## O problema
-
-Durante muito tempo, bolo de chocolate foi sinônimo de massa seca, recheio pesado
-e gosto de cacau sem graça.
-
-Você provavelmente já fez um. Seguiu a receita à risca, e mesmo assim:
-
-- a massa saiu seca
-- a ganache rachou, quebrou ou açucarou
-- o recheio escorreu ou pesou demais
-- o caramelo empedrou
-- ficou bonito por fora, e sem graça por dentro
-
-E a conclusão sempre é a mesma: *"acho que eu não levo jeito."*
-
-Não é isso.
-
-**O problema é que receita ensina o quê, e nunca o porquê.** Sem entender o porquê,
-qualquer ingrediente diferente, qualquer forno diferente, qualquer dia mais quente
-derruba o resultado — e você não sabe o que corrigir.
+*Acesso imediato · Compre um módulo ou leve os três*
 
 ---
 
-## Quem está falando com você
+## A ideia central
+
+Todo mundo que faz bolo já viveu isso: seguiu a receita à risca e o bolo saiu errado.
+Trocou a marca do creme de leite, e mudou tudo. O dia estava mais quente, e a ganache
+rachou. Faltou um ingrediente, e não soube por quê trocar.
+
+**Receita ensina o quê. Nunca ensina o porquê.** E sem o porquê, você fica presa: só
+consegue fazer exatamente aquilo, exatamente daquele jeito, e reza para dar certo.
+
+A Cartilha inverte isso.
+
+Cada bolo aqui é um **estudo de caso**. Você não aprende só a fazer o Bolo Rosa —
+você aprende a técnica que fez o Bolo Rosa existir. Depois disso, a técnica é sua, e
+você faz o que quiser com ela.
+
+> **É a diferença entre copiar um bolo e saber inventar bolos.**
+
+---
+
+## Como funciona
+
+Três módulos. Cada um estuda uma técnica diferente, usando um bolo real da Cacau
+Pitanga como caso.
+
+E tem uma coisa que você vai notar já no módulo 2: **a montagem é a mesma nos três.**
+O que muda é o que entra dentro.
+
+É exatamente por isso que é método. Se fosse receita, cada bolo seria um jeito
+diferente de fazer.
+
+### MÓDULO 1 · Bolo Rosa
+**Estudo de caso: a base e o método de montagem**
+
+O bolo que nasceu primeiro. Aqui você aprende a estrutura que sustenta todos os
+outros: a massa, a lógica das camadas, a ordem da montagem, e o porquê de cada
+escolha.
+
+Inclui as lascas de chocolate e o guia de flores.
+
+*Domine este módulo e os outros dois viram consequência.*
+
+**R$ 67** → `[LINK MÓDULO 1]`
+
+### MÓDULO 2 · Bolo Queridinho
+**Estudo de caso: o mundo das ganaches e as combinações perfeitas**
+
+O bolo mais pedido da Cacau Pitanga. Mesma montagem do módulo 1, agora com o
+componente que mais derruba confeiteira: a ganache.
+
+Por que ela racha. Por que ela quebra. Por que ela açucara. E como fazer ela ficar
+cremosa de verdade.
+
+Mais: como combinar sabores que se sustentam — o que casa com o quê, e por quê.
+
+**R$ 67** → `[LINK MÓDULO 2]`
+
+### MÓDULO 3 · Bolo Caramelo
+**Estudo de caso: o mundo dos caramelos e dos pralinês**
+
+Mesma montagem, agora com caramelo e praliné. O ponto certo, a textura, o equilíbrio
+do doce — e como usar dentro de um bolo sem empedrar, sem escorrer e sem enjoar.
+
+**R$ 67** → `[LINK MÓDULO 3]`
+
+---
+
+## Compre do seu jeito
+
+**Um módulo por vez.** Comece pelo que te interessa. Cada um é completo e
+independente — todos trazem a base e o método.
+
+**Ou os três de uma vez.**
+
+| | |
+|---|---|
+| Um módulo | R$ 67 |
+| Dois módulos | R$ 134 |
+| **Os três — Combo** | **R$ 147** |
+
+Levando o combo você economiza R$ 54 — praticamente ganha o terceiro módulo.
+
+**[ QUERO O COMBO — R$ 147 ]** → `[LINK COMBO]`
+
+---
+
+## Quem escreveu isso
 
 Eu sou a Tati, da Cacau Pitanga. Mineira, chocolateira, quase 16 anos de confeitaria.
 
@@ -52,164 +114,126 @@ Meu primeiro negócio foi a Quituteria, em Campinas. Fomos pioneiros em brigadei
 gourmet e cupcake, muito antes de virar moda. Saímos em capa de revista, demos
 entrevista para a Globo, tivemos loja no Cambuí e depois em shopping.
 
-Parecia que tudo estava dando certo.
+Parecia que tudo estava dando certo. Só que não. Erramos muito na gestão, e a empresa
+fechou. Foi dolorido.
 
-Só que não. Erramos muito na gestão, e a empresa fechou. Foi dolorido.
+Anos depois nasceu a Cacau Pitanga — no meio da pandemia e do fim de um casamento de
+doze anos.
 
-Anos depois nasceu a Cacau Pitanga — no meio da pandemia, e no meio do fim de um
-casamento de doze anos.
+**E aqui vem a parte que ninguém acredita: eu não me considerava confeiteira. Bolo,
+para mim, era quase território proibido. Eu fugia deles.**
 
-Ela nasceu para fazer o que eu dominava: chocolate, ganache, bombom, trufa.
+Mas os clientes antigos da Quituteria começaram a aparecer: *"e os bolos, Tati?"*. E
+eu não podia me dar ao luxo de escolher o que vender. Eu precisava trabalhar.
 
-**E aqui vem a parte que ninguém acredita: eu não me considerava confeiteira.
-Bolo, para mim, era quase território proibido. Eu fugia deles.**
+Então pensei: eu talvez não saiba fazer os bolos que todo mundo faz. Mas eu sei fazer
+chocolate.
 
-Mas os clientes antigos da Quituteria começaram a aparecer. *"E os bolos, Tati?"*
-E eu não podia me dar ao luxo de escolher o que vender. Eu precisava trabalhar.
-
-Então pensei: eu talvez não saiba fazer os bolos que todo mundo faz. Mas eu sei
-fazer chocolate.
-
-Peguei tudo o que sabia de bombom, ganache, praliné e combinação de sabores — e
-levei para dentro do bolo.
+Peguei tudo o que sabia de bombom, ganache, praliné e combinação de sabores — e levei
+para dentro do bolo.
 
 ---
 
-## O que eu descobri sem querer
+## O método não foi planejado. Ele apareceu.
 
-Anos e muitos testes depois, comecei a perceber uma coisa curiosa.
+Anos e muitos testes depois, comecei a perceber uma coisa curiosa: **ninguém montava
+bolo do jeito que eu montava.**
 
-**Ninguém montava bolo do jeito que eu montava.**
-
-Achei que fosse coincidência. Aí fui estudar. Fiz cursos com Joyce, Camila Dutra,
-Daiane, Baking Dreams, César Yukio — profissionais que admiro profundamente e que
-me ensinaram muito.
+Achei que fosse coincidência. Fui estudar — fiz cursos com Joyce, Camila Dutra,
+Daiane, Baking Dreams, César Yukio. Profissionais que admiro e que me ensinaram muito.
 
 E continuei pensando a mesma coisa: *engraçado, ninguém faz exatamente como eu faço.*
 
 Foi aí que caiu a ficha. Sem perceber, eu tinha criado um método. Uma lógica de
-montagem. Uma sequência de camadas, texturas e sabores que faz cada fatia fechar
-os olhos de quem come.
+montagem, uma sequência de camadas, uma forma de distribuir sabor e textura para que
+cada fatia funcionasse.
 
-Foi esse método que pagou as minhas contas, reconstruiu a minha empresa e me
-transformou, de verdade, em confeiteira.
+Foi ele que pagou as minhas contas, reconstruiu a minha empresa e me transformou, de
+verdade, em confeiteira.
 
-**É ele que está aqui dentro.**
-
----
-
-## O que tem dentro
-
-A Cartilha é dividida em três módulos. E repare numa coisa: **a técnica de montagem
-é a mesma nos três.** O que muda é o que entra dentro.
-
-É exatamente isso que faz dela um método, e não um caderno de receitas.
-
-### Módulo 1 — Bolo Rosa
-A base e a técnica. Aqui você aprende a montagem que sustenta todos os outros bolos.
-Domine este módulo e os próximos dois viram consequência.
-
-### Módulo 2 — Bolo Queridinho
-A mesma técnica, agora com **o fantástico mundo das ganaches e das geleias.**
-Por que a ganache racha, por que ela quebra, por que ela açucara — e como fazer ela
-ficar cremosa de verdade. A geleia entrando sem escorrer e sem pesar.
-
-### Módulo 3 — Bolo Caramelo
-A mesma técnica, agora com **o fantástico mundo dos caramelos e dos pralinês.**
-O ponto certo, a textura, e como usar sem empedrar e sem enjoar.
-
-### E em todos os três
-- Chocolate de verdade — nada de cacau em pó e cobertura pronta
-- O porquê de cada ingrediente estar ali
-- Como equilibrar doçura, acidez e gordura
-- Como construir textura em camadas
-- A lógica de montagem que ninguém mais usa
+**É ele que está nesses três estudos de caso.**
 
 ---
 
-## O que muda quando você entende o porquê
+## Chocolate de verdade
 
-Receita você acha no YouTube de graça. Método para inventar os seus, não.
+Uma coisa que atravessa os três módulos: aqui não tem cacau em pó nem cobertura sabor
+chocolate.
 
-Quando você entende a lógica por trás da montagem, para de depender de receita pronta.
-Passa a adaptar ao que tem na despensa, ao que o cliente pediu, à fruta da estação.
+Chocolate de verdade, ganache de verdade, caramelo de verdade.
 
-E aí acontece a coisa mais importante para quem vende:
+É por isso que o bolo sai chocolatudo, molhadinho e equilibrado — e não com aquele
+gosto sem graça que a gente se acostumou a aceitar como normal.
 
-**seu bolo passa a ser só seu.**
+---
 
-Ninguém compra de você um bolo que existe igual em outras dez confeitarias da cidade.
-Compram o que não tem em outro lugar. Bolo autoral é o que traz cliente de volta.
+## Para quem é
+
+- Quem já faz bolo e quer parar de errar sem saber por quê
+- Quem quer vender e precisa de um bolo que ninguém mais tenha
+- Quem está começando e prefere aprender certo desde o início
+- Quem já fez curso, sabe executar, mas não consegue criar sozinha
+
+## Para quem não é
+
+- Quem quer só copiar receita e não quer entender nada
+- Quem procura bolo de pote, bolo caseiro simples ou confeitaria sem chocolate
+- Quem não pretende colocar a mão na massa
+
+---
+
+## Por que isso vale para quem vende
+
+Bolo que existe igual em outras dez confeitarias da cidade compete por preço. Bolo
+autoral não compete com ninguém.
+
+Quando você domina a técnica em vez de decorar a receita, o bolo passa a ser seu — com
+o seu sabor, a sua combinação, a sua cara.
 
 Eu ainda hoje saio de Minas Gerais levando bolo de ônibus para São Paulo, porque
 clientes antigos continuam dizendo a mesma frase: *"não existe igual."*
 
 ---
 
-## Para quem é
-
-- Quem já faz bolo em casa e quer parar de errar sem saber por quê
-- Quem quer vender e precisa de um produto que ninguém mais tenha
-- Quem está começando e quer aprender certo desde o início
-- Quem já fez curso, sabe executar, mas não sabe criar
-
-## Para quem não é
-
-- Quem quer só copiar três receitas e não quer entender nada
-- Quem procura bolo de pote, bolo caseiro simples ou confeitaria sem chocolate
-- Quem não pretende colocar a mão na massa
-
----
-
-## O preço
-
-Um curso presencial de bolo custa entre R$ 400 e R$ 1.200. Eu já paguei muitos.
-
-Eu podia ter feito um curso online. Preferi um e-book — para ser acessível,
-chegar a muito mais gente, custar pouco e entregar muito.
-
-# R$ 97
-
-**[ QUERO A CARTILHA ]** → `[LINK]`
-
-*O primeiro bolo que você vender paga a Cartilha e ainda sobra.*
-
----
-
 ## Garantia
 
-Você tem **7 dias** para ler tudo. Se achar que não é para você, devolvo o valor
-integral, sem pergunta nenhuma.
+**7 dias.** Leia tudo. Se achar que não é para você, devolvo o valor integral, sem
+pergunta nenhuma.
 
-O risco é meu. Faz quase 16 anos que eu só entrego um bolo quando ele está
-exatamente do jeito que eu acredito que ele deve estar — com a Cartilha não seria
-diferente.
+Faz quase 16 anos que eu só entrego um bolo quando ele está exatamente do jeito que
+eu acredito que ele deve estar. Com a Cartilha não seria diferente.
 
 ---
 
 ## Perguntas que já me fizeram
 
-**Preciso ter experiência?**
-Não. A Cartilha começa pela base. E eu escrevi ela lembrando de quando eu mesma
-fugia de bolo — porque eu era do chocolate, não da confeitaria de bolo.
+**Preciso comprar os três?**
+Não. Cada módulo é completo e independente, e todos trazem a base e o método. O combo
+existe só para quem quer os três — sai mais barato.
 
-**Só tem três receitas?**
-Tem três módulos. E o objetivo declarado não é você sair com três bolos, é você
-sair sabendo criar quantos quiser, com a mesma lógica.
+**Por qual eu começo?**
+Pelo Módulo 1, se você quer a base bem firme. Por qualquer um, se já tem experiência
+e quer resolver uma técnica específica.
+
+**Preciso ter experiência?**
+Não. A Cartilha começa pela base. E eu escrevi lembrando de quando eu mesma fugia de
+bolo.
+
+**São só três receitas?**
+São três estudos de caso. O objetivo não é você sair com três bolos — é você sair
+sabendo criar quantos quiser, com a mesma lógica.
 
 **Preciso de equipamento profissional?**
-Não. Batedeira, forno, espátula e balança. O resto é técnica.
+Batedeira, forno, espátula e balança. O resto é técnica.
 
 **Serve para vender?**
-Foi feita por quem vive disso. Os bolos que estão aqui dentro são os mais pedidos
-da Cacau Pitanga.
+São os bolos que eu vendo.
 
 **Como recebo?**
-Por e-mail, na hora da compra. Lê no celular, no computador ou imprime.
+Por e-mail, na hora da compra. Lê no celular, no computador, ou imprime.
 
-**E se eu travar em alguma parte?**
-`[COMPLETAR: você oferece suporte por direct, grupo, e-mail? Se não oferecer,
-apague esta pergunta.]`
+**E se eu travar?**
+`[COMPLETAR: oferece suporte por direct, grupo, e-mail? Se não oferecer, apague.]`
 
 ---
 
@@ -220,9 +244,8 @@ nesse método.
 
 Você começa a usar hoje.
 
-# R$ 97
-
-**[ QUERO A CARTILHA ]** → `[LINK]`
+**Um módulo — R$ 67** → `[LINK]`
+**Os três — R$ 147** → `[LINK COMBO]`
 
 ---
 
@@ -230,18 +253,19 @@ Você começa a usar hoje.
 
 > ☐ **Sim! Quero também a Planilha de Precificação por mais R$ [XX]**
 >
-> A conta que quase ninguém faz direito: ingrediente, gás, energia, embalagem e o
-> seu tempo. Eu fechei uma empresa de sucesso por erro de gestão — essa planilha é
-> para você não repetir o meu erro. Preencha e descubra quanto cobrar de verdade.
+> A conta que quase ninguém faz direito: ingrediente, gás, energia, embalagem e o seu
+> tempo. Eu fechei uma empresa de sucesso por erro de gestão — essa planilha é para
+> você não repetir o meu erro.
 
 ---
 
 ## Pendências antes de publicar
 
-- [ ] Preço final (aqui está R$ 97)
-- [ ] Link do checkout
-- [ ] Plataforma (Hotmart, Kiwify, Braip, link direto)
+- [ ] Preços finais (aqui: R$ 67 avulso, R$ 147 combo)
+- [ ] Links de checkout — um por módulo, mais o do combo
+- [ ] Plataforma
 - [ ] Preço do order bump
 - [ ] A Planilha de Precificação existe ou precisa ser feita?
 - [ ] Oferece suporte? (afeta o FAQ)
-- [ ] Fotos dos três bolos para a página
+- [ ] Módulos 2 e 3 prontos? Se não, a página precisa dizer a data de entrega
+- [ ] Fotos dos três bolos

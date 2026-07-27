@@ -57,13 +57,17 @@ TRILHA TÉCNICA
   MÓDULO 2 · Bolo Queridinho → o fantástico mundo das ganaches e das geleias
   MÓDULO 3 · Bolo Caramelo   → o fantástico mundo dos caramelos e dos pralinês
 
-MÓDULO 4 · IA e planilhas  → ficha técnica, custo, preço e margem
-                              atendimento, produção e compras automatizados
+MÓDULO 4 · IA e planilhas  → usar a IA gratuita do celular: ficha técnica, custo,
+                              preço, lista de compras, cardápio e marketing
 ```
 
-**A Cartilha acaba no módulo 4.** O que antes era um módulo 5 separado sobre agentes de
-IA passou a viver dentro do 4, junto das planilhas — é o mesmo problema visto pelos dois
-lados: a conta e a operação.
+**A Cartilha acaba no módulo 4**, e ele é deliberadamente básico: ensina a confeiteira a
+usar a IA gratuita que já tem no celular, com planilhas prontas. Sem ferramenta paga, sem
+integração, sem programação.
+
+**Automação de atendimento não entra na Cartilha.** Agentes, WhatsApp e integração são o
+escopo do segundo produto — a consultoria — onde isso é implantado *para* a cliente em vez
+de ensinado a ela. Prometer automação num e-book gera frustração e reembolso.
 
 **O argumento central da trilha técnica:** a montagem é a mesma nos três. O que muda é
 o que entra dentro. É isso que prova que é método, e não receita.

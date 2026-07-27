@@ -1,5 +1,13 @@
-# Módulo 5 · Agentes de IA
-### O "secretário" da confeiteira — esqueleto de conteúdo
+# Consultoria · Escopo de automação
+### O "secretário" da confeiteira — o que se implanta para a cliente
+
+> **Isto não é conteúdo da Cartilha.** É o escopo do **segundo produto**: a consultoria
+> de IA para confeiteiras, em que a automação é implantada *para* a cliente, e não
+> ensinada a ela.
+>
+> A separação importa. O Módulo 4 da Cartilha ensina a confeiteira a se virar sozinha com
+> IA gratuita — conta, planilha, cardápio, legenda. A consultoria faz por ela o que exige
+> montagem, integração e manutenção.
 
 > **A tese do módulo:** a confeiteira que trabalha em casa é, ao mesmo tempo, produção,
 > atendimento, financeiro e marketing. Ela não precisa de mais horas no dia — precisa

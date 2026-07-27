@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Cacau Pitanga — A Cartilha dos Bolos Infalíveis</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 16mm 16mm; }
+  @page :first { margin: 0; }
+
+  :root{
+    --choc:#3A2318;
+    --choc-soft:#5A3B2A;
+    --rosa:#E8A9B8;
+    --rosa-dark:#B4697F;
+    --creme:#F7F1EA;
+    --creme-line:#E5D9CC;
+    --ink:#2C1C13;
+    --muted:#7A6558;
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; color:var(--ink);
+    font-family:"DejaVu Serif", Georgia, serif;
+    font-size:10.2pt; line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* ---------- capa ---------- */
+  .cover{
+    height:297mm; background:var(--choc); color:var(--creme);
+    padding:34mm 22mm; display:flex; flex-direction:column;
+    justify-content:space-between; page-break-after:always;
+  }
+  .cover .rule{ width:64px; height:5px; background:var(--rosa); margin-bottom:16mm; }
+  .cover .brand{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; letter-spacing:.36em; text-transform:uppercase;
+    color:var(--rosa); margin-bottom:10mm;
+  }
+  .cover h1{
+    font-size:38pt; line-height:1.1; margin:0 0 8mm; font-weight:700;
+  }
+  .cover .sub{ font-size:14pt; color:var(--rosa); font-style:italic; margin:0; }
+  .cover .foot{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9.5pt; color:#C9B6A6; line-height:1.9;
+  }
+  .cover .foot strong{ color:var(--creme); font-weight:600; }
+
+  /* ---------- tipografia ---------- */
+  h2{
+    font-size:16pt; margin:11mm 0 4mm; color:var(--choc);
+    padding-bottom:2.5mm; border-bottom:2px solid var(--rosa);
+    page-break-after:avoid;
+  }
+  h2 .n{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; color:var(--rosa-dark); margin-right:8px; letter-spacing:.1em;
+  }
+  h3{ font-size:11.5pt; margin:7mm 0 2.5mm; color:var(--choc-soft); page-break-after:avoid; }
+  h4{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--rosa-dark); margin:6mm 0 2mm;
+  }
+  p{ margin:0 0 3.2mm; }
+  strong{ color:var(--choc); }
+  em{ color:var(--choc-soft); }
+  ul{ margin:0 0 3.5mm; padding-left:5mm; }
+  li{ margin-bottom:1.6mm; }
+
+  /* ---------- blocos ---------- */
+  .lead{
+    background:var(--creme); border-left:4px solid var(--rosa);
+    padding:5mm 6mm; margin:0 0 5mm; font-size:10.6pt;
+  }
+  .quote{
+    font-size:12.5pt; font-style:italic; color:var(--choc);
+    border-left:4px solid var(--rosa); padding:1mm 0 1mm 6mm; margin:5mm 0;
+  }
+  .note{
+    background:#FBF6F1; border:1px solid var(--creme-line);
+    padding:4mm 5mm; margin:4mm 0; font-size:9.6pt; color:var(--muted);
+  }
+  .note strong{ color:var(--choc); }
+
+  table{ width:100%; border-collapse:collapse; margin:3mm 0 5mm; font-size:9.6pt; }
+  th{
+    background:var(--choc); color:var(--creme); text-align:left;
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:8.4pt; letter-spacing:.09em; text-transform:uppercase;
+    padding:2.6mm 3mm; font-weight:600;
+  }
+  td{ padding:2.4mm 3mm; border-bottom:1px solid var(--creme-line); vertical-align:top; }
+  tr:nth-child(even) td{ background:#FCF9F6; }
+  td.k{ color:var(--choc); font-weight:600; width:34%; }
+  td.price{ font-family:"DejaVu Sans",sans-serif; font-weight:700; color:var(--choc); white-space:nowrap; }
+  .fill{ color:var(--rosa-dark); font-family:"DejaVu Sans",sans-serif; }
+
+  .stats{ display:flex; gap:4mm; margin:4mm 0 6mm; }
+  .stat{
+    flex:1; background:var(--choc); color:var(--creme);
+    padding:5mm 4mm; text-align:center;
+  }
+  .stat .big{
+    display:block; font-size:19pt; font-weight:700; color:var(--rosa); line-height:1.15;
+  }
+  .stat .lbl{
+    display:block; font-family:"DejaVu Sans",sans-serif; font-size:7.6pt;
+    letter-spacing:.1em; text-transform:uppercase; margin-top:2mm; color:#D8C6B8;
+  }
+
+  .track{ border:1px solid var(--creme-line); border-top:4px solid var(--rosa); padding:5mm 6mm; margin:4mm 0; }
+  .track h3{ margin-top:0; }
+
+  .page-break{ page-break-before:always; }
+  .avoid{ page-break-inside:avoid; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div>
+    <div class="rule"></div>
+    <div class="brand">Cacau Pitanga</div>
+    <h1>A Cartilha dos<br>Bolos Infalíveis</h1>
+    <p class="sub">A ideia, a história, o mercado e o produto</p>
+  </div>
+  <div class="foot">
+    <strong>Tatiana Duarte</strong><br>
+    Fundadora · Cacau Pitanga<br>
+    Minas Gerais · @cacaupitanga_
+  </div>
+</div>
+
+<h2><span class="n">01</span>A ideia</h2>
+
+<div class="lead">
+Transformar quase 16 anos de confeitaria — e um método de montagem de bolos criado sem
+querer, ao longo de centenas de testes — num catálogo de infoprodutos para confeiteiras
+que querem parar de copiar receita e começar a criar as próprias.
+</div>
+
+<p>O mercado de confeitaria no Brasil é grande, está crescendo em dois dígitos e é
+formado principalmente por mulheres que produzem em casa e tratam isso como negócio.
+Elas não sofrem por falta de receita — receita tem de sobra, de graça, no YouTube.</p>
+
+<p>Elas sofrem por não entenderem <strong>o porquê</strong>. Por que a ganache racha.
+Por que a massa seca. Por que o bolo delas é igual ao de outras dez confeitarias da
+cidade e por isso disputa preço.</p>
+
+<div class="quote">É a diferença entre copiar um bolo e saber inventar bolos.</div>
+
+<p>A Cartilha dos Bolos Infalíveis ensina o método, usando bolos reais da Cacau Pitanga
+como estudos de caso. E, nos módulos finais, resolve o outro lado do problema — o de
+negócio — com uma frase que resume a tese inteira:</p>
+
+<div class="quote">"Só de arte e técnica confeiteiro não se sustenta."</div>
+
+<h2><span class="n">02</span>A minha história</h2>
+
+<p><strong>Tatiana Duarte (Tati)</strong> — fundadora da <strong>Cacau Pitanga</strong>,
+Minas Gerais. Formada em Administração e Nutrição. Quase 16 anos de confeitaria.</p>
+
+<p>Depois de me formar, fui para São Paulo e empreendi pela primeira vez: nasceu a
+<strong>Quituteria</strong>, em Campinas. Fomos pioneiros em brigadeiro gourmet e
+cupcake, muito antes de aquilo virar moda.</p>
+
+<p>A Quituteria foi um sucesso. Saímos em capa de revista, demos entrevista para a
+Globo, tivemos loja no Cambuí e depois loja em shopping. Parecia que tudo estava dando
+certo.</p>
+
+<p><strong>Só que não.</strong> Erramos muito na gestão — cometemos erros que na época
+nem sabíamos que estávamos cometendo. A empresa fechou. Foi dolorido.</p>
+
+<p>Mas foi ali que nasceu uma das maiores paixões da minha vida: o chocolate. Na
+Quituteria eu não era quem produzia — eu desenvolvia produto, criava sabor, testava
+combinação e treinava equipe. E para fazer isso bem eu precisava entender chocolate a
+fundo. Foi assim que conheci a <strong>Simone Izumi</strong>, uma das maiores
+referências em chocolate do Brasil.</p>
+
+<p>Anos depois nasceu a <strong>Cacau Pitanga</strong> — no meio da pandemia, e no meio
+do fim de um casamento de doze anos. Ela nasceu para vender o que eu dominava:
+chocolate, ganache, bombom, trufa.</p>
+
+<p><strong>Bolo não.</strong> Bolo, para mim, era quase território proibido. Eu fugia
+deles.</p>
+
+<p>Só que os clientes antigos da Quituteria começaram a aparecer: <em>"e os bolos,
+Tati?"</em>. E eu não podia me dar ao luxo de escolher o que vender. Eu precisava
+trabalhar.</p>
+
+<p>Então peguei tudo o que sabia de bombom, ganache, praliné e combinação de sabores — e
+levei para dentro do bolo.</p>
+
+<h4>O método apareceu sozinho</h4>
+
+<p>Anos e muitos testes depois, percebi uma coisa curiosa: <strong>ninguém montava bolo
+do jeito que eu montava.</strong></p>
+
+<p>Achei que fosse coincidência. Fui estudar com Joyce, Camila Dutra, Daiane, Baking
+Dreams, César Yukio — profissionais que admiro e que me ensinaram muito. E continuei
+pensando a mesma coisa: <em>ninguém faz exatamente como eu faço.</em></p>
+
+<p>Foi aí que caiu a ficha. Sem perceber, eu tinha criado um método. Uma lógica de
+montagem, uma sequência de camadas, uma forma de distribuir sabor e textura para que
+cada fatia funcionasse.</p>
+
+<p>Foi ele que pagou as minhas contas, reconstruiu a minha empresa e me transformou, de
+verdade, em confeiteira.</p>
+
+<div class="note">
+<strong>Prova prática.</strong> Ainda hoje saio de Minas Gerais levando bolo de ônibus
+para clientes em São Paulo, que continuam dizendo a mesma frase: <em>"não existe
+igual."</em>
+</div>
+
+<h4>Autoridade verificável</h4>
+
+<table>
+  <tr><td class="k">Imprensa</td><td>Capa da revista <strong>Metrópole</strong> (Correio Popular)</td></tr>
+  <tr><td class="k">Televisão</td><td>Entrevista na <strong>Globo / EPTV</strong>, quadro <em>Caminhos da Roça</em></td></tr>
+  <tr><td class="k">Pontos físicos</td><td>Loja no Cambuí e loja em shopping, em Campinas</td></tr>
+  <tr><td class="k">Formação em chocolate</td><td>Simone Izumi</td></tr>
+  <tr><td class="k">Formação em bolos</td><td>Joyce · Camila Dutra · Daiane · Baking Dreams · César Yukio</td></tr>
+  <tr><td class="k">Formação acadêmica</td><td>Administração e Nutrição</td></tr>
+</table>
+
+<h2><span class="n">03</span>O Instagram</h2>
+
+<p><strong>@cacaupitanga_</strong> — canal principal da marca, onde estão os clientes
+atuais e onde o público de confeiteiras é alcançado.</p>
+
+<table>
+  <tr><th>Indicador</th><th>Situação</th></tr>
+  <tr><td class="k">Seguidores</td><td class="fill">a preencher</td></tr>
+  <tr><td class="k">Crescimento (30 dias)</td><td class="fill">a preencher</td></tr>
+  <tr><td class="k">Principais localizações</td><td class="fill">a preencher</td></tr>
+  <tr><td class="k">Faixa etária predominante</td><td class="fill">a preencher</td></tr>
+  <tr><td class="k">Perfil: profissional × consumidor</td><td class="fill">a preencher</td></tr>
+  <tr><td class="k">Conteúdo de maior alcance</td><td class="fill">a preencher</td></tr>
+  <tr><td class="k">Conteúdo de maior salvamento</td><td class="fill">a preencher</td></tr>
+</table>
+
+<div class="note">
+<strong>Nota de método.</strong> Salvamento é o indicador mais revelador nesse nicho:
+curtida é gentileza, salvamento é intenção de uso. Alto volume de salvamentos em
+conteúdo técnico indica audiência profissional, não consumidora.
+</div>
+
+<div class="page-break"></div>
+
+<h2><span class="n">04</span>Pesquisa de mercado</h2>
+
+<div class="stats">
+  <div class="stat"><span class="big">R$ 12 bi</span><span class="lbl">Confeitaria / ano</span></div>
+  <div class="stat"><span class="big">R$ 21 bi</span><span class="lbl">Com serviços de festa</span></div>
+  <div class="stat"><span class="big">+26,3%</span><span class="lbl">Crescimento do setor</span></div>
+</div>
+
+<p>A confeitaria é um dos segmentos mais resilientes da gastronomia e um dos de menor
+custo inicial — razão pela qual tanta gente entra por ele. O crescimento projetado é de
+cerca de 4% ao ano até 2029.</p>
+
+<h3>Quem compra</h3>
+
+<p><strong>Não é o consumidor final de bolo. É a confeiteira.</strong> Mulheres,
+produzindo em casa, tratando confeitaria como negócio — e não mais como renda extra.</p>
+
+<p>A tendência declarada do setor é a <strong>profissionalização</strong>: técnica,
+planejamento e visão de negócio deixaram de ser diferencial e viraram requisito básico.
+Quem se profissionaliza cresce. O catálogo acompanha exatamente esse movimento.</p>
+
+<h3>As dores documentadas</h3>
+
+<h4>Dores de negócio — em ordem de incidência</h4>
+<ul>
+  <li><strong>Precificação inadequada</strong> — a mais citada</li>
+  <li>Dificuldade de vender</li>
+  <li>Falta de planejamento financeiro</li>
+  <li>Ausência de posicionamento de mercado</li>
+</ul>
+
+<h4>Dores técnicas — com busca ativa</h4>
+<ul>
+  <li>Ganache que <strong>racha</strong> depois de 24h na geladeira</li>
+  <li>Ganache que <strong>talha</strong> ao bater demais ou com chocolate quente</li>
+  <li>Ganache que <strong>quebra na montagem</strong> entre as camadas</li>
+  <li>Proporção correta para rechear × para cobrir</li>
+  <li>Bolo que racha depois de confeitado</li>
+</ul>
+
+<p>Existe conteúdo publicado inteiro sobre cada um desses pontos — são problemas reais,
+com procura, e não suposições.</p>
+
+<h3>A concorrência</h3>
+
+<table>
+  <tr><th>Produto</th><th>Como se posiciona</th></tr>
+  <tr><td class="k">Bolos que Vendem</td><td>Bolos decorados, "do absoluto zero"</td></tr>
+  <tr><td class="k">Boleira Academy</td><td>"Criar sensações e memórias"</td></tr>
+  <tr><td class="k">Beca Milano</td><td>8 módulos, 59 aulas</td></tr>
+  <tr><td class="k">Escola Confeitaria Suprema</td><td>15+ cursos, do iniciante ao avançado</td></tr>
+  <tr><td class="k">Sabrina Santos</td><td>"Fazer e vender bolos caseiros"</td></tr>
+</table>
+
+<p><strong>O padrão do mercado:</strong> todos vendem <em>fazer</em> — do zero, passo a
+passo, decorados, caseiros. Volume de aulas como argumento de valor.</p>
+
+<p><strong>O espaço vazio:</strong> ninguém vende <em>inventar</em>. Ninguém vende método
+aplicado a estudos de caso. Ninguém entra pelo chocolate de verdade em vez do cacau em
+pó. E ninguém oferece trilha de gestão com IA.</p>
+
+<h3>Onde está o público</h3>
+
+<p><strong>Minas Gerais é o segundo maior estado do país em confeitarias e padarias
+artesanais</strong> — e é onde a fundadora vive e produz.</p>
+
+<table>
+  <tr><td class="k">Empreendendo no Lar</td><td>Comunidade de ~<strong>240 mil</strong> confeiteiras, base em Minas Gerais, com grupos regionais ativos no WhatsApp (Norte de Minas, Vale do Aço, BH e Região Metropolitana)</td></tr>
+  <tr><td class="k">Confeitar Brasil</td><td>Maior congresso de confeitaria do país — <strong>15 mil pessoas</strong>, em Belo Horizonte, com foco em empreendedorismo feminino</td></tr>
+</table>
+
+<p>Ser mineira falando com confeiteiras mineiras é vantagem local que concorrentes de
+fora não replicam.</p>
+
+<div class="page-break"></div>
+
+<h2><span class="n">05</span>O produto</h2>
+
+<p style="font-size:16pt;color:var(--choc);margin-bottom:1mm;"><strong>Cartilha dos Bolos Infalíveis</strong></p>
+<p style="font-style:italic;color:var(--rosa-dark);margin-bottom:5mm;">a metodologia por trás dos meus bolos de sucesso</p>
+
+<p>Não é livro de receitas — é um <strong>método</strong>, ensinado através de estudos de
+caso. Cada bolo é um caso que demonstra uma técnica.</p>
+
+<p>A técnica de montagem é <strong>a mesma nos três primeiros módulos</strong>. O que
+muda é o que entra dentro. É exatamente isso que prova que é método e não receita: se
+fosse receita, cada bolo seria um jeito diferente de fazer.</p>
+
+<div class="track avoid">
+  <h3>Estrutura</h3>
+  <p><strong>Introdução</strong> — a base.</p>
+  <p><strong>Parte A</strong> — fixa, presente em todos os módulos: tudo o que é preciso
+  saber sobre bolos, planejamento básico e o método.</p>
+</div>
+
+<div class="track avoid">
+  <h3>Trilha técnica</h3>
+  <table>
+    <tr><th>Módulo</th><th>Estudo de caso</th><th>Preço</th></tr>
+    <tr><td class="k">1 · Bolo Rosa</td><td>A base e a técnica de montagem</td><td class="price">R$ 67</td></tr>
+    <tr><td class="k">2 · Bolo Queridinho</td><td>O fantástico mundo das ganaches e das geleias</td><td class="price">R$ 67</td></tr>
+    <tr><td class="k">3 · Bolo Caramelo</td><td>O fantástico mundo dos caramelos e dos pralinês</td><td class="price">R$ 67</td></tr>
+  </table>
+</div>
+
+<div class="track avoid">
+  <h3>Trilha de negócio</h3>
+  <table>
+    <tr><th>Módulo</th><th>Conteúdo</th><th>Preço</th></tr>
+    <tr><td class="k">4 · Vendas e gestão</td><td>Prompts de IA para ficha técnica, compras e custos</td><td class="price">R$ 97</td></tr>
+    <tr><td class="k">5 · Agentes de IA</td><td>O "secretário" da confeiteira: atendimento e gestão</td><td class="price">R$ 127</td></tr>
+  </table>
+  <p style="font-size:9.2pt;color:var(--muted);margin:0;">Preços de referência, abertos a revisão.</p>
+</div>
+
+<h4>Diferenciais competitivos</h4>
+
+<p><strong>Chocolate de verdade.</strong> Ganache, praliné e caramelo reais — sem cacau
+em pó nem cobertura sabor chocolate. A fundadora é chocolateira antes de ser boleira, e
+o produto nasce disso.</p>
+
+<p><strong>Método em vez de receita.</strong> Derruba a objeção mais cara do segmento:
+<em>"receita tem no YouTube de graça"</em>.</p>
+
+<p><strong>Os módulos 4 e 5 não têm concorrente conhecido.</strong> Nenhum produto
+mapeado no nicho oferece gestão com IA para confeiteiras — e a fundadora acumula
+Administração, Nutrição e uso profissional de IA, combinação rara no setor.</p>
+
+<h4>O que já está produzido</h4>
+
+<ul>
+  <li>Posicionamento e mensagem definidos — inimigo, promessa e objeção central mapeados</li>
+  <li>Página de vendas completa</li>
+  <li>Carrossel de 10 peças contando a história da marca</li>
+  <li>Pesquisa de mercado com fontes</li>
+  <li>Plano de captação, com isca definida</li>
+  <li>Acervo visual — fotos de produto, vídeos de produção, material de imprensa e o arquivo da reportagem da Globo/EPTV</li>
+</ul>
+
+<h2><span class="n">06</span>Fontes da pesquisa</h2>
+
+<ul style="font-size:9pt;color:var(--muted);">
+  <li>Instituto Gourmet — Mercado de confeitaria e cenário 2026</li>
+  <li>Eu, Rio! — Confeitaria deixa de ser renda extra e se consolida como negócio</li>
+  <li>Cola Na Grade, Por Dentro de Minas e SouBH — Confeitar Brasil, Belo Horizonte</li>
+  <li>Hotmart — categoria Confeitaria, levantamento de produtos concorrentes</li>
+  <li>Publicações técnicas sobre falhas de ganache em confeitaria</li>
+</ul>
+
+</body>
+</html>

@@ -57,10 +57,13 @@ TRILHA TÉCNICA
   MÓDULO 2 · Bolo Queridinho → o fantástico mundo das ganaches e das geleias
   MÓDULO 3 · Bolo Caramelo   → o fantástico mundo dos caramelos e dos pralinês
 
-TRILHA NEGÓCIO  (só na Cartilha Completa)
-  MÓDULO 4 · Vendas e gestão → prompts de IA para ficha técnica, compras, custos
-  MÓDULO 5 · Agentes de IA   → o secretário da confeiteira: atendimento e gestão
+MÓDULO 4 · IA e planilhas  → ficha técnica, custo, preço e margem
+                              atendimento, produção e compras automatizados
 ```
+
+**A Cartilha acaba no módulo 4.** O que antes era um módulo 5 separado sobre agentes de
+IA passou a viver dentro do 4, junto das planilhas — é o mesmo problema visto pelos dois
+lados: a conta e a operação.
 
 **O argumento central da trilha técnica:** a montagem é a mesma nos três. O que muda é
 o que entra dentro. É isso que prova que é método, e não receita.
@@ -124,7 +127,24 @@ entra por um módulo volta para os outros.
 
 ---
 
-## 5b · Como o lançamento vai acontecer
+## 5b · Os dois passos do plano
+
+**Passo 1 — a Cartilha.** Quatro módulos, lançados a partir da audiência construída.
+Pode contar com sócio de marketing e tráfego.
+
+**Passo 2 — a consultoria de IA para confeiteiras.** Segundo lançamento, depois da
+Cartilha. Venda um a um, por conversa e indicação: implantação paga mais mensalidade.
+
+Esse segundo passo **não precisa de sócio**. Não depende de audiência, tráfego nem funil
+— depende de cinco clientes e de indicação, e o nicho conversa entre si. Sócio ali
+dividiria receita sem acrescentar estrutura. É também o passo que se beneficia do tempo
+que o primeiro lançamento libera para estudar e projetar com calma.
+
+O plano detalhado está em `apresentacao/Cacau-Pitanga-Consultoria-de-IA.pdf`.
+
+---
+
+## 5c · Como o lançamento vai acontecer
 
 **Fase 1 — agora, sozinha.** Lançar apenas o **Módulo 1 · Bolo Rosa**, avulso.
 Produto pequeno, real, com o que já está pronto. O objetivo não é faturar muito: é

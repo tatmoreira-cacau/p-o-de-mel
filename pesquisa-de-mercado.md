@@ -156,8 +156,8 @@ Dados extraídos do Insights em 27/07/2026.
 ### O que os dados corrigem
 
 **A hipótese de Minas estava errada para o público atual.** Somando Campinas, Valinhos,
-Hortolândia e São Paulo, ~43% da base está na região da antiga loja física, contra 17,8%
-em Uberaba. A audiência é herança da Quituteria — clientes de bolo, não confeiteiras.
+Hortolândia e São Paulo, ~43% da base está em Campinas e região, onde a Cacau Pitanga operou antes de vir para
+Minas, contra 17,8% em Uberaba. A audiência é da própria Cacau Pitanga, de quando a marca operava em Campinas — clientes de bolo, não confeiteiras.
 
 O dado de mercado sobre Minas continua válido, mas descreve um público que ainda
 precisa ser conquistado, não um que já está na base.

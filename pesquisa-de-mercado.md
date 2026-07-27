@@ -145,7 +145,8 @@ Dados extraídos do Insights em 27/07/2026.
 
 | | |
 |---|---|
-| Contas alcançadas (30 dias) | **893** |
+| Seguidores | **7.500** |
+| Contas alcançadas (30 dias) | **893** — cerca de 12% da base |
 | Visualizações por formato | Posts 2,3 mil · Stories 1,2 mil · Reels 653 |
 | Gênero | **81,8% mulheres** |
 | Faixa etária | **35–54 anos: 64,4%** (35–44: 34,2% · 45–54: 30,2%) |
@@ -177,8 +178,9 @@ não é a base errada.
 
 ### Consequências para o plano
 
-1. **A base atual não sustenta um lançamento de volume.** Com 893 alcançados e
-   engajamento de 2–4%, a projeção realista é de poucas dezenas de vendas.
+1. **A base está adormecida, não é pequena.** São 7.500 seguidores com apenas 12% de
+   alcance mensal. Reativar quem já escolheu seguir custa menos que conquistar gente nova
+   — e é o que precisa vir antes do lançamento.
 2. **Reels é o gargalo.** É o formato de menor alcance e o único que traz gente de fora.
    Enquanto ele não crescer, o perfil só fala com quem já conhece a marca.
 3. **O conteúdo precisa virar técnico** para atrair confeiteira. Conteúdo pessoal atrai

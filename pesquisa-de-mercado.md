@@ -139,7 +139,56 @@ sua cidade. Vale planejar com antecedência.
 
 ---
 
-## 6 · O que falta — e só você pode me dar
+## 6 · O público real — dados do Instagram
+
+Dados extraídos do Insights em 27/07/2026.
+
+| | |
+|---|---|
+| Contas alcançadas (30 dias) | **893** |
+| Visualizações por formato | Posts 2,3 mil · Stories 1,2 mil · Reels 653 |
+| Gênero | **81,8% mulheres** |
+| Faixa etária | **35–54 anos: 64,4%** (35–44: 34,2% · 45–54: 30,2%) |
+| Cidades | Campinas 32,5% · Uberaba 17,8% · São Paulo 6,2% · Valinhos 2,8% · Hortolândia 1,3% |
+| Pico de atividade | 18h–21h, domingos a terças |
+| Crescimento líquido | entre −4 e +4 por dia — estável |
+
+### O que os dados corrigem
+
+**A hipótese de Minas estava errada para o público atual.** Somando Campinas, Valinhos,
+Hortolândia e São Paulo, ~43% da base está na região da antiga loja física, contra 17,8%
+em Uberaba. A audiência é herança da Quituteria — clientes de bolo, não confeiteiras.
+
+O dado de mercado sobre Minas continua válido, mas descreve um público que ainda
+precisa ser conquistado, não um que já está na base.
+
+**O conteúdo que engaja é pessoal, não técnico.** Topo de alcance: "Oi, sumida!" (941) e
+"6 fatos sobre mim" (614). Salvamentos próximos de zero — porque ainda não há material
+técnico no perfil para salvar.
+
+**A conta está em reativação.** No recorte de 180 dias o padrão se repete: não é um mês
+fraco, é a linha de base de um perfil que ficou parado.
+
+### O que os dados confirmam
+
+**O perfil demográfico é o certo.** Mulheres entre 35 e 54 anos é o retrato da
+confeiteira empreendedora, não de quem compra bolo por impulso. A base é pequena, mas
+não é a base errada.
+
+### Consequências para o plano
+
+1. **A base atual não sustenta um lançamento de volume.** Com 893 alcançados e
+   engajamento de 2–4%, a projeção realista é de poucas dezenas de vendas.
+2. **Reels é o gargalo.** É o formato de menor alcance e o único que traz gente de fora.
+   Enquanto ele não crescer, o perfil só fala com quem já conhece a marca.
+3. **O conteúdo precisa virar técnico** para atrair confeiteira. Conteúdo pessoal atrai
+   cliente — que é quem está lá hoje.
+4. **A enquete de intenção** (vender × comer) passa a ser o dado mais importante que
+   falta: ela diz quantos dos 893 são público comprador do infoproduto.
+
+---
+
+## 7 · O que falta — e só você pode me dar
 
 A pergunta central que você fez — *"meus seguidores são consumidores ou gente da
 área?"* — **não tem resposta por pesquisa externa.** Precisa dos seus dados.
@@ -167,7 +216,7 @@ engajamento.
 
 ---
 
-## 7 · O que a pesquisa muda no plano
+## 8 · O que a pesquisa muda no plano
 
 **Confirma:**
 - O público é profissional, não consumidor → falar de negócio, não de sobremesa

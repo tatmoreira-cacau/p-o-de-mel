@@ -1,0 +1,251 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Cacau Pitanga — Proposta de Sociedade</title><style>
+  @page { size: A4; margin: 12mm 13mm 10mm 13mm; }
+  
+
+  :root{
+    --choc:#3A2318;
+    --choc-soft:#5A3B2A;
+    --rosa:#E8A9B8;
+    --rosa-dark:#B4697F;
+    --creme:#F7F1EA;
+    --creme-line:#E5D9CC;
+    --ink:#2C1C13;
+    --muted:#7A6558;
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; color:var(--ink);
+    font-family:"DejaVu Serif", Georgia, serif;
+    font-size:8.8pt; line-height:1.45;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* ---------- capa ---------- */
+  .cover{
+    height:297mm; background:var(--choc); color:var(--creme);
+    padding:34mm 22mm; display:flex; flex-direction:column;
+    justify-content:space-between; page-break-after:always;
+  }
+  .cover .rule{ width:64px; height:5px; background:var(--rosa); margin-bottom:16mm; }
+  .cover .brand{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; letter-spacing:.36em; text-transform:uppercase;
+    color:var(--rosa); margin-bottom:10mm;
+  }
+  .cover h1{
+    font-size:38pt; line-height:1.1; margin:0 0 8mm; font-weight:700;
+  }
+  .cover .sub{ font-size:14pt; color:var(--rosa); font-style:italic; margin:0; }
+  .cover .foot{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9.5pt; color:#C9B6A6; line-height:1.9;
+  }
+  .cover .foot strong{ color:var(--creme); font-weight:600; }
+
+  /* ---------- tipografia ---------- */
+  h2{
+    font-size:13pt; margin:5mm 0 2.5mm; color:var(--choc);
+    padding-bottom:2.5mm; border-bottom:2px solid var(--rosa);
+    page-break-after:avoid;
+  }
+  h2 .n{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; color:var(--rosa-dark); margin-right:8px; letter-spacing:.1em;
+  }
+  h3{ font-size:11.5pt; margin:7mm 0 2.5mm; color:var(--choc-soft); page-break-after:avoid; }
+  h4{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--rosa-dark); margin:6mm 0 2mm;
+  }
+  p{ margin:0 0 2.4mm; }
+  strong{ color:var(--choc); }
+  em{ color:var(--choc-soft); }
+  ul{ margin:0 0 3.5mm; padding-left:5mm; }
+  li{ margin-bottom:1.6mm; }
+
+  /* ---------- blocos ---------- */
+  .lead{
+    background:var(--creme); border-left:4px solid var(--rosa);
+    padding:3.5mm 4.5mm; margin:0 0 3.5mm; font-size:9.8pt;
+  }
+  .quote{
+    font-size:12.5pt; font-style:italic; color:var(--choc);
+    border-left:4px solid var(--rosa); padding:1mm 0 1mm 6mm; margin:5mm 0;
+  }
+  .note{
+    background:#FBF6F1; border:1px solid var(--creme-line);
+    padding:3mm 4mm; margin:3mm 0; font-size:8.8pt; color:var(--muted);
+  }
+  .note strong{ color:var(--choc); }
+
+  table{ width:100%; border-collapse:collapse; margin:2mm 0 3mm; font-size:8.6pt; }
+  th{
+    background:var(--choc); color:var(--creme); text-align:left;
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:8.4pt; letter-spacing:.09em; text-transform:uppercase;
+    padding:2.6mm 3mm; font-weight:600;
+  }
+  td{ padding:1.5mm 2.4mm; border-bottom:1px solid var(--creme-line); vertical-align:top; }
+  tr:nth-child(even) td{ background:#FCF9F6; }
+  td.k{ color:var(--choc); font-weight:600; width:34%; }
+  td.price{ font-family:"DejaVu Sans",sans-serif; font-weight:700; color:var(--choc); white-space:nowrap; }
+  .fill{ color:var(--rosa-dark); font-family:"DejaVu Sans",sans-serif; }
+
+  .stats{ display:flex; gap:3mm; margin:2.5mm 0 3.5mm; }
+  .stat{
+    flex:1; background:var(--choc); color:var(--creme);
+    padding:3mm 3mm; text-align:center;
+  }
+  .stat .big{
+    display:block; font-size:15pt; font-weight:700; color:var(--rosa); line-height:1.15;
+  }
+  .stat .lbl{
+    display:block; font-family:"DejaVu Sans",sans-serif; font-size:7.6pt;
+    letter-spacing:.1em; text-transform:uppercase; margin-top:2mm; color:#D8C6B8;
+  }
+
+  .track{ border:1px solid var(--creme-line); border-top:4px solid var(--rosa); padding:5mm 6mm; margin:4mm 0; }
+  .track h3{ margin-top:0; }
+
+  .page-break{ page-break-before:always; }
+  .avoid{ page-break-inside:avoid; }
+</style><style>
+ .hdr{ background:var(--choc); color:var(--creme); padding:6mm 7mm; margin:0 0 4mm; }
+ .hdr .brand{ font-family:"DejaVu Sans",sans-serif; font-size:8pt; letter-spacing:.32em;
+   text-transform:uppercase; color:var(--rosa); }
+ .hdr h1{ font-size:20pt; margin:2mm 0 1mm; }
+ .hdr .sub{ font-size:10pt; font-style:italic; color:var(--rosa); margin:0; }
+ .hdr .who{ font-family:"DejaVu Sans",sans-serif; font-size:8.4pt; color:#C9B6A6; margin-top:3mm; }
+ h2{ border-bottom-width:1.5px; }
+ ul{ margin:0 0 2.5mm; padding-left:4.5mm; } li{ margin-bottom:.9mm; }
+</style></head><body>
+<div class="hdr">
+  <div class="brand">Cacau Pitanga</div>
+  <h1>Proposta de Sociedade</h1>
+  <p class="sub">Operação de infoprodutos de confeitaria</p>
+  <div class="who">Tatiana Duarte · Fundadora · Minas Gerais · @cacaupitanga_</div>
+</div>
+
+<h2><span class="n">01</span>O convite</h2>
+
+<div class="lead">
+Construir juntos uma operação de infoprodutos de confeitaria — não uma campanha avulsa,
+nem uma prestação de serviço. Um negócio, com divisão clara de frentes e de resultado.
+</div>
+
+<p>Do meu lado existe um catálogo de cinco produtos, autoridade construída em quase 16
+anos de mercado, imprensa, televisão e um método técnico que nenhum concorrente do nicho
+oferece. Do meu lado <strong>não existe estrutura de aquisição</strong>.</p>
+
+<div class="note">
+Do lado de um parceiro de marketing e tráfego existe exatamente essa estrutura — e
+raramente existe um produto com essa profundidade e uma história com essa força por trás.
+<strong>Cada lado tem inteira a metade que falta ao outro.</strong>
+</div>
+
+<h2><span class="n">02</span>O que cada lado traz</h2>
+
+<table>
+  <tr><th>Tatiana traz</th><th>O sócio traz</th></tr>
+  <tr>
+    <td>Catálogo de cinco produtos, com o primeiro pronto<br>
+        Autoridade verificável — Globo, revista, 16 anos<br>
+        Método técnico exclusivo e história de marca<br>
+        Posicionamento, página de vendas e conteúdo já produzidos<br>
+        Acervo visual e material de imprensa</td>
+    <td>Estratégia de campanha e funil<br>
+        Tráfego pago: estrutura, gestão e otimização<br>
+        Automação de e-mail e WhatsApp<br>
+        Estruturação de conteúdo para conversão<br>
+        Operação de venda e plataforma</td>
+  </tr>
+</table>
+
+<h2><span class="n">03</span>A divisão do trabalho</h2>
+
+<table>
+  <tr><th>Frente</th><th>Responsável</th></tr>
+  <tr><td class="k">Produto</td><td>Tatiana — conteúdo dos módulos, receitas, método, fichas técnicas</td></tr>
+  <tr><td class="k">Autoridade e rosto</td><td>Tatiana — presença, história, credibilidade técnica, relação com o público</td></tr>
+  <tr><td class="k">Marketing e funil</td><td>Sócio — estratégia, posicionamento de campanha, copy de conversão</td></tr>
+  <tr><td class="k">Tráfego pago</td><td>Sócio — estrutura, gestão e otimização</td></tr>
+  <tr><td class="k">Operação de venda</td><td>Sócio — plataforma, automações, e-mail e WhatsApp</td></tr>
+  <tr><td class="k">Conteúdo</td><td>Dupla — ela traz material e conhecimento, ele estrutura para conversão</td></tr>
+</table>
+
+<p>A separação é limpa e proposital: <strong>ninguém precisa aprender a função do
+outro</strong>. Ela não vira gestora de tráfego, ele não vira confeiteiro.</p>
+
+<div class="page-break"></div>
+
+<h2><span class="n">04</span>Modelo de sociedade</h2>
+
+<h4>O que fica separado</h4>
+<p>A <strong>Cacau Pitanga</strong> — marca, clientela, produção artesanal e 16 anos de
+histórico — permanece integralmente da fundadora. A sociedade se aplica exclusivamente à
+<strong>operação de infoprodutos</strong>, que é o negócio novo, construído a quatro mãos.</p>
+
+<h4>O que se divide</h4>
+<p>A receita da operação de infoprodutos, em percentual a definir, proporcional ao aporte
+de cada lado — trabalho, investimento em tráfego e estrutura. Aberto a desenho conjunto,
+inclusive em modelo híbrido com parte fixa.</p>
+
+<h4>Pontos a acordar por escrito, antes de começar</h4>
+<ul>
+  <li>Percentual de cada sócio, e como ele se ajusta se o aporte mudar</li>
+  <li>Quem investe no tráfego e como esse valor é recuperado antes da divisão</li>
+  <li><strong>Propriedade da lista de e-mails e dos públicos de tráfego</strong></li>
+  <li>Propriedade do conteúdo dos produtos</li>
+  <li>Metas mínimas e prazo para revisão do acordo</li>
+  <li>Condições e forma de saída, de parte a parte</li>
+</ul>
+
+<p style="font-size:8.4pt;color:var(--muted);">Esses pontos não existem por desconfiança:
+existem para que a sociedade sobreviva ao primeiro desacordo. Combinar antes é mais barato
+que resolver depois.</p>
+
+<h2><span class="n">05</span>Por que vale a pena</h2>
+
+<p><strong>Catálogo, não produto único.</strong> São cinco produtos previstos, com valor
+recorrente por cliente. Quem compra um módulo é o comprador natural do próximo — a
+operação não depende de uma venda só.</p>
+
+<p><strong>Posicionamento já resolvido.</strong> Mensagem, história, página de vendas,
+carrossel e pesquisa de mercado já existem. O sócio não começa do zero, começa com
+material em mãos.</p>
+
+<p><strong>Categoria vazia.</strong> Os concorrentes do nicho vendem técnica de bolo.
+Nenhum oferece gestão e agentes de IA para confeiteiras — e a fundadora acumula
+Administração, Nutrição e uso profissional de IA, combinação rara no setor.</p>
+
+<p><strong>Autoridade que reduz custo de aquisição.</strong> Imprensa, televisão e 16 anos
+de mercado diminuem o esforço de convencimento — o que se traduz direto em custo por venda.</p>
+
+<h2><span class="n">06</span>A fase atual</h2>
+
+<p>A decisão, tomada a partir dos dados de audiência: <strong>não lançar agora</strong>.
+A base atual é pequena e concentrada em clientes de bolo, não em confeiteiras. Lançar
+nela gastaria, na frente do público errado, o efeito de novidade que um produto só tem
+uma vez.</p>
+
+<p>A fase atual é de <strong>construção de audiência</strong>: Reels, conteúdo técnico e
+captação por isca gratuita. O lançamento vem depois, em cima de gente que já levantou a
+mão — e vem maior.</p>
+
+<div class="note">
+<strong>É por isso que o convite é agora.</strong> Chamar alguém para uma campanha é
+contratar serviço. Chamar para construir a audiência do zero é construir o negócio junto
+— e é o que faz de uma parceria uma sociedade de verdade.
+</div>
+
+<h2><span class="n">07</span>Próximo passo</h2>
+
+<p>Uma conversa para desenhar o modelo. O que eu gostaria de ouvir: cases no nicho, o
+modelo de remuneração que faz sentido para você, o investimento estimado em tráfego e o
+que você espera da minha parte.</p>
+
+<p style="margin-top:3mm;"><strong>Tatiana Duarte</strong> · Cacau Pitanga · @cacaupitanga_</p>
+</body></html>

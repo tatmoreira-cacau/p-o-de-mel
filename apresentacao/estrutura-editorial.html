@@ -1,0 +1,344 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Cartilha dos Bolos Infalíveis — Estrutura Editorial</title><style>
+  @page { size: A4; margin: 18mm 16mm 16mm 16mm; }
+  @page :first { margin: 0; }
+
+  :root{
+    --choc:#3A2318;
+    --choc-soft:#5A3B2A;
+    --rosa:#E8A9B8;
+    --rosa-dark:#B4697F;
+    --creme:#F7F1EA;
+    --creme-line:#E5D9CC;
+    --ink:#2C1C13;
+    --muted:#7A6558;
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; color:var(--ink);
+    font-family:"DejaVu Serif", Georgia, serif;
+    font-size:10.2pt; line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* ---------- capa ---------- */
+  .cover{
+    height:297mm; background:var(--choc); color:var(--creme);
+    padding:34mm 22mm; display:flex; flex-direction:column;
+    justify-content:space-between; page-break-after:always;
+  }
+  .cover .rule{ width:64px; height:5px; background:var(--rosa); margin-bottom:16mm; }
+  .cover .brand{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; letter-spacing:.36em; text-transform:uppercase;
+    color:var(--rosa); margin-bottom:10mm;
+  }
+  .cover h1{
+    font-size:38pt; line-height:1.1; margin:0 0 8mm; font-weight:700;
+  }
+  .cover .sub{ font-size:14pt; color:var(--rosa); font-style:italic; margin:0; }
+  .cover .foot{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9.5pt; color:#C9B6A6; line-height:1.9;
+  }
+  .cover .foot strong{ color:var(--creme); font-weight:600; }
+
+  /* ---------- tipografia ---------- */
+  h2{
+    font-size:16pt; margin:11mm 0 4mm; color:var(--choc);
+    padding-bottom:2.5mm; border-bottom:2px solid var(--rosa);
+    page-break-after:avoid;
+  }
+  h2 .n{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; color:var(--rosa-dark); margin-right:8px; letter-spacing:.1em;
+  }
+  h3{ font-size:11.5pt; margin:7mm 0 2.5mm; color:var(--choc-soft); page-break-after:avoid; }
+  h4{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--rosa-dark); margin:6mm 0 2mm;
+  }
+  p{ margin:0 0 3.2mm; }
+  strong{ color:var(--choc); }
+  em{ color:var(--choc-soft); }
+  ul{ margin:0 0 3.5mm; padding-left:5mm; }
+  li{ margin-bottom:1.6mm; }
+
+  /* ---------- blocos ---------- */
+  .lead{
+    background:var(--creme); border-left:4px solid var(--rosa);
+    padding:5mm 6mm; margin:0 0 5mm; font-size:10.6pt;
+  }
+  .quote{
+    font-size:12.5pt; font-style:italic; color:var(--choc);
+    border-left:4px solid var(--rosa); padding:1mm 0 1mm 6mm; margin:5mm 0;
+  }
+  .note{
+    background:#FBF6F1; border:1px solid var(--creme-line);
+    padding:4mm 5mm; margin:4mm 0; font-size:9.6pt; color:var(--muted);
+  }
+  .note strong{ color:var(--choc); }
+
+  table{ width:100%; border-collapse:collapse; margin:3mm 0 5mm; font-size:9.6pt; }
+  th{
+    background:var(--choc); color:var(--creme); text-align:left;
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:8.4pt; letter-spacing:.09em; text-transform:uppercase;
+    padding:2.6mm 3mm; font-weight:600;
+  }
+  td{ padding:2.4mm 3mm; border-bottom:1px solid var(--creme-line); vertical-align:top; }
+  tr:nth-child(even) td{ background:#FCF9F6; }
+  td.k{ color:var(--choc); font-weight:600; width:34%; }
+  td.price{ font-family:"DejaVu Sans",sans-serif; font-weight:700; color:var(--choc); white-space:nowrap; }
+  .fill{ color:var(--rosa-dark); font-family:"DejaVu Sans",sans-serif; }
+
+  .stats{ display:flex; gap:4mm; margin:4mm 0 6mm; }
+  .stat{
+    flex:1; background:var(--choc); color:var(--creme);
+    padding:5mm 4mm; text-align:center;
+  }
+  .stat .big{
+    display:block; font-size:19pt; font-weight:700; color:var(--rosa); line-height:1.15;
+  }
+  .stat .lbl{
+    display:block; font-family:"DejaVu Sans",sans-serif; font-size:7.6pt;
+    letter-spacing:.1em; text-transform:uppercase; margin-top:2mm; color:#D8C6B8;
+  }
+
+  .track{ border:1px solid var(--creme-line); border-top:4px solid var(--rosa); padding:5mm 6mm; margin:4mm 0; }
+  .track h3{ margin-top:0; }
+
+  .page-break{ page-break-before:always; }
+  .avoid{ page-break-inside:avoid; }
+</style><style>
+ .mod{ border:1px solid var(--creme-line); border-top:5px solid var(--rosa);
+       padding:5mm 6mm 3mm; margin:5mm 0; page-break-inside:avoid; }
+ .mod .tag{ font-family:"DejaVu Sans",sans-serif; font-size:8pt; letter-spacing:.16em;
+   text-transform:uppercase; color:var(--rosa-dark); }
+ .mod h3{ margin:1mm 0 1mm; font-size:14pt; color:var(--choc); }
+ .mod .prom{ font-style:italic; color:var(--choc-soft); margin:0 0 3mm; }
+ .cap{ counter-reset:cap; margin:0; padding:0; list-style:none; }
+ .cap li{ margin:0 0 1.6mm; padding-left:8mm; position:relative; }
+ .cap li::before{ counter-increment:cap; content:counter(cap); position:absolute; left:0;
+   font-family:"DejaVu Sans",sans-serif; font-size:8pt; font-weight:700; color:var(--rosa-dark); }
+ .cap li em{ display:block; font-size:8.6pt; color:var(--muted); font-style:normal; }
+ .toc td{ border-bottom:1px dotted var(--creme-line); }
+</style></head>
+<body>
+<div class="cover">
+  <div>
+    <div class="rule"></div>
+    <div class="brand">Cacau Pitanga</div>
+    <h1>Cartilha dos<br>Bolos Infalíveis</h1>
+    <p class="sub">Estrutura editorial · índice e capítulos</p>
+  </div>
+  <div class="foot">
+    <strong>Tatiana Duarte</strong><br>
+    Fundadora · Cacau Pitanga<br>
+    Minas Gerais · @cacaupitanga_
+  </div>
+</div>
+
+<h2>Índice geral</h2>
+
+<table class="toc">
+  <tr><td class="k">Introdução</td><td>A base — por que este material existe</td></tr>
+  <tr><td class="k">Quem escreve</td><td>A história por trás do método</td></tr>
+  <tr><td class="k">Parte A</td><td>Tudo sobre bolos · planejamento · o método <em>(fixa em todos os módulos)</em></td></tr>
+  <tr><td class="k">Módulo 1</td><td>Bolo Rosa — a base e a técnica de montagem</td></tr>
+  <tr><td class="k">Módulo 2</td><td>Bolo Queridinho — o mundo das ganaches e das geleias</td></tr>
+  <tr><td class="k">Módulo 3</td><td>Bolo Caramelo — o mundo dos caramelos e dos pralinês</td></tr>
+  <tr><td class="k">Módulo 4</td><td>IA e planilhas — conta, produção e marketing</td></tr>
+</table>
+
+<div class="note">
+<strong>A lógica da estrutura.</strong> Os três módulos técnicos seguem exatamente o mesmo
+esqueleto de capítulos. Não é preguiça editorial: é a prova visual de que existe um
+método. Se cada bolo tivesse um sumário diferente, seriam três receitas. Tendo o mesmo,
+fica claro que o que muda é o recheio, não a lógica.
+</div>
+
+<h2>Introdução · A base</h2>
+
+<ol class="cap">
+  <li>Por que este material existe<em>O problema não é a receita — é não entender o porquê</em></li>
+  <li>O que é um método e por que ele te liberta da receita<em>A diferença entre copiar um bolo e inventar bolos</em></li>
+  <li>Como usar esta cartilha<em>Ordem de leitura, o que fazer antes de ir para a cozinha</em></li>
+  <li>O que você vai saber fazer no final<em>A promessa, dita com todas as letras</em></li>
+</ol>
+
+<h2>Quem escreve · A história</h2>
+
+<ol class="cap">
+  <li>Oi, eu sou a Tati<em>Mineira, chocolateira por paixão, empreendedora por natureza</em></li>
+  <li>A Quituteria<em>Campinas, pioneirismo em brigadeiro gourmet e cupcake, revista e televisão</em></li>
+  <li>Quando deu errado<em>Os erros de gestão e o fechamento — a parte que quase ninguém conta</em></li>
+  <li>O encontro com o chocolate<em>Simone Izumi e o universo que nunca mais foi abandonado</em></li>
+  <li>A Cacau Pitanga<em>Pandemia, recomeço pessoal, e uma marca que nasceu só de chocolate</em></li>
+  <li>"E os bolos, Tati?"<em>Bolo era território proibido — e os clientes não aceitaram isso</em></li>
+  <li>O método que apareceu sozinho<em>Anos de teste até perceber que ninguém montava bolo daquele jeito</em></li>
+  <li>Por que decidi ensinar<em>O que existe nessa cabeça é mais do que receita</em></li>
+</ol>
+
+<div class="page-break"></div>
+
+<h2>Parte A · Fixa em todos os módulos</h2>
+
+<p>Esta parte acompanha qualquer módulo adquirido. É ela que torna cada um completo e
+independente — quem compra só o Módulo 3 recebe a base inteira junto.</p>
+
+<h3>A1 · Tudo que você precisa saber sobre bolos</h3>
+<ol class="cap">
+  <li>Os ingredientes e o que cada um faz<em>Farinha, ovo, gordura, açúcar, líquido, fermento — a função de cada um</em></li>
+  <li>Chocolate de verdade<em>Por que cacau em pó e cobertura não entregam o mesmo resultado. Tipos, percentuais, quando usar cada um</em></li>
+  <li>Equipamento mínimo<em>O que é indispensável e o que é dispensável</em></li>
+  <li>Forno, temperatura e ponto<em>Como conhecer o seu forno, que é diferente de todos os outros</em></li>
+  <li>Os erros que estragam qualquer bolo<em>Massa seca, bolo que afunda, bolo que racha, bolo borrachudo — causa e correção</em></li>
+</ol>
+
+<h3>A2 · Planejamento básico</h3>
+<ol class="cap">
+  <li>Antes de ligar o forno<em>Mise en place, pesagem, temperatura dos ingredientes</em></li>
+  <li>Organizando a produção<em>O que fazer na véspera, o que fazer no dia</em></li>
+  <li>Conservação, transporte e validade<em>Quanto tempo cada componente aguenta e como guardar</em></li>
+  <li>Higiene e segurança<em>O básico que protege você e o cliente</em></li>
+</ol>
+
+<h3>A3 · O método</h3>
+<ol class="cap">
+  <li>A lógica da montagem<em>A sequência de camadas e por que essa ordem e não outra</em></li>
+  <li>Estrutura: por que o bolo não desaba<em>O que sustenta um bolo alto de ganache</em></li>
+  <li>Equilíbrio de sabores<em>Doce, ácido, amargo e gordura — como fazer as camadas conversarem</em></li>
+  <li>Textura em camadas<em>Cremoso, crocante, macio e a razão de misturar</em></li>
+  <li>Como adaptar sem quebrar<em>O que pode ser trocado e o que é intocável</em></li>
+</ol>
+
+<div class="page-break"></div>
+
+<h2>Os três módulos técnicos</h2>
+
+<p>Todos seguem o mesmo esqueleto de dez capítulos. O que muda é o estudo de caso.</p>
+
+<div class="mod">
+  <span class="tag">Módulo 1 · Estudo de caso</span>
+  <h3>Bolo Rosa</h3>
+  <p class="prom">A base e a técnica de montagem — o módulo que sustenta todos os outros.</p>
+  <ol class="cap">
+    <li>A história deste bolo<em>Como ele nasceu, e por que foi o primeiro do método</em></li>
+    <li>O que você vai aprender aqui<em>A montagem que se repete nos outros dois módulos</em></li>
+    <li>Os componentes<em>Massa, recheio, cobertura e decoração — cada um separado</em></li>
+    <li>Passo a passo<em>Da pesagem ao bolo pronto</em></li>
+    <li>Os porquês<em>Cada escolha explicada: por que essa proporção, essa ordem, essa temperatura</em></li>
+    <li>As lascas de chocolate<em>Temperagem, corte, aplicação e conservação</em></li>
+    <li>Guia de flores<em>Quais usar, como higienizar, como posicionar, o que evitar</em></li>
+    <li>Erros comuns e correção<em>O que dá errado neste bolo e como consertar</em></li>
+    <li>Como criar o seu<em>O que trocar para virar um bolo com a sua cara</em></li>
+    <li>Ficha do bolo<em>Rendimento, fatias, custo, precificação e validade</em></li>
+  </ol>
+</div>
+
+<div class="mod">
+  <span class="tag">Módulo 2 · Estudo de caso</span>
+  <h3>Bolo Queridinho</h3>
+  <p class="prom">O fantástico mundo das ganaches e das geleias.</p>
+  <ol class="cap">
+    <li>A história deste bolo<em>O mais pedido da Cacau Pitanga, e por quê</em></li>
+    <li>O que você vai aprender aqui<em>Mesma montagem do Módulo 1, recheio novo</em></li>
+    <li>Os componentes<em>Massa, ganache, geleia, cobertura e decoração</em></li>
+    <li>Passo a passo<em>Da pesagem ao bolo pronto</em></li>
+    <li>O mundo das ganaches<em>Proporções, tipos de chocolate, ganache de rechear × de cobrir</em></li>
+    <li>Por que a ganache falha<em>Racha, quebra, talha, açucara — a causa de cada uma e como evitar</em></li>
+    <li>O mundo das geleias<em>Ponto, acidez, quanto usar, como impedir que escorra</em></li>
+    <li>Combinações que funcionam<em>O que casa com o quê, e por quê</em></li>
+    <li>Como criar o seu<em>Trocar a fruta, o chocolate, a proporção — sem quebrar a estrutura</em></li>
+    <li>Ficha do bolo<em>Rendimento, fatias, custo, precificação e validade</em></li>
+  </ol>
+</div>
+
+<div class="mod">
+  <span class="tag">Módulo 3 · Estudo de caso</span>
+  <h3>Bolo Caramelo</h3>
+  <p class="prom">O fantástico mundo dos caramelos e dos pralinês.</p>
+  <ol class="cap">
+    <li>A história deste bolo<em>O que ele resolve que os outros dois não resolvem</em></li>
+    <li>O que você vai aprender aqui<em>Mesma montagem, agora com crocância e contraste</em></li>
+    <li>Os componentes<em>Massa, caramelo, praliné, biscoito, cobertura</em></li>
+    <li>Passo a passo<em>Da pesagem ao bolo pronto</em></li>
+    <li>O mundo dos caramelos<em>O ponto, a cor, o cheiro. Caramelo que empedra, queima ou cristaliza</em></li>
+    <li>O mundo dos pralinês<em>Torra, moagem, textura, conservação</em></li>
+    <li>A camada crocante<em>Biscoito que não amolece dentro do bolo</em></li>
+    <li>Equilíbrio: como não enjoar<em>Sal, acidez e amargor domando o doce</em></li>
+    <li>Como criar o seu<em>Trocar a castanha, o biscoito, o nível de torra</em></li>
+    <li>Ficha do bolo<em>Rendimento, fatias, custo, precificação e validade</em></li>
+  </ol>
+</div>
+
+<div class="page-break"></div>
+
+<div class="mod">
+  <span class="tag">Módulo 4</span>
+  <h3>IA e planilhas</h3>
+  <p class="prom">Usar a inteligência artificial gratuita que já está no seu celular — para
+  fazer conta, organizar a produção e cuidar do marketing.</p>
+
+  <h4>Parte 1 · A IA que você já tem</h4>
+  <ol class="cap">
+    <li>Qual usar e como abrir<em>Gratuita, sem assinatura, sem instalar nada</em></li>
+    <li>Como pedir de um jeito que funciona<em>A diferença entre uma pergunta vaga e um pedido útil</em></li>
+    <li>O que ela faz bem e o que ela faz mal<em>Lê, organiza e escreve bem. Erra conta em cadeia</em></li>
+    <li>O que nunca colocar ali dentro<em>Dado de cliente, informação sensível</em></li>
+  </ol>
+
+  <h4>Parte 2 · A conta</h4>
+  <ol class="cap">
+    <li>O que entra no custo de verdade<em>Ingrediente, gás, energia, embalagem, transporte — e a sua hora</em></li>
+    <li>Ficha técnica a partir da foto do cupom<em>A IA lê a nota do mercado e preenche a tabela de insumos</em></li>
+    <li>Preço, margem e markup<em>Como chegar ao preço de venda sem economês</em></li>
+    <li>Quanto de desconto você pode dar<em>O preço mínimo abaixo do qual você vende no prejuízo</em></li>
+    <li>Lista de compras da semana<em>Da agenda de encomendas para o carrinho do mercado</em></li>
+    <li>Substituição de ingrediente<em>Trocar sem estragar a receita nem o custo</em></li>
+    <li>Fechamento do mês<em>Quanto entrou, quanto saiu, o que sobrou</em></li>
+  </ol>
+
+  <h4>Parte 3 · Produção</h4>
+  <ol class="cap">
+    <li>A agenda da semana<em>Quantas encomendas cabem de verdade</em></li>
+    <li>Distribuir para não virar a noite<em>O que adiantar e quando</em></li>
+    <li>Quando dizer não<em>O pedido que custa mais do que paga</em></li>
+  </ol>
+
+  <h4>Parte 4 · Marketing</h4>
+  <ol class="cap">
+    <li>Cardápio e tabela de sabores<em>Gerar a arte sem saber design</em></li>
+    <li>Legenda e descrição de produto<em>No seu tom, não no tom do robô</em></li>
+    <li>Ideias de post a partir da sua semana<em>O que você já produziu vira conteúdo</em></li>
+    <li>Responder orçamento por escrito<em>Com clareza, e sem insegurança no preço</em></li>
+  </ol>
+
+  <h4>Parte 5 · As planilhas</h4>
+  <ol class="cap">
+    <li>Insumos<em>Preço atual de cada ingrediente</em></li>
+    <li>Ficha técnica<em>Custo por produto</em></li>
+    <li>Precificação<em>Preço de venda, margem e desconto máximo</em></li>
+    <li>Agenda de produção<em>Encomendas por data</em></li>
+    <li>Lista de compras<em>Consolidada da semana</em></li>
+    <li>Fechamento mensal<em>Entrou, saiu, sobrou</em></li>
+  </ol>
+</div>
+
+<div class="note">
+<strong>Princípio que atravessa o Módulo 4:</strong> a IA lê e organiza, a planilha
+calcula. Modelo de linguagem erra conta em cadeia, e confiar nesse número faria a leitora
+vender no prejuízo — por isso a conta fica sempre na planilha.
+</div>
+
+<h2>Encerramento</h2>
+
+<ol class="cap">
+  <li>O que você sabe agora<em>Retomada do que foi ensinado, em uma página</em></li>
+  <li>O próximo passo<em>Praticar, testar, criar o seu — e vender</em></li>
+  <li>Onde me encontrar<em>Instagram, contato e próximos materiais</em></li>
+</ol>
+</body></html>

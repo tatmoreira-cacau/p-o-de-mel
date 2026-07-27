@@ -52,16 +52,21 @@ PARTE A  (fixa — vai em todos os módulos)
   planejamento básico
   o método
 
-MÓDULO 1 · Bolo Queridinho    → o método
-MÓDULO 2 · Bolo Rosa          → decoração e o mundo das ganaches
-MÓDULO 3 · Bolo Caramelo      → biscoito, caramelo e chocolate
+TRILHA TÉCNICA
+  MÓDULO 1 · Bolo Rosa       → a base e a técnica de montagem
+  MÓDULO 2 · Bolo Queridinho → o fantástico mundo das ganaches e das geleias
+  MÓDULO 3 · Bolo Caramelo   → o fantástico mundo dos caramelos e dos pralinês
 
-BÔNUS · Guia de Toda Confeitaria
-  ficha técnica · precificação · fotografia · marketing · embalagem
+TRILHA NEGÓCIO  (só na Cartilha Completa)
+  MÓDULO 4 · Vendas e gestão → prompts de IA para ficha técnica, compras, custos
+  MÓDULO 5 · Agentes de IA   → o secretário da confeiteira: atendimento e gestão
 ```
 
-**O argumento central:** a montagem é a mesma nos três. O que muda é o que entra
-dentro. É isso que prova que é método, e não receita.
+**O argumento central da trilha técnica:** a montagem é a mesma nos três. O que muda é
+o que entra dentro. É isso que prova que é método, e não receita.
+
+**O argumento da trilha de negócio**, na frase da própria autora:
+*"Só de arte e técnica confeiteiro não se sustenta."*
 
 ---
 
@@ -98,17 +103,40 @@ chocolate.
 
 | | | |
 |---|---|---|
-| Módulo avulso | qualquer um dos três | **R$ 67** |
-| Combo | os três + Guia de Toda Confeitaria | **R$ 147** |
+| Módulo avulso | 1, 2 ou 3 | **R$ 67** |
+| **Trilha Técnica** | módulos 1 + 2 + 3 | **R$ 147** |
+| **Cartilha Completa** | módulos 1 a 5 | **R$ 247** |
 
 *(Preços sugeridos — a decidir.)*
 
-**Order bump no checkout:** Planilha de Precificação.
-Ancorada na história dela: *"fechei uma empresa de sucesso por erro de gestão — essa
-planilha é pra você não repetir o meu erro."* Ninguém mais no mercado pode dizer isso.
+**Os módulos 4 e 5 só existem na Cartilha Completa.** São eles que dão o motivo de
+subir de degrau: técnica por R$ 147, negócio inteiro por R$ 247.
 
-**Por que vender modular:** entrada barata (R$ 67) com o bolo que tem mais prova (o
-Queridinho, 300+ peças). Quem entra por um, volta para os outros.
+Isso também levanta o teto de preço. Ebook de bolo tem teto baixo; ebook de bolo com
+gestão e IA, não.
+
+**Order bump no checkout:** Planilha de Precificação, para quem comprou avulso ou a
+Trilha Técnica. Ancorada na história dela: *"fechei uma empresa de sucesso por erro de
+gestão — essa planilha é pra você não repetir o meu erro."*
+
+**Por que vender modular:** entrada barata (R$ 67) para quem ainda não confia. Quem
+entra por um módulo volta para os outros.
+
+---
+
+## 5b · Como o lançamento vai acontecer
+
+**Fase 1 — agora, sozinha.** Lançar apenas o **Módulo 1 · Bolo Rosa**, avulso.
+Produto pequeno, real, com o que já está pronto. O objetivo não é faturar muito: é
+descobrir os números — quanto custa uma venda, o que o público pergunta, qual gancho
+converte, quantos da lista compram.
+
+**Fase 2 — com um lançador.** Trilha Técnica completa e Cartilha Completa, com apoio
+profissional, já em cima dos dados que a Fase 1 gerar.
+
+Essa ordem importa: um lançador que começa sem nenhum dado trabalha no escuro e cobra
+para aprender sobre o seu público. Com uma campanha própria feita antes, a conversa
+começa de outro lugar.
 
 ---
 

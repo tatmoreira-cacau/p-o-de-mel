@@ -1,9 +1,9 @@
-# Projeto Cartilha dos Bolos Infalíveis
+# Projeto Cartilha de Como Criar Seu Bolo Infalível
 
 Fonte de verdade do lançamento. Quando algo mudar, muda aqui primeiro — os outros
 arquivos seguem este.
 
-Última revisão: 26/07/2026
+Última revisão: 27/07/2026
 
 ---
 
@@ -37,10 +37,12 @@ confeitaria.
 
 ## 2 · O produto
 
-# CARTILHA DOS BOLOS INFALÍVEIS
-### *a metodologia por trás dos meus bolos de sucesso*
+# CARTILHA DE COMO CRIAR SEU BOLO INFALÍVEL
+### *Método didático para compreender, planejar, construir e finalizar bolos autorais*
 
-**Não é livro de receitas. É um método**, ensinado através de três estudos de caso.
+**O conceito:** como uma cartilha de alfabetização ensina letras para formar palavras,
+este produto ensina massa, recheio, cobertura, textura, estrutura, sabor e decoração —
+para que a confeiteira crie os seus próprios bolos.
 
 ### Estrutura
 
@@ -87,13 +89,12 @@ usam a mesma montagem, o que prova o método dentro do próprio material.
 **O diferencial, em uma linha:** a cartilha ensina a criar o bolo; os adicionais ensinam a
 organizar, precificar, apresentar e vender essa criação.
 
-**A Cartilha acaba no módulo 4**, e ele é deliberadamente básico: ensina a confeiteira a
-usar a IA gratuita que já tem no celular, com planilhas prontas. Sem ferramenta paga, sem
-integração, sem programação.
+**O Adicional 4 é deliberadamente básico:** só a IA gratuita que ela já tem no celular,
+com planilhas prontas. Sem ferramenta paga, sem integração, sem programação.
 
-**Automação de atendimento não entra na Cartilha.** Agentes, WhatsApp e integração são o
-escopo do segundo produto — a consultoria — onde isso é implantado *para* a cliente em vez
-de ensinado a ela. Prometer automação num e-book gera frustração e reembolso.
+**Automação de atendimento não entra em nenhum produto escrito.** Agentes, WhatsApp e
+integração são escopo da consultoria, onde se implanta *para* a cliente em vez de ensinar
+a ela. Prometer automação num e-book gera frustração e reembolso.
 
 **A transformação prometida:** da dependência de receitas à autonomia para criar.
 
@@ -134,87 +135,62 @@ chocolate.
 
 | | | |
 |---|---|---|
-| Módulo avulso | 1, 2 ou 3 | **R$ 67** |
-| **Trilha Técnica** | módulos 1 + 2 + 3 | **R$ 147** |
-| **Cartilha Completa** | módulos 1 a 5 | **R$ 247** |
+| **Cartilha** | introdução + 3 módulos + encerramento | **R$ 147** |
+| **Adicional 4** | Organizar e precificar | **R$ 97** |
+| **Adicional 5** | Apresentar e vender | **R$ 97** |
+| **Kit completo** | os três juntos | **R$ 267** |
 
 *(Preços sugeridos — a decidir.)*
 
-**Os módulos 4 e 5 só existem na Cartilha Completa.** São eles que dão o motivo de
-subir de degrau: técnica por R$ 147, negócio inteiro por R$ 247.
+A Cartilha é o produto principal e se vende sozinha: ela entrega a transformação
+prometida, que é criar bolo autoral. Os adicionais resolvem o passo seguinte — organizar
+o negócio e vender o que foi criado — e por isso funcionam melhor como upgrade no
+checkout do que como produtos de porta de entrada.
 
-Isso também levanta o teto de preço. Ebook de bolo tem teto baixo; ebook de bolo com
-gestão e IA, não.
-
-**Order bump no checkout:** Planilha de Precificação, para quem comprou avulso ou a
-Trilha Técnica. Ancorada na história dela: *"fechei uma empresa de sucesso por erro de
-gestão — essa planilha é pra você não repetir o meu erro."*
-
-**Por que vender modular:** entrada barata (R$ 67) para quem ainda não confia. Quem
-entra por um módulo volta para os outros.
+**Order bump no checkout da Cartilha:** o Adicional 4, com desconto. Ancorado na história
+dela: *"fechei uma empresa de sucesso por erro de gestão — esse material é pra você não
+repetir o meu erro."*
 
 ---
 
 ## 5b · Os dois passos do plano
 
-**Passo 1 — a Cartilha.** Quatro módulos, lançados a partir da audiência construída.
-Pode contar com sócio de marketing e tráfego.
+**Passo 1 — a Cartilha.** Produto principal, mais os dois adicionais. Pode contar com
+sócio de marketing e tráfego.
 
-**Passo 2 — a consultoria de IA para confeiteiras.** Segundo lançamento, depois da
-Cartilha. Venda um a um, por conversa e indicação: implantação paga mais mensalidade.
+**Passo 2 — a consultoria de IA para confeiteiras.** Depois da Cartilha. Venda um a um,
+por conversa e indicação: implantação paga mais mensalidade.
 
-Esse segundo passo **não precisa de sócio**. Não depende de audiência, tráfego nem funil
-— depende de cinco clientes e de indicação, e o nicho conversa entre si. Sócio ali
-dividiria receita sem acrescentar estrutura. É também o passo que se beneficia do tempo
-que o primeiro lançamento libera para estudar e projetar com calma.
+Esse segundo passo **não precisa de sócio**. Não depende de audiência, tráfego nem funil —
+depende de cinco clientes e de indicação, e o nicho conversa entre si. Sócio ali dividiria
+receita sem acrescentar estrutura. É também o passo que se beneficia do tempo que o
+primeiro lançamento libera para estudar e projetar com calma.
 
 O plano detalhado está em `apresentacao/Cacau-Pitanga-Consultoria-de-IA.pdf`.
 
 ---
 
-## 5c · Como o lançamento vai acontecer
+## 5c · A ordem de escrita
 
-**Fase 1 — agora, sozinha.** Lançar apenas o **Módulo 1 · Bolo Rosa**, avulso.
-Produto pequeno, real, com o que já está pronto. O objetivo não é faturar muito: é
-descobrir os números — quanto custa uma venda, o que o público pergunta, qual gancho
-converte, quantos da lista compram.
+**Introdução → Módulo 1 → Módulo 2 → Módulo 3 → Encerramento.**
 
-**Fase 2 — com um lançador.** Trilha Técnica completa e Cartilha Completa, com apoio
-profissional, já em cima dos dados que a Fase 1 gerar.
+O Módulo 2 é o coração do produto: contém o método autoral, que é o que ninguém mais tem.
+Mas é o Módulo 1 que dá o vocabulário para o leitor entender o 2. Escrever fora de ordem
+obriga a explicar tudo duas vezes.
 
-Essa ordem importa: um lançador que começa sem nenhum dado trabalha no escuro e cobra
-para aprender sobre o seu público. Com uma campanha própria feita antes, a conversa
-começa de outro lugar.
+Os adicionais 4 e 5 vêm depois da Cartilha pronta.
 
 ---
 
-## 6 · A âncora do lançamento: Dia dos Pais
+## 6 · Quando lançar
 
-**Dia dos Pais: domingo, 9 de agosto de 2026.**
+**Não há data marcada.** A decisão, tomada a partir dos dados de audiência, é reativar a
+base antes de lançar — ver a seção 8.
 
-A compradora não quer o bolo no dia 9 — ela quer **vender** bolo no dia 9. Para isso
-precisa de tempo:
-
-| | |
-|---|---|
-| treinar o bolo, errar e acertar | ~5 dias |
-| fotografar e divulgar | ~3 dias |
-| receber e produzir encomendas | ~4 dias |
-
-**Ou seja: ela precisa da Cartilha até 30 de julho.**
-
-**A frase do lançamento:** *aprende essa semana, vende no Dia dos Pais.*
-Prazo real, não escassez inventada. O calendário não é dela — é de todo mundo.
-
-### Calendário
-
-| Dia | Conteúdo | Objetivo |
-|---|---|---|
-| **Seg 27** | carrossel da história | apresentar quem fala |
-| **Ter 28** | post *"sua ganache racha? o problema não é a receita"* | isca — comenta GANACHE |
-| **Qua 29** | os três bolos + bastidor + *"amanhã, 20h"* | fechar a lista |
-| **Qui 30** | **abertura** | 10 dias até o Dia dos Pais |
-| **Sex 31 – Dom 2** | prova, objeções, últimas vagas | conversão |
+Quando houver data, vale ancorá-la numa **data comercial da confeitaria** em que o
+conteúdo se torne urgente para a compradora. A regra: ela não quer o bolo na data, quer
+*vender* bolo na data — então precisa da Cartilha com cerca de duas semanas de
+antecedência para treinar, divulgar e produzir.
 
 ---
 

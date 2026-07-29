@@ -1,0 +1,260 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Cacau Pitanga — Cartilha dos Bolos Infalíveis</title><style>
+  @page { size: A4; margin: 12mm 13mm 10mm 13mm; }
+  
+
+  :root{
+    --choc:#3A2318;
+    --choc-soft:#5A3B2A;
+    --rosa:#E8A9B8;
+    --rosa-dark:#B4697F;
+    --creme:#F7F1EA;
+    --creme-line:#E5D9CC;
+    --ink:#2C1C13;
+    --muted:#7A6558;
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; color:var(--ink);
+    font-family:"DejaVu Serif", Georgia, serif;
+    font-size:8.2pt; line-height:1.38;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* ---------- capa ---------- */
+  .cover{
+    height:297mm; background:var(--choc); color:var(--creme);
+    padding:34mm 22mm; display:flex; flex-direction:column;
+    justify-content:space-between; page-break-after:always;
+  }
+  .cover .rule{ width:64px; height:5px; background:var(--rosa); margin-bottom:16mm; }
+  .cover .brand{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; letter-spacing:.36em; text-transform:uppercase;
+    color:var(--rosa); margin-bottom:10mm;
+  }
+  .cover h1{
+    font-size:38pt; line-height:1.1; margin:0 0 8mm; font-weight:700;
+  }
+  .cover .sub{ font-size:14pt; color:var(--rosa); font-style:italic; margin:0; }
+  .cover .foot{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9.5pt; color:#C9B6A6; line-height:1.9;
+  }
+  .cover .foot strong{ color:var(--creme); font-weight:600; }
+
+  /* ---------- tipografia ---------- */
+  h2{
+    font-size:11.5pt; margin:3.5mm 0 2mm; color:var(--choc);
+    padding-bottom:2.5mm; border-bottom:2px solid var(--rosa);
+    page-break-after:avoid;
+  }
+  h2 .n{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; color:var(--rosa-dark); margin-right:8px; letter-spacing:.1em;
+  }
+  h3{ font-size:10pt; margin:3.5mm 0 1.8mm; color:var(--choc-soft); page-break-after:avoid; }
+  h4{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--rosa-dark); margin:6mm 0 2mm;
+  }
+  p{ margin:0 0 1.9mm; }
+  strong{ color:var(--choc); }
+  em{ color:var(--choc-soft); }
+  ul{ margin:0 0 3.5mm; padding-left:5mm; }
+  li{ margin-bottom:1.6mm; }
+
+  /* ---------- blocos ---------- */
+  .lead{
+    background:var(--creme); border-left:4px solid var(--rosa);
+    padding:3.5mm 4.5mm; margin:0 0 3.5mm; font-size:9.8pt;
+  }
+  .quote{
+    font-size:12.5pt; font-style:italic; color:var(--choc);
+    border-left:4px solid var(--rosa); padding:1mm 0 1mm 6mm; margin:5mm 0;
+  }
+  .note{
+    background:#FBF6F1; border:1px solid var(--creme-line);
+    padding:3mm 4mm; margin:3mm 0; font-size:8.8pt; color:var(--muted);
+  }
+  .note strong{ color:var(--choc); }
+
+  table{ width:100%; border-collapse:collapse; margin:1.5mm 0 2.4mm; font-size:8pt; }
+  th{
+    background:var(--choc); color:var(--creme); text-align:left;
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:8.4pt; letter-spacing:.09em; text-transform:uppercase;
+    padding:2.6mm 3mm; font-weight:600;
+  }
+  td{ padding:1.1mm 2mm; border-bottom:1px solid var(--creme-line); vertical-align:top; }
+  tr:nth-child(even) td{ background:#FCF9F6; }
+  td.k{ color:var(--choc); font-weight:600; width:34%; }
+  td.price{ font-family:"DejaVu Sans",sans-serif; font-weight:700; color:var(--choc); white-space:nowrap; }
+  .fill{ color:var(--rosa-dark); font-family:"DejaVu Sans",sans-serif; }
+
+  .stats{ display:flex; gap:3mm; margin:2.5mm 0 3.5mm; }
+  .stat{
+    flex:1; background:var(--choc); color:var(--creme);
+    padding:3mm 3mm; text-align:center;
+  }
+  .stat .big{
+    display:block; font-size:15pt; font-weight:700; color:var(--rosa); line-height:1.15;
+  }
+  .stat .lbl{
+    display:block; font-family:"DejaVu Sans",sans-serif; font-size:7.6pt;
+    letter-spacing:.1em; text-transform:uppercase; margin-top:2mm; color:#D8C6B8;
+  }
+
+  .track{ border:1px solid var(--creme-line); border-top:4px solid var(--rosa); padding:5mm 6mm; margin:4mm 0; }
+  .track h3{ margin-top:0; }
+
+  .page-break{ page-break-before:always; }
+  .avoid{ page-break-inside:avoid; }
+</style><style>
+ .hdr{ background:var(--choc); color:var(--creme); padding:5mm 6mm; margin:0 0 3mm; }
+ .hdr .brand{ font-family:"DejaVu Sans",sans-serif; font-size:8pt; letter-spacing:.32em;
+   text-transform:uppercase; color:var(--rosa); }
+ .hdr h1{ font-size:18pt; margin:2mm 0 1mm; }
+ .hdr .sub{ font-size:10pt; font-style:italic; color:var(--rosa); margin:0; }
+ .hdr .who{ font-family:"DejaVu Sans",sans-serif; font-size:8.4pt; color:#C9B6A6; margin-top:3mm; }
+ h2{ border-bottom-width:1.5px; }
+ ul{ margin:0 0 2.5mm; padding-left:4.5mm; } li{ margin-bottom:.9mm; }
+</style></head>
+<body>
+<div class="hdr">
+  <div class="brand">Cacau Pitanga</div>
+  <h1>Cartilha dos Bolos Infalíveis</h1>
+  <p class="sub">Projeto de infoproduto · confeitaria</p>
+  <div class="who">Tatiana Duarte · Fundadora · Minas Gerais · @cacaupitanga_</div>
+</div>
+
+<h2><span class="n">01</span>A ideia</h2>
+
+<div class="lead">
+Transformar quase 16 anos de confeitaria — e um método de montagem criado sem querer, ao
+longo de centenas de testes — num catálogo de infoprodutos para confeiteiras que querem
+parar de copiar receita e começar a criar as próprias.
+</div>
+
+<p>Confeiteira não sofre por falta de receita — receita tem de sobra e de graça. Sofre por
+não entender <strong>o porquê</strong>: por que a ganache racha, por que a massa seca, por
+que o bolo dela é igual ao de outras dez e por isso disputa preço.</p>
+
+<h2><span class="n">02</span>Quem assina</h2>
+
+<p><strong>Tatiana Duarte</strong> — fundadora da Cacau Pitanga. Administradora,
+nutricionista e chocolateira, quase 16 anos de confeitaria. Formada em chocolate com
+Simone Izumi e em bolos com Joyce, Camila Dutra, Daiane, Baking Dreams e César Yukio.</p>
+
+<p>Seu primeiro negócio, a Quituteria, em Campinas, foi pioneiro em brigadeiro gourmet e
+cupcake: capa de revista, entrevista na Globo, loja no Cambuí e em shopping — até fechar
+por erros de gestão. Anos depois, na pandemia e no fim de um casamento de doze anos,
+nasceu a Cacau Pitanga, para vender chocolate. Bolo era território proibido.</p>
+
+<p>Foram os clientes pedindo que a empurraram: ela levou bombom, ganache e praliné para
+dentro do bolo e, anos depois, percebeu que ninguém montava bolo como ela. Sem planejar,
+tinha criado um método. Até hoje leva bolo de ônibus de Minas para São Paulo, porque
+clientes antigos dizem que <em>"não existe igual"</em>.</p>
+
+<h2><span class="n">03</span>Mercado e público</h2>
+
+<div class="stats">
+  <div class="stat"><span class="big">R$ 12 bi</span><span class="lbl">Confeitaria / ano</span></div>
+  <div class="stat"><span class="big">R$ 21 bi</span><span class="lbl">Com festas</span></div>
+  <div class="stat"><span class="big">+26,3%</span><span class="lbl">Crescimento</span></div>
+</div>
+
+<p>Quem compra não é o consumidor de bolo: é a confeiteira que produz em casa e trata
+aquilo como negócio. Suas dores, em ordem, são precificação inadequada, dificuldade de
+vender, falta de planejamento e ausência de posicionamento. A tendência do setor é a
+profissionalização.</p>
+
+<p><strong>O espaço vazio:</strong> os concorrentes vendem <em>fazer</em> — do zero, passo
+a passo, decorados. Nenhum vende <em>inventar</em>, e nenhum oferece gestão com IA para
+confeiteiras.</p>
+
+<table>
+  <tr><td class="k">Seguidores</td><td><strong>7.500</strong></td></tr>
+  <tr><td class="k">Alcance em 30 dias</td><td>893 contas — cerca de <strong>12% da base</strong></td></tr>
+  <tr><td class="k">Perfil</td><td>81,8% mulheres · 64,4% entre 35 e 54 anos</td></tr>
+  <tr><td class="k">Origem</td><td>Campinas 32,5% · Uberaba 17,8% · São Paulo 6,2%</td></tr>
+</table>
+
+<p>O público veio de <strong>Campinas</strong>, onde a Cacau Pitanga operou antes de vir
+para Minas: são clientes da própria marca, que continuaram seguindo. Hoje eles compram
+bolo — não fazem bolo para vender. Com 12% de alcance mensal, <strong>a base não é
+pequena, está adormecida</strong>, e o conteúdo que mais alcança ainda é pessoal em vez de
+técnico.</p>
+
+<div class="note">
+<strong>Leitura franca.</strong> Reativar 7.500 pessoas que já escolheram seguir custa
+muito menos do que conquistar gente nova. O projeto tem produto, autoridade, imprensa,
+televisão, método, história e uma base construída — o que falta é a estrutura que
+transforma isso em venda.
+</div>
+
+<h2><span class="n">04</span>O produto</h2>
+
+<p><strong>Cartilha dos Bolos Infalíveis</strong> — não é livro de receitas, é um método
+ensinado por estudos de caso. A técnica de montagem é a mesma nos três módulos técnicos; o
+que muda é o que entra dentro. Uma <strong>Parte A fixa</strong> acompanha todos, o que
+torna cada módulo completo e independente.</p>
+
+<table>
+  <tr><th>Módulo</th><th>O que ensina</th><th>Preço</th></tr>
+  <tr><td class="k">1 · Bolo Rosa</td><td>A base e a técnica de montagem. Lascas e guia de flores</td><td class="price">R$ 67</td></tr>
+  <tr><td class="k">2 · Bolo Queridinho</td><td>O mundo das ganaches e geleias: por que racha, quebra e talha</td><td class="price">R$ 67</td></tr>
+  <tr><td class="k">3 · Bolo Caramelo</td><td>O mundo dos caramelos e pralinês: ponto, textura e crocância</td><td class="price">R$ 67</td></tr>
+  <tr><td class="k">4 · IA e planilhas</td><td>Usar a IA gratuita do celular para ficha técnica, preço, lista de compras, cardápio e marketing</td><td class="price">R$ 97</td></tr>
+</table>
+
+<h3>Módulo 4 · IA e planilhas</h3>
+
+<p>Este módulo ensina a confeiteira a usar, sozinha, <strong>a inteligência artificial
+gratuita que já está no celular dela</strong>. Nada de ferramenta paga, assinatura ou
+programação — só o que qualquer uma consegue abrir hoje e começar a usar.</p>
+
+<p>Na conta: fotografar o cupom do mercado para alimentar a tabela de insumos, montar a
+ficha técnica, calcular o custo real com gás, energia, embalagem e a própria hora, chegar
+ao preço e à margem — e saber <strong>quanto de desconto pode dar sem vender no
+prejuízo</strong>. Mais lista de compras, substituição de ingrediente e fechamento do mês.</p>
+
+<p>Na produção e no marketing: organizar a agenda da semana, gerar imagem e cardápio,
+escrever legenda e descrição de produto. Seis planilhas prontas acompanham o módulo.</p>
+
+<div class="note">
+<strong>Princípio técnico.</strong> A IA lê e organiza; a planilha calcula. Modelo de
+linguagem erra conta em cadeia, e confiar nesse número faria a aluna vender no prejuízo —
+por isso a conta fica sempre na planilha.
+</div>
+
+<h2><span class="n">05</span>O caminho</h2>
+
+<p>A decisão, tomada a partir dos dados: <strong>lançar depois de reativar</strong>. Com
+apenas 12% da base alcançada no mês, lançar agora gastaria na frente de poucas pessoas o
+efeito de novidade que um produto só tem uma vez. Existe audiência — ela só não está
+sendo alcançada.</p>
+
+<p><strong>Primeiro reativa-se e qualifica-se a base.</strong> Três frentes: Reels, único formato
+que alcança quem ainda não segue; conteúdo técnico, que atrai confeiteira em vez de
+cliente; e captação por isca gratuita — o guia <em>"Por que a sua ganache racha"</em>, que
+sai do Módulo 2 sem produção nova. O placar deixa de ser faturamento e passa a ser alcance
+de não-seguidores, salvamentos e leads.</p>
+
+<p><strong>O segundo produto já está desenhado, e é outro projeto.</strong> Depois da
+Cartilha vem a <em>consultoria de IA para confeiteiras</em>: enquanto o módulo 4 ensina a
+confeiteira a se virar sozinha com ferramenta gratuita, a consultoria implanta para ela a
+automação pesada — atendimento, pedidos e agentes. Venda um a um, por conversa e
+indicação, com implantação paga e mensalidade. Não depende de audiência nem de tráfego e,
+por isso, não precisa de sócio.</p>
+
+<div class="note">
+<strong>Onde entra um sócio.</strong> Chamar alguém para uma campanha é contratar serviço;
+chamar para construir a audiência é construir o negócio junto. Este projeto tem produto,
+autoridade e história, e não tem aquisição. Um parceiro de marketing tem aquisição e
+raramente tem um produto com essa profundidade por trás. Cada lado tem inteira a metade que
+falta ao outro.
+</div>
+</body></html>

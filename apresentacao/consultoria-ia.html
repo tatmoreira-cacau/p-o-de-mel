@@ -1,0 +1,248 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Consultoria de IA para Confeiteiras</title><style>
+  @page { size: A4; margin: 12mm 13mm 10mm 13mm; }
+  
+
+  :root{
+    --choc:#3A2318;
+    --choc-soft:#5A3B2A;
+    --rosa:#E8A9B8;
+    --rosa-dark:#B4697F;
+    --creme:#F7F1EA;
+    --creme-line:#E5D9CC;
+    --ink:#2C1C13;
+    --muted:#7A6558;
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; color:var(--ink);
+    font-family:"DejaVu Serif", Georgia, serif;
+    font-size:8.8pt; line-height:1.45;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* ---------- capa ---------- */
+  .cover{
+    height:297mm; background:var(--choc); color:var(--creme);
+    padding:34mm 22mm; display:flex; flex-direction:column;
+    justify-content:space-between; page-break-after:always;
+  }
+  .cover .rule{ width:64px; height:5px; background:var(--rosa); margin-bottom:16mm; }
+  .cover .brand{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; letter-spacing:.36em; text-transform:uppercase;
+    color:var(--rosa); margin-bottom:10mm;
+  }
+  .cover h1{
+    font-size:38pt; line-height:1.1; margin:0 0 8mm; font-weight:700;
+  }
+  .cover .sub{ font-size:14pt; color:var(--rosa); font-style:italic; margin:0; }
+  .cover .foot{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9.5pt; color:#C9B6A6; line-height:1.9;
+  }
+  .cover .foot strong{ color:var(--creme); font-weight:600; }
+
+  /* ---------- tipografia ---------- */
+  h2{
+    font-size:13pt; margin:5mm 0 2.5mm; color:var(--choc);
+    padding-bottom:2.5mm; border-bottom:2px solid var(--rosa);
+    page-break-after:avoid;
+  }
+  h2 .n{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; color:var(--rosa-dark); margin-right:8px; letter-spacing:.1em;
+  }
+  h3{ font-size:11.5pt; margin:7mm 0 2.5mm; color:var(--choc-soft); page-break-after:avoid; }
+  h4{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--rosa-dark); margin:6mm 0 2mm;
+  }
+  p{ margin:0 0 2.4mm; }
+  strong{ color:var(--choc); }
+  em{ color:var(--choc-soft); }
+  ul{ margin:0 0 3.5mm; padding-left:5mm; }
+  li{ margin-bottom:1.6mm; }
+
+  /* ---------- blocos ---------- */
+  .lead{
+    background:var(--creme); border-left:4px solid var(--rosa);
+    padding:3.5mm 4.5mm; margin:0 0 3.5mm; font-size:9.8pt;
+  }
+  .quote{
+    font-size:12.5pt; font-style:italic; color:var(--choc);
+    border-left:4px solid var(--rosa); padding:1mm 0 1mm 6mm; margin:5mm 0;
+  }
+  .note{
+    background:#FBF6F1; border:1px solid var(--creme-line);
+    padding:3mm 4mm; margin:3mm 0; font-size:8.8pt; color:var(--muted);
+  }
+  .note strong{ color:var(--choc); }
+
+  table{ width:100%; border-collapse:collapse; margin:2mm 0 3mm; font-size:8.6pt; }
+  th{
+    background:var(--choc); color:var(--creme); text-align:left;
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:8.4pt; letter-spacing:.09em; text-transform:uppercase;
+    padding:2.6mm 3mm; font-weight:600;
+  }
+  td{ padding:1.5mm 2.4mm; border-bottom:1px solid var(--creme-line); vertical-align:top; }
+  tr:nth-child(even) td{ background:#FCF9F6; }
+  td.k{ color:var(--choc); font-weight:600; width:34%; }
+  td.price{ font-family:"DejaVu Sans",sans-serif; font-weight:700; color:var(--choc); white-space:nowrap; }
+  .fill{ color:var(--rosa-dark); font-family:"DejaVu Sans",sans-serif; }
+
+  .stats{ display:flex; gap:3mm; margin:2.5mm 0 3.5mm; }
+  .stat{
+    flex:1; background:var(--choc); color:var(--creme);
+    padding:3mm 3mm; text-align:center;
+  }
+  .stat .big{
+    display:block; font-size:15pt; font-weight:700; color:var(--rosa); line-height:1.15;
+  }
+  .stat .lbl{
+    display:block; font-family:"DejaVu Sans",sans-serif; font-size:7.6pt;
+    letter-spacing:.1em; text-transform:uppercase; margin-top:2mm; color:#D8C6B8;
+  }
+
+  .track{ border:1px solid var(--creme-line); border-top:4px solid var(--rosa); padding:5mm 6mm; margin:4mm 0; }
+  .track h3{ margin-top:0; }
+
+  .page-break{ page-break-before:always; }
+  .avoid{ page-break-inside:avoid; }
+</style><style>
+ .hdr{ background:var(--choc); color:var(--creme); padding:6mm 7mm; margin:0 0 4mm; }
+ .hdr .brand{ font-family:"DejaVu Sans",sans-serif; font-size:8pt; letter-spacing:.32em;
+   text-transform:uppercase; color:var(--rosa); }
+ .hdr h1{ font-size:20pt; margin:2mm 0 1mm; }
+ .hdr .sub{ font-size:10pt; font-style:italic; color:var(--rosa); margin:0; }
+ .hdr .who{ font-family:"DejaVu Sans",sans-serif; font-size:8.4pt; color:#C9B6A6; margin-top:3mm; }
+ h2{ border-bottom-width:1.5px; }
+ ul{ margin:0 0 2.5mm; padding-left:4.5mm; } li{ margin-bottom:.9mm; }
+</style></head><body>
+<div class="hdr">
+  <div class="brand">Cacau Pitanga</div>
+  <h1>Consultoria de IA para Confeiteiras</h1>
+  <p class="sub">Plano de negócio · serviço e escada de oferta</p>
+  <div class="who">Tatiana Duarte · Minas Gerais · @cacaupitanga_</div>
+</div>
+
+<h2><span class="n">01</span>A ideia</h2>
+
+<div class="lead">
+Vender consultoria de inteligência artificial para confeiteiras que produzem em casa —
+organizando atendimento, ficha técnica, custo, produção e pós-venda — com implantação
+paga e acompanhamento mensal recorrente.
+</div>
+
+<p>Consultor de IA genérico existe aos montes, e nenhum deles entende ficha técnica,
+rendimento de receita ou pico de encomenda no Dia das Mães. O diferencial aqui não é
+saber IA: é <strong>saber confeitaria e IA ao mesmo tempo</strong>, combinação que quase
+ninguém tem no mercado.</p>
+
+<h2><span class="n">02</span>Por que este caminho agora</h2>
+
+<p><strong>Consultoria não precisa de audiência.</strong> Um infoproduto precisa de
+milhares de pessoas para dar dinheiro; consultoria precisa de cinco clientes. A base
+atual é pequena demais para lançar e mais que suficiente para encontrar cinco.</p>
+
+<p><strong>O ticket é outro.</strong> Ebook a R$ 67 exige volume. Implantação de R$ 900 a
+R$ 1.800 mais mensalidade de R$ 300 a R$ 600 exige poucos clientes — e entra todo mês.</p>
+
+<p><strong>O risco é baixo.</strong> Não há produto a produzir antes de vender, nem verba
+de tráfego a queimar. Vende-se uma a uma, com conversa.</p>
+
+<h2><span class="n">03</span>Como os dois negócios se alimentam</h2>
+
+<div class="note">
+<strong>A consultoria é o caminho mais rápido para a audiência que o infoproduto
+precisa.</strong> Cada cliente atendida vira caso real, depoimento e prova — e mostra, na
+prática, onde a confeiteira trava, que é exatamente o conteúdo dos módulos 4 e 5.
+</div>
+
+<p>O material da Cartilha deixa de ser escrito por suposição e passa a ser escrito em
+cima de problemas reais, vistos de perto. E confeiteira indica confeiteira: é um nicho que
+conversa entre si, o que faz a consultoria crescer por indicação em vez de por anúncio.</p>
+
+<table>
+  <tr><th></th><th>Consultoria</th><th>Infoproduto</th></tr>
+  <tr><td class="k">Ticket</td><td>Alto</td><td>Baixo</td></tr>
+  <tr><td class="k">Clientes necessários</td><td>Poucos</td><td>Muitos</td></tr>
+  <tr><td class="k">Precisa de audiência?</td><td>Não</td><td>Sim</td></tr>
+  <tr><td class="k">Quando dá dinheiro</td><td>Agora</td><td>Depois</td></tr>
+  <tr><td class="k">Escala</td><td>Limitada pelo tempo</td><td>Ilimitada</td></tr>
+</table>
+
+<p>Um financia o outro. A consultoria paga as contas e gera prova enquanto a audiência do
+infoproduto é construída.</p>
+
+<h2><span class="n">04</span>A escada de oferta</h2>
+
+<table>
+  <tr><th>Etapa</th><th>O que é</th><th>Preço</th></tr>
+  <tr><td class="k">1 · Diagnóstico</td><td>Uma conversa de uma hora: como ela atende, como precifica, onde perde tempo. Sai com um mapa do que dá para automatizar</td><td class="price">Grátis nos 3 primeiros · depois R$ 197</td></tr>
+  <tr><td class="k">2 · Implantação Essencial</td><td>Agente de atendimento no tom dela + ficha técnica com custo real e preço de venda</td><td class="price">R$ 897</td></tr>
+  <tr><td class="k">3 · Implantação Completa</td><td>Tudo do Essencial + pedidos do WhatsApp virando agenda de produção, lista de compras, pós-venda e conteúdo</td><td class="price">R$ 1.797</td></tr>
+  <tr><td class="k">4 · Acompanhamento</td><td>Manutenção, ajustes, atualização de custos e um agente novo por trimestre</td><td class="price">R$ 297/mês</td></tr>
+  <tr><td class="k">5 · Acompanhamento Pleno</td><td>Tudo do anterior + revisão mensal de números e apoio nas datas comemorativas</td><td class="price">R$ 597/mês</td></tr>
+</table>
+
+<p><strong>Os três primeiros diagnósticos são gratuitos de propósito.</strong> Servem para
+aprender, calibrar preço e gerar os primeiros casos — não para caridade. A contrapartida é
+poder documentar o resultado.</p>
+
+<h2><span class="n">05</span>O que entra na implantação</h2>
+
+<table>
+  <tr><td class="k">Atendimento</td><td>Agente que responde preço, prazo, sabores e entrega no tom da marca dela</td></tr>
+  <tr><td class="k">Ficha técnica</td><td>Custo real com gás, energia, embalagem e hora de trabalho — e o preço mínimo abaixo do qual ela vende no prejuízo</td></tr>
+  <tr><td class="k">Pedidos</td><td>Conversa do WhatsApp virando agenda: cliente, produto, sabor, tamanho e data</td></tr>
+  <tr><td class="k">Produção</td><td>Agenda agrupada por dia, com alerta quando a semana já está cheia</td></tr>
+  <tr><td class="k">Compras</td><td>Fichas técnicas cruzadas com os pedidos, gerando a lista da semana</td></tr>
+  <tr><td class="k">Pós-venda</td><td>Mensagem automática dias após a entrega, pedindo retorno</td></tr>
+</table>
+
+<div class="note">
+<strong>O princípio que protege o serviço:</strong> a IA lê e organiza, a planilha calcula.
+Modelo de linguagem erra conta em cadeia — entregar número calculado por ele faria a
+cliente vender no prejuízo, e a responsabilidade seria da consultoria.
+</div>
+
+<h2><span class="n">06</span>A primeira conversa de venda</h2>
+
+<p>Não comece falando de inteligência artificial. Confeiteira não quer IA — quer parar de
+responder as mesmas cinco perguntas no meio da produção e quer saber quanto cobrar.
+Comece pela dor, não pela ferramenta.</p>
+
+<p>Quatro perguntas que abrem qualquer diagnóstico: <em>quantas horas por semana você
+passa respondendo mensagem? Você sabe quanto custa exatamente o seu bolo mais vendido?
+Quando o cliente pede desconto, você sabe até quanto pode dar? Já aconteceu de aceitar
+encomenda demais e virar a noite?</em></p>
+
+<p>Ela vai responder sim para pelo menos duas. A proposta nasce dali — e o serviço se
+apresenta como <strong>tempo devolvido e dinheiro que parou de vazar</strong>, nunca como
+tecnologia.</p>
+
+<h2><span class="n">07</span>Os primeiros 30 dias</h2>
+
+<table>
+  <tr><td class="k">Semana 1</td><td>Implantar na própria Cacau Pitanga. O primeiro caso é o seu — e é o que dá autoridade para vender</td></tr>
+  <tr><td class="k">Semana 2</td><td>Dois diagnósticos gratuitos com confeiteiras conhecidas, documentando tudo</td></tr>
+  <tr><td class="k">Semana 3</td><td>Primeira implantação paga, mesmo com desconto de primeira cliente</td></tr>
+  <tr><td class="k">Semana 4</td><td>Registrar o resultado em números e transformar em conteúdo — que também alimenta a audiência do infoproduto</td></tr>
+</table>
+
+<h2><span class="n">08</span>Sobre fazer um curso</h2>
+
+<p>O mercado de "curso para virar consultor de IA" está cheio de material fraco vendendo
+posicionamento em vez de execução. Estudar faz sentido, mas com dois cuidados.</p>
+
+<p><strong>Não espere estar certificada para começar.</strong> A implantação na própria
+Cacau Pitanga já é o primeiro caso, e quem implantou no próprio negócio tem mais
+autoridade que quem tem certificado. <strong>O que falta é execução, não teoria</strong> —
+escolha um curso que ensine a montar e entregar, não a se posicionar.</p>
+
+<p style="margin-top:4mm;"><strong>Tatiana Duarte</strong> · Cacau Pitanga · @cacaupitanga_</p>
+</body></html>

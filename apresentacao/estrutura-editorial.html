@@ -1,0 +1,318 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Cartilha de Como Criar Seu Bolo Infalível — Estrutura Editorial</title><style>
+  @page { size: A4; margin: 18mm 16mm 16mm 16mm; }
+  @page :first { margin: 0; }
+
+  :root{
+    --choc:#3A2318;
+    --choc-soft:#5A3B2A;
+    --rosa:#E8A9B8;
+    --rosa-dark:#B4697F;
+    --creme:#F7F1EA;
+    --creme-line:#E5D9CC;
+    --ink:#2C1C13;
+    --muted:#7A6558;
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; color:var(--ink);
+    font-family:"DejaVu Serif", Georgia, serif;
+    font-size:10.2pt; line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* ---------- capa ---------- */
+  .cover{
+    height:297mm; background:var(--choc); color:var(--creme);
+    padding:34mm 22mm; display:flex; flex-direction:column;
+    justify-content:space-between; page-break-after:always;
+  }
+  .cover .rule{ width:64px; height:5px; background:var(--rosa); margin-bottom:16mm; }
+  .cover .brand{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; letter-spacing:.36em; text-transform:uppercase;
+    color:var(--rosa); margin-bottom:10mm;
+  }
+  .cover h1{
+    font-size:38pt; line-height:1.1; margin:0 0 8mm; font-weight:700;
+  }
+  .cover .sub{ font-size:14pt; color:var(--rosa); font-style:italic; margin:0; }
+  .cover .foot{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9.5pt; color:#C9B6A6; line-height:1.9;
+  }
+  .cover .foot strong{ color:var(--creme); font-weight:600; }
+
+  /* ---------- tipografia ---------- */
+  h2{
+    font-size:16pt; margin:11mm 0 4mm; color:var(--choc);
+    padding-bottom:2.5mm; border-bottom:2px solid var(--rosa);
+    page-break-after:avoid;
+  }
+  h2 .n{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:10pt; color:var(--rosa-dark); margin-right:8px; letter-spacing:.1em;
+  }
+  h3{ font-size:11.5pt; margin:7mm 0 2.5mm; color:var(--choc-soft); page-break-after:avoid; }
+  h4{
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:9pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--rosa-dark); margin:6mm 0 2mm;
+  }
+  p{ margin:0 0 3.2mm; }
+  strong{ color:var(--choc); }
+  em{ color:var(--choc-soft); }
+  ul{ margin:0 0 3.5mm; padding-left:5mm; }
+  li{ margin-bottom:1.6mm; }
+
+  /* ---------- blocos ---------- */
+  .lead{
+    background:var(--creme); border-left:4px solid var(--rosa);
+    padding:5mm 6mm; margin:0 0 5mm; font-size:10.6pt;
+  }
+  .quote{
+    font-size:12.5pt; font-style:italic; color:var(--choc);
+    border-left:4px solid var(--rosa); padding:1mm 0 1mm 6mm; margin:5mm 0;
+  }
+  .note{
+    background:#FBF6F1; border:1px solid var(--creme-line);
+    padding:4mm 5mm; margin:4mm 0; font-size:9.6pt; color:var(--muted);
+  }
+  .note strong{ color:var(--choc); }
+
+  table{ width:100%; border-collapse:collapse; margin:3mm 0 5mm; font-size:9.6pt; }
+  th{
+    background:var(--choc); color:var(--creme); text-align:left;
+    font-family:"DejaVu Sans", Helvetica, sans-serif;
+    font-size:8.4pt; letter-spacing:.09em; text-transform:uppercase;
+    padding:2.6mm 3mm; font-weight:600;
+  }
+  td{ padding:2.4mm 3mm; border-bottom:1px solid var(--creme-line); vertical-align:top; }
+  tr:nth-child(even) td{ background:#FCF9F6; }
+  td.k{ color:var(--choc); font-weight:600; width:34%; }
+  td.price{ font-family:"DejaVu Sans",sans-serif; font-weight:700; color:var(--choc); white-space:nowrap; }
+  .fill{ color:var(--rosa-dark); font-family:"DejaVu Sans",sans-serif; }
+
+  .stats{ display:flex; gap:4mm; margin:4mm 0 6mm; }
+  .stat{
+    flex:1; background:var(--choc); color:var(--creme);
+    padding:5mm 4mm; text-align:center;
+  }
+  .stat .big{
+    display:block; font-size:19pt; font-weight:700; color:var(--rosa); line-height:1.15;
+  }
+  .stat .lbl{
+    display:block; font-family:"DejaVu Sans",sans-serif; font-size:7.6pt;
+    letter-spacing:.1em; text-transform:uppercase; margin-top:2mm; color:#D8C6B8;
+  }
+
+  .track{ border:1px solid var(--creme-line); border-top:4px solid var(--rosa); padding:5mm 6mm; margin:4mm 0; }
+  .track h3{ margin-top:0; }
+
+  .page-break{ page-break-before:always; }
+  .avoid{ page-break-inside:avoid; }
+</style></head>
+<body>
+<div class="cover">
+  <div>
+    <div class="rule"></div>
+    <div class="brand">Cacau Pitanga</div>
+    <h1>Cartilha de<br>Como Criar<br>Seu Bolo Infalível</h1>
+    <p class="sub">Estrutura editorial · índice e capítulos</p>
+  </div>
+  <div class="foot">
+    <strong>Tatiana Duarte</strong><br>
+    Chocolatier, confeiteira e fundadora · Cacau Pitanga<br>
+    Minas Gerais · @cacaupitanga_
+  </div>
+</div>
+
+<h2>O conceito</h2>
+
+<div class="lead">
+Método didático para compreender, planejar, construir e finalizar bolos autorais.
+Como uma cartilha de alfabetização ensina letras para formar palavras, este produto ensina
+massa, recheio, cobertura, textura, estrutura, sabor e decoração — para que a confeiteira
+crie os seus próprios bolos.
+</div>
+
+<p><strong>A transformação:</strong> da dependência de receitas à autonomia para criar.</p>
+
+<div class="note">
+<strong>A lógica da estrutura.</strong> Os módulos não são bolos — são <strong>fases da
+criação</strong>. Conhecer e escolher, construir, finalizar. Os três bolos da casa entram
+como estudos de caso dentro do Módulo 2, aplicando o método em vez de servirem de receita.
+É isso que faz a cartilha ensinar a criar, e não a copiar.
+</div>
+
+<h2>Índice geral</h2>
+
+<table class="toc">
+  <tr><td class="k">Introdução</td><td>Pensar antes de criar</td></tr>
+  <tr><td class="k">Módulo 1</td><td>Conhecer e escolher</td></tr>
+  <tr><td class="k">Módulo 2</td><td>Construir com o método</td></tr>
+  <tr><td class="k">Módulo 3</td><td>Finalizar e dar identidade</td></tr>
+  <tr><td class="k">Encerramento</td><td>Do ateliê à mesa</td></tr>
+</table>
+
+<h4>Produtos adicionais · vendidos separadamente</h4>
+<table class="toc">
+  <tr><td class="k">Adicional 4</td><td>Organizar e precificar</td></tr>
+  <tr><td class="k">Adicional 5</td><td>Apresentar e vender</td></tr>
+</table>
+
+<p><strong>O diferencial, dito em uma linha:</strong> a cartilha ensina a criar o bolo; os
+adicionais ensinam a organizar, precificar, apresentar e vender essa criação.</p>
+
+<div class="page-break"></div>
+
+<div class="mod">
+  <span class="tag">Introdução</span>
+  <h3>Pensar antes de criar</h3>
+  <p class="prom">Antes da técnica, a cabeça. O que faz alguém criar em vez de reproduzir.</p>
+  <ol class="cap">
+    <li>Quem escreve<em>A história da Tati, em até uma página: a Quituteria, a queda, o chocolate, a Cacau Pitanga</em></li>
+    <li>A origem do método<em>Anos de teste até perceber que ninguém montava bolo daquele jeito</em></li>
+    <li>Criatividade<em>Criar não é dom — é processo, e processo se aprende</em></li>
+    <li>Repertório<em>Você só cria com o que já provou. Como construir repertório de propósito</em></li>
+    <li>Percepção<em>Aprender a sentir o que está na boca: doce, ácido, amargo, gordura, sal</em></li>
+    <li>Memória afetiva<em>Por que certos sabores emocionam e como usar isso a favor do bolo</em></li>
+    <li>Desejo<em>O que faz alguém querer aquele bolo antes de provar</em></li>
+    <li>Contraste<em>O princípio que separa um bolo bom de um bolo memorável</em></li>
+    <li>A experiência sensorial<em>Aparência, aroma, textura e sabor — o bolo inteiro, não só o gosto</em></li>
+  </ol>
+</div>
+
+<div class="mod">
+  <span class="tag">Módulo 1</span>
+  <h3>Conhecer e escolher</h3>
+  <p class="prom">O repertório técnico: o que existe, o que cada coisa faz, e como escolher.</p>
+  <ol class="cap">
+    <li>Anatomia do bolo<em>Cada camada, sua função e por que ela está ali</em></li>
+    <li>Formas e tamanhos<em>Altura, diâmetro, rendimento e o efeito de cada escolha</em></li>
+    <li>Planejamento<em>Pensar o bolo inteiro antes de ligar o forno</em></li>
+    <li>Compras<em>O que comprar, quanto comprar, o que observar no ingrediente</em></li>
+    <li>Escolher a massa<em>Tipos, estrutura, umidade — qual massa aguenta qual recheio</em></li>
+    <li>Escolher o recheio<em>Cremosidade, estabilidade, intensidade</em></li>
+    <li>Escolher a cobertura<em>O que o bolo pede e o que a entrega exige</em></li>
+    <li>Sabores<em>Como combinar sem que um anule o outro</em></li>
+    <li>Texturas<em>Cremoso, crocante, macio — e por que misturar</em></li>
+  </ol>
+  <h4>Receitas-base incluídas</h4>
+  <p style="margin:0;font-size:9.4pt;">Massas · ganaches · caramelos · crocantes · pralinês
+  · geleias. São a matéria-prima do método: com elas, a confeiteira monta infinitas
+  combinações em vez de repetir três receitas.</p>
+</div>
+
+<div class="page-break"></div>
+
+<div class="mod">
+  <span class="tag">Módulo 2</span>
+  <h3>Construir com o método</h3>
+  <p class="prom">O coração da cartilha — a montagem autoral da Tati, aplicada a três bolos reais.</p>
+  <ol class="cap">
+    <li>Corte<em>Como cortar as camadas de forma regular</em></li>
+    <li>Nivelamento<em>A base de tudo: bolo torto não se corrige na cobertura</em></li>
+    <li>Montagem tradicional<em>Como a maioria monta — e onde esse jeito falha</em></li>
+    <li>O método autoral<em>A montagem que a Tati criou, e por que ela sustenta o que a tradicional não sustenta</em></li>
+    <li>Ordem das camadas<em>Por que essa sequência e não outra</em></li>
+    <li>Estabilidade<em>O que impede o bolo de desabar, escorregar ou inclinar</em></li>
+    <li>Prensagem<em>A etapa que quase ninguém faz e que muda o resultado</em></li>
+    <li>Estudo de caso · Bolo Rosa<em>O método aplicado do começo ao fim</em></li>
+    <li>Estudo de caso · Bolo Queridinho<em>O mais pedido da casa, montado com a mesma lógica</em></li>
+    <li>Estudo de caso · Bolo Caramelo<em>A mesma lógica, agora com crocância e contraste</em></li>
+  </ol>
+  <div class="note" style="margin-top:4mm;">
+  <strong>Os três estudos de caso usam a mesma montagem.</strong> É a prova, dentro do
+  próprio material, de que existe método: o que muda de um bolo para o outro é o recheio,
+  não a lógica.
+  </div>
+</div>
+
+<div class="mod">
+  <span class="tag">Módulo 3</span>
+  <h3>Finalizar e dar identidade</h3>
+  <p class="prom">O acabamento — e a passagem de "bolo bonito" para "bolo com assinatura".</p>
+  <ol class="cap">
+    <li>Ganache ou buttercream<em>Quando usar cada um, e o que muda no resultado e no custo</em></li>
+    <li>Selagem<em>A camada que prende as migalhas e garante o acabamento liso</em></li>
+    <li>Espatulagem<em>Técnica, ferramenta e temperatura</em></li>
+    <li>Acabamentos<em>Liso, texturizado, riscado — o vocabulário visual disponível</em></li>
+    <li>Lascas de chocolate<em>Temperagem, corte, aplicação e conservação</em></li>
+    <li>Flores comestíveis<em>Quais usar, como higienizar, como posicionar, o que evitar</em></li>
+    <li>Composição<em>Onde colocar cada elemento e por quê. Proporção e ponto de foco</em></li>
+    <li>Criatividade sem cópia<em>Como se inspirar sem reproduzir o trabalho de outra pessoa</em></li>
+    <li>Assinatura visual<em>O que faz alguém reconhecer o seu bolo antes de ler o nome</em></li>
+  </ol>
+</div>
+
+<div class="mod">
+  <span class="tag">Encerramento</span>
+  <h3>Do ateliê à mesa</h3>
+  <p class="prom">O bolo saiu perfeito da bancada. Agora ele precisa chegar assim ao cliente.</p>
+  <ol class="cap">
+    <li>Armazenamento<em>Onde e como guardar cada componente e o bolo montado</em></li>
+    <li>Validade<em>Quanto tempo cada coisa aguenta, de verdade</em></li>
+    <li>Refrigeração<em>Quando gela, quando não gela, e como tirar da geladeira</em></li>
+    <li>Embalagem<em>O que protege e o que valoriza</em></li>
+    <li>Transporte<em>Como o bolo chega inteiro — inclusive de longe</em></li>
+    <li>Entrega<em>Combinar horário, condição e responsabilidade</em></li>
+    <li>Corte e rendimento<em>Quantas fatias saem e como cortar para render</em></li>
+    <li>Serviço e orientação ao cliente<em>O que dizer para o bolo ser servido do jeito certo</em></li>
+  </ol>
+</div>
+
+<div class="page-break"></div>
+
+<h2>Produtos adicionais</h2>
+
+<p>Vendidos separadamente. A cartilha ensina a <strong>criar</strong> o bolo; estes ensinam
+a <strong>organizar, precificar, apresentar e vender</strong> essa criação.</p>
+
+<div class="mod">
+  <span class="tag">Adicional 4</span>
+  <h3>Organizar e precificar</h3>
+  <p class="prom">A IA gratuita como ajudante — e as planilhas que fazem a conta.</p>
+  <ol class="cap">
+    <li>A IA como ajudante<em>Qual usar, como pedir, o que ela faz bem e o que faz mal</em></li>
+    <li>Insumos<em>Tabela de preços, atualizada a partir da foto do cupom do mercado</em></li>
+    <li>Ficha técnica<em>Quanto de cada coisa entra e quanto isso custa hoje</em></li>
+    <li>Custos<em>Ingrediente, gás, energia, embalagem, transporte — e a sua hora</em></li>
+    <li>Precificação<em>Do custo real ao preço de venda</em></li>
+    <li>Margem<em>Quanto sobra, e quanto de desconto dá para dar sem prejuízo</em></li>
+    <li>Compras<em>Da agenda de encomendas para a lista do mercado</em></li>
+    <li>Produção<em>Agenda da semana e quanto cabe de verdade</em></li>
+    <li>Planilhas<em>Prontas: insumos, ficha técnica, precificação, agenda, compras, fechamento</em></li>
+    <li>Prompts<em>Compilado pronto para copiar e usar</em></li>
+  </ol>
+  <div class="note" style="margin-top:4mm;">
+  <strong>Princípio do módulo:</strong> a IA lê e organiza, <strong>a planilha calcula</strong>.
+  Modelo de linguagem erra conta em cadeia, e confiar nesse número faria a leitora vender no
+  prejuízo.
+  </div>
+</div>
+
+<div class="mod">
+  <span class="tag">Adicional 5</span>
+  <h3>Apresentar e vender</h3>
+  <p class="prom">O bolo está pronto e precificado. Agora ele precisa ser desejado.</p>
+  <ol class="cap">
+    <li>Posicionamento<em>Para quem você vende e por que escolhem você</em></li>
+    <li>Identidade visual<em>Cor, tipografia e coerência — sem precisar de designer</em></li>
+    <li>Fotografia<em>Luz, ângulo, fundo e edição, com o celular que você tem</em></li>
+    <li>Cardápio<em>Como montar, o que destacar, como apresentar preço</em></li>
+    <li>Marketing<em>O que publicar, com que frequência e para quê</em></li>
+    <li>Atendimento<em>Do primeiro contato ao pedido fechado</em></li>
+    <li>Captação de clientes<em>Onde encontrar quem compra, e como fazer voltar</em></li>
+  </ol>
+</div>
+
+<h2>Nota de escrita</h2>
+
+<div class="note">
+<strong>Por onde começar.</strong> O Módulo 2 é o coração do produto — é ele que contém o
+método autoral e o que ninguém mais tem. Mas o Módulo 1 é o que dá vocabulário para o
+leitor entender o 2. Escrever na ordem 1 → 2 → 3 evita ter que explicar duas vezes.
+</div>
+</body></html>

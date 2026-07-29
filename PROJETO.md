@@ -45,21 +45,47 @@ confeitaria.
 ### Estrutura
 
 ```
-INTRODUÇÃO · a base
+CARTILHA DE COMO CRIAR SEU BOLO INFALÍVEL
 
-PARTE A  (fixa — vai em todos os módulos)
-  tudo que você precisa saber sobre bolos
-  planejamento básico
-  o método
+INTRODUÇÃO · Pensar antes de criar
+  história em até uma página, origem do método, criatividade, repertório,
+  percepção, memória, desejo, contraste, experiência sensorial
 
-TRILHA TÉCNICA
-  MÓDULO 1 · Bolo Rosa       → a base e a técnica de montagem
-  MÓDULO 2 · Bolo Queridinho → o fantástico mundo das ganaches e das geleias
-  MÓDULO 3 · Bolo Caramelo   → o fantástico mundo dos caramelos e dos pralinês
+MÓDULO 1 · Conhecer e escolher
+  anatomia do bolo, formas, planejamento, compras, escolha de massas,
+  recheios, coberturas, sabores e texturas
+  + receitas-base: massas, ganaches, caramelos, crocantes, pralinês, geleias
 
-MÓDULO 4 · IA e planilhas  → usar a IA gratuita do celular: ficha técnica, custo,
-                              preço, lista de compras, cardápio e marketing
+MÓDULO 2 · Construir com o método
+  corte, nivelamento, montagem tradicional e o método autoral da Tati,
+  ordem das camadas, estabilidade, prensagem
+  + estudos de caso: Bolo Rosa, Bolo Queridinho, Bolo Caramelo
+
+MÓDULO 3 · Finalizar e dar identidade
+  ganache ou buttercream, selagem, espatulagem, acabamentos, lascas,
+  flores comestíveis, composição, criatividade sem cópia, assinatura visual
+
+ENCERRAMENTO · Do ateliê à mesa
+  armazenamento, validade, refrigeração, embalagem, transporte, entrega,
+  corte, rendimento, serviço e orientação ao cliente
+
+--- vendidos separadamente ---
+
+ADICIONAL 4 · Organizar e precificar
+  IA gratuita como ajudante, insumos, ficha técnica, custos, precificação,
+  margem, compras, produção, planilhas e prompts
+
+ADICIONAL 5 · Apresentar e vender
+  posicionamento, identidade visual, fotografia, cardápio, marketing,
+  atendimento e captação de clientes
 ```
+
+**Os módulos são fases da criação, não bolos.** Os três bolos da casa entram como estudos
+de caso dentro do Módulo 2, aplicando o método em vez de servirem de receita — e os três
+usam a mesma montagem, o que prova o método dentro do próprio material.
+
+**O diferencial, em uma linha:** a cartilha ensina a criar o bolo; os adicionais ensinam a
+organizar, precificar, apresentar e vender essa criação.
 
 **A Cartilha acaba no módulo 4**, e ele é deliberadamente básico: ensina a confeiteira a
 usar a IA gratuita que já tem no celular, com planilhas prontas. Sem ferramenta paga, sem
@@ -69,11 +95,9 @@ integração, sem programação.
 escopo do segundo produto — a consultoria — onde isso é implantado *para* a cliente em vez
 de ensinado a ela. Prometer automação num e-book gera frustração e reembolso.
 
-**O argumento central da trilha técnica:** a montagem é a mesma nos três. O que muda é
-o que entra dentro. É isso que prova que é método, e não receita.
+**A transformação prometida:** da dependência de receitas à autonomia para criar.
 
-**O argumento da trilha de negócio**, na frase da própria autora:
-*"Só de arte e técnica confeiteiro não se sustenta."*
+A frase que sustenta os adicionais: *"Só de arte e técnica confeiteiro não se sustenta."*
 
 ---
 

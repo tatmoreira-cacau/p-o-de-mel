@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cacau Pitanga — Contexto do Projeto</title>
+<style>
+  :root{
+    --choc:#3A2318; --choc-soft:#5A3B2A; --rosa:#E8A9B8; --rosa-dark:#B4697F;
+    --creme:#F7F1EA; --line:#E5D9CC; --ink:#2C1C13; --muted:#7A6558; --bg:#FDFBF9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --creme:#2A1B12; --line:#4A3527; --ink:#EDE3D9; --muted:#A89386;
+           --bg:#1C120C; --choc:#F0E6DC; --choc-soft:#D9C6B6; }
+  }
+  :root[data-theme="light"]{
+    --choc:#3A2318; --choc-soft:#5A3B2A; --creme:#F7F1EA; --line:#E5D9CC;
+    --ink:#2C1C13; --muted:#7A6558; --bg:#FDFBF9;
+  }
+  :root[data-theme="dark"]{
+    --creme:#2A1B12; --line:#4A3527; --ink:#EDE3D9; --muted:#A89386;
+    --bg:#1C120C; --choc:#F0E6DC; --choc-soft:#D9C6B6;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif; font-size:17px; line-height:1.65;
+  }
+  .wrap{ max-width:820px; margin:0 auto; padding:0 22px 80px; }
+  header{
+    background:#3A2318; color:#F7F1EA; padding:52px 22px 44px; margin-bottom:38px;
+  }
+  header .inner{ max-width:820px; margin:0 auto; }
+  header .rule{ width:56px; height:4px; background:var(--rosa); margin-bottom:26px; }
+  header .brand{
+    font-family:system-ui,sans-serif; font-size:12px; letter-spacing:.32em;
+    text-transform:uppercase; color:var(--rosa); margin-bottom:14px;
+  }
+  header h1{ font-size:2.2rem; line-height:1.15; margin:0 0 10px; }
+  header p{ margin:0; color:#C9B6A6; font-style:italic; }
+  h2{
+    font-size:1.5rem; color:var(--choc); margin:46px 0 14px;
+    padding-bottom:8px; border-bottom:2px solid var(--rosa);
+  }
+  h3{ font-size:1.12rem; color:var(--choc-soft); margin:28px 0 8px; }
+  h4{
+    font-family:system-ui,sans-serif; font-size:.78rem; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--rosa-dark); margin:22px 0 6px;
+  }
+  p{ margin:0 0 14px; }
+  strong{ color:var(--choc); }
+  ul,ol{ margin:0 0 16px; padding-left:22px; }
+  li{ margin-bottom:6px; }
+  .lead{
+    background:var(--creme); border-left:4px solid var(--rosa);
+    padding:18px 22px; margin:0 0 22px;
+  }
+  .note{
+    background:var(--creme); border:1px solid var(--line);
+    padding:14px 18px; margin:18px 0; font-size:.94rem; color:var(--muted);
+  }
+  .note strong{ color:var(--choc); }
+  blockquote{
+    margin:18px 0; padding:2px 0 2px 20px; border-left:4px solid var(--rosa);
+    font-style:italic; color:var(--choc);
+  }
+  .tw{ overflow-x:auto; margin:0 0 20px; }
+  table{ width:100%; border-collapse:collapse; font-size:.92rem; }
+  th{
+    background:#3A2318; color:#F7F1EA; text-align:left; padding:9px 12px;
+    font-family:system-ui,sans-serif; font-size:.72rem; letter-spacing:.08em;
+    text-transform:uppercase; font-weight:600; white-space:nowrap;
+  }
+  td{ padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  td.k{ color:var(--choc); font-weight:600; white-space:nowrap; }
+  .ok{ color:#2E7D32; font-weight:600; }
+  .pend{ color:var(--rosa-dark); font-weight:600; }
+  code{
+    font-family:ui-monospace,Menlo,Consolas,monospace; font-size:.86em;
+    background:var(--creme); padding:2px 6px; border:1px solid var(--line);
+  }
+  .box{
+    border:1px solid var(--line); border-top:4px solid var(--rosa);
+    padding:18px 22px; margin:20px 0;
+  }
+  .box h3{ margin-top:0; }
+  footer{
+    margin-top:56px; padding-top:22px; border-top:1px solid var(--line);
+    font-size:.88rem; color:var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <div class="rule"></div>
+    <div class="brand">Cacau Pitanga</div>
+    <h1>Contexto do Projeto</h1>
+    <p>Tudo o que é preciso saber para retomar a construção do produto</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+<div class="lead">
+<strong>Como usar este documento.</strong> Abra uma sessão nova e cole o conteúdo daqui,
+ou anexe este arquivo. Ele contém o projeto inteiro: quem é a autora, o produto, os dados
+reais, as decisões tomadas e por quê, o que já existe e o que falta. Serve tanto para uma
+IA quanto para uma pessoa que entre no projeto agora.
+</div>
+
+<h2>1 · Quem é a autora</h2>
+
+<p><strong>Tatiana Duarte (Tati)</strong> — fundadora da <strong>Cacau Pitanga</strong>,
+em Minas Gerais. Mineira, chocolateira, formada em <strong>Administração e Nutrição</strong>,
+com quase <strong>16 anos</strong> de confeitaria. Instagram: <strong>@cacaupitanga_</strong></p>
+
+<h3>A trajetória, em ordem</h3>
+
+<div class="tw"><table>
+  <tr><td class="k">Primeiro negócio</td><td><strong>Quituteria</strong>, em Campinas/SP — pioneira em brigadeiro gourmet e cupcake, muito antes da moda</td></tr>
+  <tr><td class="k">Reconhecimento</td><td>Capa da revista <strong>Metrópole</strong> (Correio Popular); entrevista na <strong>Globo/EPTV</strong>, quadro <em>Caminhos da Roça</em>; loja no <strong>Cambuí</strong> e depois em shopping (Galleria)</td></tr>
+  <tr><td class="k">A queda</td><td>Erros de gestão — <em>"cometemos erros que na época nem sabíamos que estávamos cometendo"</em>. A empresa fechou</td></tr>
+  <tr><td class="k">Formação em chocolate</td><td><strong>Simone Izumi</strong>, uma das maiores referências do Brasil</td></tr>
+  <tr><td class="k">Segundo negócio</td><td><strong>Cacau Pitanga</strong> — nasceu na pandemia, em casa, junto com o fim de um casamento de 12 anos. Para vender só chocolate: ganache, bombom, trufa</td></tr>
+  <tr><td class="k">Como o bolo entrou</td><td>Bolo era <em>"território proibido"</em>. Foram clientes antigos pedindo que a empurraram. Ela levou o que sabia de chocolate para dentro do bolo</td></tr>
+  <tr><td class="k">Formação em bolos</td><td>Joyce · Camila Dutra · Daiane · Baking Dreams · César Yukio</td></tr>
+  <tr><td class="k">A descoberta</td><td>Anos e muitos testes depois: <em>"ninguém montava bolo do jeito que eu montava. Sem perceber, eu tinha criado um método"</em></td></tr>
+  <tr><td class="k">Hoje</td><td>Em Minas. Ainda leva bolo de ônibus para clientes em São Paulo, que dizem <em>"não existe igual"</em></td></tr>
+</table></div>
+
+<h3>Frases dela — não reescrever</h3>
+
+<p>Estas são literais e sustentam a comunicação inteira. Reescrevê-las com voz de
+marketing é o que faz o material perder força.</p>
+
+<ul>
+  <li><em>"Eu não me considerava confeiteira. Bolo, pra mim, era quase território proibido."</em></li>
+  <li><em>"Eu não podia me dar ao luxo de escolher o que vender."</em></li>
+  <li><em>"Ninguém montava bolo do jeito que eu montava. Sem perceber, eu tinha criado um método."</em></li>
+  <li><em>"Só de arte e técnica confeiteiro não se sustenta."</em></li>
+  <li><em>"Eu só entrego um bolo quando ele está exatamente do jeito que eu acredito que ele deve estar."</em></li>
+  <li><em>"Não existe igual"</em> — o que os clientes dizem</li>
+</ul>
+
+<h2>2 · O produto</h2>
+
+<div class="box">
+  <h3>Cartilha dos Bolos Infalíveis</h3>
+  <p><em>a metodologia por trás dos meus bolos de sucesso</em></p>
+  <p><strong>Não é livro de receitas. É um método</strong>, ensinado através de estudos de
+  caso — cada bolo é um caso que demonstra uma técnica.</p>
+  <blockquote>A técnica de montagem é a mesma nos três módulos técnicos. O que muda é o
+  que entra dentro. Se fosse receita, cada bolo seria um jeito diferente de fazer.</blockquote>
+</div>
+
+<div class="tw"><table>
+  <tr><th>Módulo</th><th>Estudo de caso / conteúdo</th><th>Preço</th></tr>
+  <tr><td class="k">Parte A <em>(fixa)</em></td><td>Tudo sobre bolos · planejamento básico · o método. Acompanha todos os módulos, o que torna cada um completo e independente</td><td>—</td></tr>
+  <tr><td class="k">1 · Bolo Rosa</td><td>A base e a técnica de montagem. Lascas de chocolate e guia de flores</td><td>R$ 67</td></tr>
+  <tr><td class="k">2 · Bolo Queridinho</td><td>O fantástico mundo das ganaches e das geleias</td><td>R$ 67</td></tr>
+  <tr><td class="k">3 · Bolo Caramelo</td><td>O fantástico mundo dos caramelos e dos pralinês</td><td>R$ 67</td></tr>
+  <tr><td class="k">4 · IA e planilhas</td><td>Usar a IA <strong>gratuita</strong> do celular: ficha técnica, custo, preço, lista de compras, cardápio e marketing</td><td>R$ 97</td></tr>
+</table></div>
+
+<p><strong>A Cartilha acaba no módulo 4.</strong> Venda avulsa por módulo, com combo
+previsto para público novo. Preços são referência, ainda não definidos.</p>
+
+<div class="note">
+<strong>Limite importante do Módulo 4.</strong> Ele é deliberadamente básico: só ferramenta
+gratuita, sem assinatura, sem integração, sem programação. <strong>Automação de
+atendimento não entra na Cartilha</strong> — agentes, WhatsApp e integração são escopo do
+segundo produto, onde são implantados <em>para</em> a cliente em vez de ensinados a ela.
+Prometer automação num e-book gera frustração e reembolso.
+</div>
+
+<h3>Posicionamento</h3>
+
+<ul>
+  <li><strong>O inimigo:</strong> o bolo de chocolate ruim — massa seca, recheio pesado, gosto de cacau sem graça. Todo mundo já comeu esse bolo</li>
+  <li><strong>A diferença técnica:</strong> chocolate de verdade. Nada de cacau em pó nem cobertura sabor chocolate. Ela é chocolateira antes de ser boleira</li>
+  <li><strong>A objeção a derrubar:</strong> <em>"receita tem no YouTube de graça"</em> — tem mesmo; método para inventar as suas, não</li>
+  <li><strong>A promessa:</strong> aprender o passo a passo, entender os porquês, criar os seus</li>
+</ul>
+
+<h2>3 · Estrutura editorial</h2>
+
+<p>Os três módulos técnicos seguem <strong>exatamente o mesmo esqueleto de 10 capítulos</strong>.
+Isso é proposital: é a prova visual de que existe um método. Sumários diferentes leriam
+como três receitas; o mesmo sumário lê como uma lógica aplicada três vezes.</p>
+
+<h4>Esqueleto dos módulos técnicos</h4>
+<ol>
+  <li>A história deste bolo</li>
+  <li>O que você vai aprender aqui</li>
+  <li>Os componentes</li>
+  <li>Passo a passo</li>
+  <li>Os porquês — a técnica explicada</li>
+  <li>O tema do módulo <em>(lascas e flores · ganaches e geleias · caramelos e pralinês)</em></li>
+  <li>O segundo tema do módulo</li>
+  <li>Erros comuns e correção</li>
+  <li>Como criar o seu</li>
+  <li>Ficha do bolo — rendimento, custo, precificação, validade</li>
+</ol>
+
+<h4>Módulo 4 — cinco partes</h4>
+<ol>
+  <li>A IA que você já tem</li>
+  <li>A conta — custo, ficha técnica, preço, desconto máximo, compras, fechamento</li>
+  <li>Produção — agenda da semana</li>
+  <li>Marketing — cardápio, legenda, ideias de post</li>
+  <li>As planilhas — seis, prontas</li>
+</ol>
+
+<div class="note">
+<strong>Princípio técnico do Módulo 4:</strong> a IA lê e organiza, <strong>a planilha
+calcula</strong>. Modelo de linguagem erra conta em cadeia, e confiar nesse número faria a
+leitora vender no prejuízo.
+</div>
+
+<p>O índice completo, capítulo a capítulo, está em
+<code>apresentacao/Cartilha-Estrutura-Editorial.pdf</code>.</p>
+
+<h2>4 · O mercado</h2>
+
+<div class="tw"><table>
+  <tr><td class="k">Confeitaria no Brasil</td><td>~R$ 12 bilhões/ano</td></tr>
+  <tr><td class="k">Com serviços de festa</td><td>R$ 21 bilhões, +26,3%</td></tr>
+  <tr><td class="k">Quem compra</td><td>Não é o consumidor de bolo — é a confeiteira que produz em casa e trata como negócio</td></tr>
+  <tr><td class="k">Tendência</td><td>Profissionalização: técnica, planejamento e visão de negócio viraram requisito, não diferencial</td></tr>
+</table></div>
+
+<h4>Dores documentadas — de negócio, em ordem</h4>
+<ol>
+  <li><strong>Precificação inadequada</strong> — a mais citada</li>
+  <li>Dificuldade de vender</li>
+  <li>Falta de planejamento financeiro</li>
+  <li>Ausência de posicionamento</li>
+</ol>
+
+<h4>Dores técnicas — com busca ativa</h4>
+<ul>
+  <li>Ganache que racha depois de 24h na geladeira</li>
+  <li>Ganache que talha ao bater demais ou com chocolate quente</li>
+  <li>Ganache que quebra na montagem entre camadas</li>
+  <li>Proporção para rechear × para cobrir</li>
+  <li>Bolo que racha depois de confeitado</li>
+</ul>
+
+<h3>A concorrência</h3>
+<div class="tw"><table>
+  <tr><th>Produto</th><th>Como se posiciona</th></tr>
+  <tr><td class="k">Bolos que Vendem</td><td>Bolos decorados, "do absoluto zero"</td></tr>
+  <tr><td class="k">Boleira Academy</td><td>"Criar sensações e memórias"</td></tr>
+  <tr><td class="k">Beca Milano</td><td>8 módulos, 59 aulas</td></tr>
+  <tr><td class="k">Escola Confeitaria Suprema</td><td>15+ cursos</td></tr>
+  <tr><td class="k">Sabrina Santos</td><td>"Fazer e vender bolos caseiros"</td></tr>
+</table></div>
+
+<p><strong>O padrão:</strong> todos vendem <em>fazer</em>. <strong>O espaço vazio:</strong>
+ninguém vende <em>inventar</em>, ninguém ensina método por estudo de caso, ninguém entra
+pelo chocolate de verdade, e ninguém oferece gestão com IA para confeiteiras.</p>
+
+<div class="note">
+<strong>Alerta:</strong> já existe um produto chamado <strong>"Bolos que Vendem"</strong>.
+Não usar essa expressão como subtítulo.
+</div>
+
+<h2>5 · O público real</h2>
+
+<div class="tw"><table>
+  <tr><td class="k">Seguidores</td><td><strong>7.500</strong></td></tr>
+  <tr><td class="k">Alcance (30 dias)</td><td>893 contas — cerca de <strong>12% da base</strong></td></tr>
+  <tr><td class="k">Formatos</td><td>Posts 2,3 mil · Stories 1,2 mil · Reels 653</td></tr>
+  <tr><td class="k">Gênero</td><td>81,8% mulheres</td></tr>
+  <tr><td class="k">Idade</td><td><strong>64,4% entre 35 e 54 anos</strong> (35–44: 34,2% · 45–54: 30,2%)</td></tr>
+  <tr><td class="k">Cidades</td><td>Campinas 32,5% · Uberaba 17,8% · São Paulo 6,2% · Valinhos 2,8%</td></tr>
+  <tr><td class="k">Pico de atividade</td><td>18h–21h, domingos a terças</td></tr>
+  <tr><td class="k">Crescimento</td><td>Entre −4 e +4 por dia — estável</td></tr>
+</table></div>
+
+<h3>A leitura</h3>
+
+<p><strong>A base está adormecida, não é pequena.</strong> São 7.500 pessoas com apenas
+12% de alcance mensal. Reativar quem já escolheu seguir custa muito menos que conquistar
+gente nova.</p>
+
+<p><strong>O público veio de Campinas</strong>, onde a Cacau Pitanga operou antes de vir
+para Minas. São clientes da própria marca — <strong>hoje eles compram bolo, não fazem bolo
+para vender</strong>.</p>
+
+<p><strong>O conteúdo que mais alcança ainda é pessoal</strong> — "Oi, sumida!" (941) e
+"6 fatos sobre mim" (614). Salvamentos próximos de zero, porque não há material técnico no
+perfil para salvar.</p>
+
+<div class="note">
+<strong>Mas o perfil demográfico é o certo.</strong> Mulheres entre 35 e 54 anos é o
+retrato da confeiteira empreendedora. A base é fria, mas não é a base errada.
+</div>
+
+<h2>6 · Decisões tomadas — e por quê</h2>
+
+<div class="tw"><table>
+  <tr><th>Decisão</th><th>Motivo</th></tr>
+  <tr><td class="k">Não lançar agora</td><td>Com 12% de alcance, um lançamento gastaria na frente de poucas pessoas o efeito de novidade que um produto só tem uma vez</td></tr>
+  <tr><td class="k">Reativar antes de lançar</td><td>Existe audiência — ela só não está sendo alcançada</td></tr>
+  <tr><td class="k">Conteúdo técnico</td><td>Conteúdo pessoal atrai cliente; técnico atrai confeiteira, que é quem compra</td></tr>
+  <tr><td class="k">Priorizar Reels</td><td>É o formato de menor alcance hoje e o único que entrega para quem ainda não segue</td></tr>
+  <tr><td class="k">Vender módulos avulsos</td><td>Entrada barata, e quem entra por um volta para os outros</td></tr>
+  <tr><td class="k">Cartilha acaba no módulo 4</td><td>Automação é serviço, não conteúdo de e-book</td></tr>
+  <tr><td class="k">Sócio só para a Cartilha</td><td>A consultoria é venda um a um, por indicação — sócio ali dividiria receita sem acrescentar estrutura</td></tr>
+  <tr><td class="k">Marca fica com a Tati</td><td>A sociedade se aplica só à operação de infoprodutos. A Cacau Pitanga é dela, com 16 anos de histórico</td></tr>
+</table></div>
+
+<h3>O plano em dois passos</h3>
+<ol>
+  <li><strong>Produto 1 — a Cartilha.</strong> Quatro módulos. Pode ter sócio de marketing e tráfego</li>
+  <li><strong>Produto 2 — consultoria de IA para confeiteiras.</strong> Implantação paga mais mensalidade, venda um a um. <strong>Não precisa de sócio</strong></li>
+</ol>
+
+<h4>A captação</h4>
+<p>Isca gratuita: <strong>"Por que a sua ganache racha"</strong> — guia curto. É a dor nº1
+de quem faz bolo de chocolate, tem busca ativa comprovada, sai do Módulo 2 sem produção
+nova, e prova a tese do produto: entrega o porquê, não a receita.</p>
+
+<h2>7 · Erros já cometidos — não repetir</h2>
+
+<p>Correções feitas ao longo do trabalho. Registradas para que uma sessão nova não refaça
+o mesmo caminho.</p>
+
+<div class="tw"><table>
+  <tr><th>Erro</th><th>Correto</th></tr>
+  <tr><td class="k">"Minas é o mercado dela e ela está nele"</td><td>Verdade sobre o mercado, falso sobre a base atual: 43% do público está em Campinas e região</td></tr>
+  <tr><td class="k">"O público é herança da Quituteria"</td><td>É da própria <strong>Cacau Pitanga</strong>, de quando a marca operava em Campinas</td></tr>
+  <tr><td class="k">"893 seguidores"</td><td>893 é <strong>alcance em 30 dias</strong>. Seguidores são <strong>7.500</strong></td></tr>
+  <tr><td class="k">Módulo 4 com automação de WhatsApp</td><td>Módulo 4 é só IA gratuita e planilhas. Automação é o produto 2</td></tr>
+  <tr><td class="k">Subtítulo "bolo que vende"</td><td>Já existe produto com esse nome no mercado</td></tr>
+  <tr><td class="k">Vídeo longo narrado</td><td>Descartado. A primeira gravação livre teve 4min35 e não casou com as imagens</td></tr>
+</table></div>
+
+<h2>8 · O que já existe</h2>
+
+<div class="tw"><table>
+  <tr><th>Arquivo</th><th>O que é</th></tr>
+  <tr><td class="k">PROJETO.md</td><td>Fonte de verdade — produto, preços, público, decisões</td></tr>
+  <tr><td class="k">pesquisa-de-mercado.md</td><td>Pesquisa completa com fontes</td></tr>
+  <tr><td class="k">pagina-de-vendas.md</td><td>Página de vendas escrita</td></tr>
+  <tr><td class="k">pre-lancamento.md</td><td>Plano de captação e stories</td></tr>
+  <tr><td class="k">modulos/modulo-4-ia-e-planilhas.md</td><td>Esqueleto detalhado do módulo 4</td></tr>
+  <tr><td class="k">modulos/consultoria-escopo-automacao.md</td><td>Escopo do produto 2</td></tr>
+  <tr><td class="k">carrossel/</td><td>10 slides da história + gerador em Python</td></tr>
+  <tr><td class="k">apresentacao/</td><td>PDFs: projeto completo, resumo de 2 páginas, proposta de sociedade, consultoria de IA, estrutura editorial</td></tr>
+  <tr><td class="k">scripts/</td><td>Geradores de carrossel e de vídeo</td></tr>
+</table></div>
+
+<h2>9 · O que falta</h2>
+
+<div class="tw"><table>
+  <tr><th>Pendência</th><th>Situação</th></tr>
+  <tr><td class="k">Escrever a Parte A</td><td><span class="pend">a fazer</span> — é fixa nos 4 módulos, escrever uma vez adianta 25% de cada</td></tr>
+  <tr><td class="k">Escrever os módulos 1 a 4</td><td><span class="pend">a fazer</span> — índice pronto</td></tr>
+  <tr><td class="k">As seis planilhas</td><td><span class="pend">a fazer</span></td></tr>
+  <tr><td class="k">Guia "Por que a ganache racha"</td><td><span class="pend">a fazer</span> — a isca</td></tr>
+  <tr><td class="k">Preço final e plataforma</td><td><span class="pend">a decidir</span> — Hotmart, Kiwify, Braip ou link direto</td></tr>
+  <tr><td class="k">Enquete de intenção</td><td><span class="pend">a rodar</span> — "faz bolo pra vender ou só pra comer?"</td></tr>
+  <tr><td class="k">Conteúdo técnico no Instagram</td><td><span class="pend">a começar</span> — Reels, para reativar e qualificar a base</td></tr>
+  <tr><td class="k">Conversa com possíveis sócios</td><td><span class="pend">em andamento</span> — dois candidatos</td></tr>
+</table></div>
+
+<h2>10 · Por onde recomeçar</h2>
+
+<div class="lead">
+<strong>Escreva a Parte A primeiro.</strong> Ela é fixa nos quatro módulos — escrevendo
+uma vez, 25% de cada módulo já fica pronto. Depois o Módulo 1, que estabelece a montagem
+que os outros dois apenas repetem.
+</div>
+
+<p>Em paralelo, e sem depender da escrita: começar a publicar <strong>conteúdo
+técnico</strong> no Instagram para reativar os 7.500 e trocar aos poucos uma base de
+clientes de bolo por uma base de confeiteiras. O primeiro tema já está escolhido —
+por que a ganache racha.</p>
+
+<footer>
+  <p><strong>Cacau Pitanga</strong> · Tatiana Duarte · Minas Gerais · @cacaupitanga_<br>
+  Documento de contexto — atualize-o quando o projeto mudar.</p>
+</footer>
+
+</div>
+</body>
+</html>
